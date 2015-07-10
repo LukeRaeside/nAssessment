@@ -1,0 +1,703 @@
+<!DOCTYPE html>
+<html>
+	<head>
+	  	<title><%= title %></title>
+	    <link href="bootstrap.css" rel="stylesheet">
+	    <link rel='stylesheet' href='/style.css' />
+		<script src="https://code.jquery.com/jquery-1.8.3.min.js"></script>
+		<script src="/util.js"></script>
+		<style>
+			.section {
+				float:left;
+				width:100%;
+			}
+			.url, .url_method { float:right; margin: 5px; }
+			thead { background-color: grey; color:white}
+			thead tr td, tbody tr td {
+				padding: 5px;
+			}
+			tbody tr:nth-child(odd) { background-color: #eee; }
+		</style>
+	</head>
+	<body>
+		<h1 id="title">nAssessment - <%= username %></h1>
+		<button id="logout">Logout</button>
+		
+		<div class="section">
+			<h2>Users</h2>
+			<div class="users-btns" style="width:100%;">
+				<button id="list" style="float:left;">List</button>
+				<input type="textbox" class="userid" style="float:left;"></input>
+				<button id="setstudent" style="float:left;">Set Student</button>
+				<button id="clearstudent" style="float:left;">Clear Student</button>
+				<button id="setfaculty" style="float:left;">Set Faculty</button>
+				<button id="clearfaculty" style="float:left;">Clear Faculty</button>
+				<button id="addcourse" style="float:left;">Add Course</button>
+				
+				<div class="url"></div>
+				<div class="url_method"></div>
+			</div>
+			<div class="users-res" style="width:100%;min-height:100px;border:1px solid black;float:left;">
+			</div>
+		</div>
+
+		<div class="section">
+			<h2>Courses</h2>
+			<div class="courses-btns" style="width:100%;">
+				<button id="all" style="float:left;">All</button>
+				<button id="igive" style="float:left;">I Offer</button>
+				<button id="itake" style="float:left;">I Attend</button>
+				<button id="new" style="float:left;">New</button>
+				<input type="textbox" class="courseid" style="float:left;"></input>
+				<button id="students" style="float:left;">Students</button>
+				
+				<div class="url"></div>
+				<div class="url_method"></div>
+			</div>
+			<div class="courses-res" style="width:100%;min-height:100px;border:1px solid black;float:left;">
+			</div>
+		</div>
+
+		<div class="section">
+			<h2>Course Forms</h2>
+			<div class="forms1-btns" style="width:100%;">
+				<button id="new" style="float:left;">New</button>
+				<input type="textbox" class="courseid" style="float:left;"></input>
+				<button id="list" style="float:left;">List</button>
+				<input type="textbox" class="formid" style="float:left;"></input>
+				<button id="getform" style="float:left;">Get Form</button>
+				<button id="sendform" style="float:left;">Send</button>
+				
+				<div class="url"></div>
+				<div class="url_method"></div>
+			</div>
+			<div class="forms1-res" style="width:100%;min-height:100px;border:1px solid black;float:left;">
+			</div>
+		</div>
+
+		<div class="section">
+			<h2>Assessments</h2>
+			<div class="assessments-btns" style="width:100%;">
+				<input type="textbox" class="formid" style="float:left;" placeholder="Course Form ID"></input>
+				<button id="selfassess" style="float:left;">Self Assess</button>
+				<input type="textbox" class="studentid" style="float:left;" placeholder="Student ID"></input>
+				<button id="facultyassess" style="float:left;">Faculty Assess</button>
+				<input type="textbox" class="userid" style="float:left;" placeholder="User ID"></input>
+				<button id="pending" style="float:left;">Pending</button>
+				<button id="submitted" style="float:left;">Submitted</button>
+				
+				<div class="url"></div>
+				<div class="url_method"></div>
+			</div>
+			<div class="assessments-res" style="width:100%;min-height:100px;border:1px solid black;float:left;">
+			</div>
+		</div>
+  	</body>
+  	
+  	<script>
+  		// Private Functions
+  		
+  		function renderGrid(el, dtArr) {
+  			var cols = [];
+  			
+  			var ctt = '<table><thead>';
+  			var keyArr = {};
+  			$.each(dtArr, function(i, data) {
+  				$.extend(keyArr, data);
+  			});
+  			$.each(keyArr, function(i, dtEl) {
+  				cols.push(i);
+  				ctt += '<td>'+i+'</td>';
+  			});
+  			ctt += '</thead>';
+  			$.each(dtArr, function(i, data) {
+  				ctt += '<tr>';
+  				$.each(cols, function(j, col) {
+  					if (data[col]) {
+  						ctt += '<td>'+data[col]+'</td>';
+  					} else {
+  						ctt += '<td>&nbsp;</td>';
+  					}
+  				});
+  				ctt += '</tr>';
+  			});
+  			ctt += '</table>';
+  			
+  			$(el).html(ctt);
+  		}
+  		
+  		function renderAPIInfo(el, method, url) {
+  			$(el).find('.url_method').html(method);
+  			$(el).find('.url').html(url);
+  		}
+  		
+  		function renderNoRecords(el) {
+  			$(el).html('No Records found');
+  		}
+  		
+  		function renderErrorMessage(el, result) {
+  			if (result.Message) {
+  				$(el).html(result.Message);
+  			} else {
+  				$(el).html('Failed - Unknown reason');
+  			}
+  		}
+  	</script>
+  	
+  	<script>
+  		// Users API examples
+  		
+  		$("#logout").click(function(e) {
+  			e.stopPropagation();
+			Util.ajaxPost("users/logout", {}, function(result) {
+				window.location.reload();
+			});
+  		});
+  		
+  		// List the users
+  		$(".users-btns #list").click(function(e) {
+  			e.stopPropagation();
+  			Util.ajaxGet('users', function(result) {
+				renderAPIInfo($(".users-btns"), "GET", "/users");
+  				if (result.Status) {
+  					renderGrid($(".users-res"), result.Users);
+  				} else {
+  					renderNoRecords($(".users-res"));
+  				}
+  			});
+  		});
+  		
+  		// Set As Student
+  		$(".users-btns #setstudent").click(function(e) {
+  			e.stopPropagation();
+  			var userId = $(".users-btns .userid").val();
+  			var api = 'users/save/isstudent/'+userId+'/1';
+  			Util.ajaxPost(api, {}, function(result) {
+				renderAPIInfo($(".users-btns"), "POST", api);
+  				if (result.Status) {
+  					$(".users-res").html("Done");
+				} else {
+					renderErrorMessage($(".users-res"), result);
+  				}
+  			});
+  		});
+  		
+  		// Clear As Student
+  		$(".users-btns #clearstudent").click(function(e) {
+  			e.stopPropagation();
+  			var userId = $(".users-btns .userid").val();
+  			var api = 'users/save/isstudent/'+userId+'/0';
+  			Util.ajaxPost(api, {}, function(result) {
+				renderAPIInfo($(".users-btns"), "POST", api);
+				if (result.Status) {
+  					$(".users-res").html("Done");
+				} else {
+					renderErrorMessage($(".users-res"), result);
+  				}
+  			});
+  		});
+  		
+  		// Set As Faculty
+  		$(".users-btns #setfaculty").click(function(e) {
+  			e.stopPropagation();
+  			var userId = $(".users-btns .userid").val();
+  			var api = 'users/save/isfaculty/'+userId+'/1';
+  			Util.ajaxPost(api, {}, function(result) {
+				renderAPIInfo($(".users-btns"), "POST", api);
+  				if (result.Status) {
+  					$(".users-res").html("Done");
+				} else {
+					renderErrorMessage($(".users-res"), result);
+  				}
+  			});
+  		});
+  		
+  		// Clear As Faculty
+  		$(".users-btns #clearfaculty").click(function(e) {
+  			e.stopPropagation();
+  			var userId = $(".users-btns .userid").val();
+  			var api = 'users/save/isfaculty/'+userId+'/0';
+  			Util.ajaxPost(api, {}, function(result) {
+				renderAPIInfo($(".users-btns"), "POST", api);
+  				if (result.Status) {
+  					$(".users-res").html("Done");
+				} else {
+					renderErrorMessage($(".users-res"), result);
+  				}
+  			});
+  		});
+
+		// Add Student User to a course
+  		$(".users-btns #addcourse").click(function(e) {
+  			e.stopPropagation();
+  			$(".users-res").html('\
+  				<div style="float:left;">User:</div>\
+  				<input type="textbox" class="c_userid" style="float:left;"></input>\
+  				<div style="float:left;">Course:</div>\
+  				<input type="textbox" class="c_courseid" style="float:left;"></input>\
+  				<button id="registercourse" style="float:left;">Register 2 Course</button>\
+  			');
+  			renderAPIInfo($(".users-btns"), "", "");
+  			$(".users-res #registercourse").click(function(e) {
+  				e.stopPropagation();
+  				var api = 'users/registercourse/'+$(".users-res .c_courseid").val()+'/'+$(".users-res .c_userid").val();
+  				Util.ajaxPost(api, {}, function(result) {
+					renderAPIInfo($(".users-btns"), "POST", api);
+  					if (result.Status) {
+  						$(".users-res").html("Done");
+  					} else {
+  						renderErrorMessage($(".users-res"), result);
+  					}
+  				});
+  			});
+  		});
+  		
+  	</script>
+  	
+  	<script>
+  		// Courses API examples
+
+  		// List the courses
+  		$(".courses-btns #all").click(function(e) {
+  			e.stopPropagation();
+  			Util.ajaxGet('courses', function(result) {
+				renderAPIInfo($(".courses-btns"), "GET", "/courses");
+  				if (result.Status) {
+  					renderGrid($(".courses-res"), result.Courses);
+  				} else {
+  					renderNoRecords($(".courses-res"));
+  				}
+  			});
+  		});
+
+  		// List the courses I Offer
+  		$(".courses-btns #igive").click(function(e) {
+  			e.stopPropagation();
+  			Util.ajaxGet('courses/igive', function(result) {
+				renderAPIInfo($(".courses-btns"), "GET", "/courses/igive");
+  				if (result.Status) {
+  					renderGrid($(".courses-res"), result.Courses);
+  				} else {
+  					renderNoRecords($(".courses-res"));
+  				}
+  			});
+  		});
+
+  		// List the courses I Attend
+  		$(".courses-btns #itake").click(function(e) {
+  			e.stopPropagation();
+  			Util.ajaxGet('courses/itake', function(result) {
+				renderAPIInfo($(".courses-btns"), "GET", "/courses/itake");
+  				if (result.Status) {
+  					renderGrid($(".courses-res"), result.Courses);
+  				} else {
+  					renderNoRecords($(".courses-res"));
+  				}
+  			});
+  		});
+  		
+  		// New Course
+  		$(".courses-btns #new").click(function(e) {
+  			e.stopPropagation();
+  			$(".courses-res").html('\
+  				<div style="float:left;">Name:</div>\
+  				<input type="textbox" class="c_name" style="float:left;"></input>\
+  				<div style="float:left;">Faculty:</div>\
+  				<input type="textbox" class="c_facultyid" style="float:left;"></input>\
+  				<div style="float:left;">Start From:</div>\
+  				<input type="textbox" class="c_startdate" style="float:left;"></input>\
+  				<button id="savecourse" style="float:left;">Save Course</button>\
+  			');
+  			
+  			$(".courses-res #savecourse").click(function(e) {
+  				e.stopPropagation();debugger;
+				var api = 'courses/save';
+				var crse = {
+					Name: $(".courses-res .c_name").val(),
+					StartDate: $(".courses-res .c_startdate").val()
+				};
+  				Util.ajaxPost(api, { criteria: { course: crse } }, function(result) {
+					renderAPIInfo($(".courses-btns"), "POST", api);
+  					if (result.Status) {
+  						$(".courses-res").html("Done");
+  					} else {
+  						renderErrorMessage($(".courses-res"), result);
+  					}
+  				});
+  			});
+  		});
+  		
+  		// Get Course Students
+  		$(".courses-btns #students").click(function(e) {
+  			e.stopPropagation();
+  			var api = 'courses/'+ $(".courses-btns .courseid").val() + '/students';
+  			Util.ajaxGet(api, function(result) {
+				renderAPIInfo($(".courses-btns"), "GET", api);
+  				if (result.Status) {
+  					renderGrid($(".courses-res"), result.Students);
+  				} else {
+  					renderNoRecords($(".courses-res"));
+  				}
+  			});
+  		});
+  	</script>
+  	
+  	<script>
+  		//Course Form Templates API examples
+  		
+  		$(".forms1-btns #new").click(function(e) {
+  			e.stopPropagation();
+  			$(".forms1-res").html('\
+  				<div style="float:left;">Course ID:</div>\
+  				<input type="textbox" class="c_courseid" style="float:left;"></input>\
+  				<div style="float:left;">Form Name</div>\
+  				<input type="textbox" class="c_formname" style="float:left;"></input>\
+  				<button id="addform" style="float:left;">Add Form</button>\
+  				<div style="width:100%;float:left;">\
+  					<div class="taskhdr" style="width:100%;float:left;">\
+  						<span style="width:150px;float:left;">Number</span>\
+  						<span style="width:150px;float:left;">Task Name</span>\
+  						<span style="width:150px;float:left;">Max. Marks</span>\
+  					</div>\
+  					<div class="task1" style="width:100%;float:left;">\
+  						<input class="number" type="textbox" value="1"></input>\
+  						<input class="name" type="textbox"></input>\
+  						<input class="marks" type="textbox"></input>\
+  					</div>\
+  					<div class="task2" style="width:100%;float:left;">\
+  						<input class="number" type="textbox" value="2"></input>\
+  						<input class="name" type="textbox"></input>\
+  						<input class="marks" type="textbox"></input>\
+  					</div>\
+  				</div>\
+  			');
+  			renderAPIInfo($(".forms1-btns"), "", "");
+  			$(".forms1-res #addform").click(function(e) {
+				var el = $(".forms1-res");
+  				var crse = {
+  					FormName: $(el).find(".c_formname").val(),
+  					CourseId: $(el).find(".c_courseid").val(),
+  					Tasks: [
+  						{ Number:1, Name:$(el).find(".task1 .name").val(), MaxMarks:$(el).find(".task1 .marks").val() },
+  						{ Number:1, Name:$(el).find(".task2 .name").val(), MaxMarks:$(el).find(".task2 .marks").val() }
+  					]
+  				};
+  				var api = "courseforms/save";
+  				Util.ajaxPost(api, { criteria: { courseForm: crse } }, function(result) {
+					renderAPIInfo($(".forms1-btns"), "POST", api);
+  					if (result.Status) {
+  						$(".forms1-res").html("Done");
+  					} else {
+  						renderErrorMessage($(".forms1-res"), result);
+  					}
+  				});
+  			});
+  		});
+  		
+  		$(".forms1-btns #sendform").click(function(e) {
+  			e.stopPropagation();
+  			var api = "courseforms/send/"+$(".forms1-btns .formid").val();
+  			Util.ajaxPost(api, {}, function(result) {
+				renderAPIInfo($(".forms1-btns"), "POST", api);
+				if (result.Status) {
+					$(".forms1-res").html("Done");
+				} else {
+					renderErrorMessage($(".forms1-res"), result);
+				}
+  			});
+  		});
+  		
+  		$(".forms1-btns #getform").click(function(e) {
+  			e.stopPropagation();
+  			var el = $(".forms1-res");
+  			var api = "courseforms/get/"+$(".forms1-btns .formid").val();
+  			Util.ajaxGet(api, function(result) {
+				renderAPIInfo($(".forms1-btns"), "POST", api);
+				var form = result.CourseForm;
+	  			$(".forms1-res").html('\
+	  				<div style="float:left;">Form ID:</div>\
+	  				<input type="textbox" class="c_formid" style="float:left;"></input>\
+	  				<div style="float:left;">Course ID:</div>\
+	  				<input type="textbox" class="c_courseid" style="float:left;"></input>\
+	  				<div style="float:left;">Form Name</div>\
+	  				<input type="textbox" class="c_formname" style="float:left;"></input>\
+	  				<button id="saveform" style="float:left;">Save Form</button>\
+	  				<div style="width:100%;float:left;">\
+	  					<div class="taskhdr" style="width:100%;float:left;">\
+	  						<span style="width:150px;float:left;">Number</span>\
+	  						<span style="width:150px;float:left;">Task Name</span>\
+	  						<span style="width:150px;float:left;">Max. Marks</span>\
+	  					</div>\
+	  					<div class="task1" style="width:100%;float:left;">\
+	  						<input class="number" type="textbox" value="1"></input>\
+	  						<input class="name" type="textbox"></input>\
+	  						<input class="marks" type="textbox"></input>\
+	  					</div>\
+	  					<div class="task2" style="width:100%;float:left;">\
+	  						<input class="number" type="textbox" value="2"></input>\
+	  						<input class="name" type="textbox"></input>\
+	  						<input class="marks" type="textbox"></input>\
+	  					</div>\
+	  				</div>\
+	  			');
+	  			$(".forms1-res .c_formid").val(form._id);
+	  			$(".forms1-res .c_courseid").val(form.CourseId);
+	  			$(".forms1-res .c_formname").val(form.FormName);
+	  			$(".forms1-res .task1 .name").val(form.Tasks[0].Name);
+	  			$(".forms1-res .task1 .marks").val(form.Tasks[0].MaxMarks);
+	  			$(".forms1-res .task2 .name").val(form.Tasks[1].Name);
+	  			$(".forms1-res .task2 .marks").val(form.Tasks[1].MaxMarks);
+  			});
+  		});
+  		
+  		// Saves any changes to the Assessment Form
+		$(".forms1-res #saveform").live('click', function(e) {
+			var el = $(".forms1-res");
+			var crse = {
+				_id: $(el).find(".c_formid").val(),
+				FormName: $(el).find(".c_formname").val(),
+				CourseId: $(el).find(".c_courseid").val(),
+				Tasks: [
+					{ Number:1, Name:$(el).find(".task1 .name").val(), MaxMarks:$(el).find(".task1 .marks").val() },
+					{ Number:1, Name:$(el).find(".task2 .name").val(), MaxMarks:$(el).find(".task2 .marks").val() }
+				]
+			};
+			var api = "courseforms/save";
+			Util.ajaxPost(api, { criteria: { courseForm: crse } }, function(result) {
+				renderAPIInfo($(".forms1-btns"), "POST", api);
+				if (result.Status) {
+					$(".forms1-res").html("Done");
+				} else {
+					renderErrorMessage($(".forms1-res"), result);
+				}
+			});
+		});
+  		
+  		// List all the assessment forms or for the selected course
+  		$(".forms1-btns #list").click(function(e) {
+  			e.stopPropagation();
+  			var courseId = $(".forms1-btns .courseid").val();
+  			var api = '';
+  			if (courseId) { api = 'courses/forms/'+courseId; }
+  			else { api = 'courseforms'; }
+  			Util.ajaxGet(api, function(result) {
+				renderAPIInfo($(".forms1-btns"), "GET", api);
+  				if (result.Status) {
+  					renderGrid($(".forms1-res"), result.CourseForms);
+  				} else {
+  					renderNoRecords($(".forms1-res"));
+  				}
+  			});
+  		});
+  		
+  	</script>
+
+  	<script>
+		// Assessments API examples  	
+
+  		$(".assessments-btns #pending").click(function(e) {
+  			e.stopPropagation();
+  			var userid = $(".assessments-btns .userid").val();
+  			var api = 'courseforms/pending/'+userid;
+  			Util.ajaxGet(api, function(result) {
+				renderAPIInfo($(".assessments-btns"), "GET", api);
+  				if (result.Status) {
+  					renderGrid($(".assessments-res"), result.PendingForms);
+  				} else {
+  					renderNoRecords($(".assessments-res"));
+  				}
+  			});
+  		});
+
+  		$(".assessments-btns #submitted").click(function(e) {
+  			e.stopPropagation();
+  			var userid = $(".assessments-btns .userid").val();
+  			var api = 'courseforms/submitted/'+userid;
+  			Util.ajaxGet(api, function(result) {
+  			debugger;
+				renderAPIInfo($(".assessments-btns"), "GET", api);
+  				if (result.Status) {
+  					renderGrid($(".assessments-res"), result.SubmittedForms);
+  				} else {
+  					renderNoRecords($(".assessments-res"));
+  				}
+  			});
+  		});
+
+  		$(".assessments-btns #selfassess").click(function(e) {
+  			e.stopPropagation();
+  			var api = 'courseforms/assess/self/'+$(".assessments-btns .formid").val();
+  			Util.ajaxGet(api, function(result) {
+				renderAPIInfo($(".assessments-btns"), "GET", api);
+  			
+  				if (!result.Status) {
+					renderErrorMessage($(".assessments-res"), result);
+  				} else {
+		  			$(".assessments-res").html('\
+		  				<div style="float:left;">Course Form ID:</div>\
+		  				<input type="textbox" class="c_formid" style="float:left;"></input>\
+		  				<!-- <div style="float:left;">Student ID</div>\
+		  				<input type="textbox" class="c_studentid" style="float:left;"></input> --> \
+		  				<div style="float:left;">Status:</div>\
+		  				<div style="float:left;" class="c_formstatus"></div>\
+		  				<button id="saveform" style="float:left;">Save Form</button>\
+		  				<button id="submitform" style="float:left;">Submit</button>\
+		  				<div style="width:100%;float:left;">\
+		  					<div class="taskhdr" style="width:100%;float:left;">\
+		  						<span style="width:150px;float:left;">Number</span>\
+		  						<span style="width:150px;float:left;">Self Assessed</span>\
+		  						<span style="width:150px;float:left;">Comments</span>\
+		  					</div>\
+		  					<div class="task1" style="width:100%;float:left;">\
+		  						<input class="number" type="textbox" value="1"></input>\
+		  						<input class="marks" type="textbox"></input>\
+		  						<input class="comments" type="textbox"></input>\
+		  					</div>\
+		  					<div class="task2" style="width:100%;float:left;">\
+		  						<input class="number" type="textbox" value="2"></input>\
+		  						<input class="marks" type="textbox"></input>\
+		  						<input class="comments" type="textbox"></input>\
+		  					</div>\
+		  				</div>\
+		  			');
+		  			$(".assessments-res .c_formid").val($(".assessments-btns .formid").val());
+		  			debugger;
+		  			var form = result.Form;
+		  			$(".assessments-res .c_formstatus").html(form.FormStatus);
+		  			$(".assessments-res .task1 .marks").val(form.Tasks[0].SelfAssessment);
+		  			$(".assessments-res .task1 .comments").val(form.Tasks[0].SelfComments);
+		  			$(".assessments-res .task2 .marks").val(form.Tasks[1].SelfAssessment);
+		  			$(".assessments-res .task2 .comments").val(form.Tasks[1].SelfComments);
+		  			$(".assessments-res #saveform").click(function(e) {
+		  				e.stopPropagation();
+		  				var el = $(".assessments-res");
+		  				var form = {
+			  				Tasks: [
+			  					{Number: 1, SelfAssessment: $(el).find(".task1 .marks").val(), SelfComments: $(el).find(".task1 .comments").val()},
+			  					{Number: 2, SelfAssessment: $(el).find(".task2 .marks").val(), SelfComments: $(el).find(".task2 .comments").val()}
+			  				]
+		  				};
+		  				var api = 'courseforms/assess/self/'+$(".assessments-res .c_formid").val();
+		  				Util.ajaxPost(api, { criteria: { SubmittedForm: form } }, function(result) {
+							renderAPIInfo($(".assessments-btns"), "POST", api);
+							if (result.Status) {
+								$(".assessments-res").html("Done");
+							} else {
+								renderErrorMessage($(".assessments-res"), result);
+							}
+		  				});
+		  			});
+		  			
+		  			$(".assessments-res #submitform").click(function(e) {
+		  				e.stopPropagation();
+		  				var api = 'courseforms/assess/self/'+$(".assessments-res .c_formid").val()+'/submit';
+		  				Util.ajaxPost(api, {}, function(result) {
+							renderAPIInfo($(".assessments-btns"), "POST", api);
+							if (result.Status) {
+								$(".assessments-res").html("Done");
+							} else {
+								renderErrorMessage($(".assessments-res"), result);
+							}
+		  				});
+		  			});
+		  		}
+	  		});
+  		});
+
+
+  		$(".assessments-btns #facultyassess").click(function(e) {
+  			e.stopPropagation();
+  			var api = 'courseforms/assess/faculty/'+$(".assessments-btns .formid").val()+'/'+$(".assessments-btns .studentid").val();
+  			Util.ajaxGet(api, function(result) {
+				renderAPIInfo($(".assessments-btns"), "GET", api);
+  			
+  				if (!result.Status) {
+					renderErrorMessage($(".assessments-res"), result);
+  				} else {
+		  			$(".assessments-res").html('\
+		  				<div style="float:left;">Course Form ID:</div>\
+		  				<input type="textbox" class="c_formid" style="float:left;"></input>\
+		  				<!-- <div style="float:left;">Student ID</div>\
+		  				<input type="textbox" class="c_studentid" style="float:left;"></input> --> \
+		  				<div style="float:left;">Status:</div>\
+		  				<div style="float:left;" class="c_formstatus"></div>\
+		  				<button id="saveform" style="float:left;">Save Form</button>\
+		  				<button id="submitform" style="float:left;">Approve</button>\
+		  				<div style="width:100%;float:left;">\
+		  					<div class="taskhdr" style="width:100%;float:left;">\
+		  						<span style="width:150px;float:left;">Number</span>\
+		  						<span style="width:150px;float:left;">Student Assessed</span>\
+		  						<span style="width:150px;float:left;">Student Comments</span>\
+		  						<span style="width:150px;float:left;">Faculty Assessed</span>\
+		  						<span style="width:150px;float:left;">Faculty Comments</span>\
+		  					</div>\
+		  					<div class="task1" style="width:100%;float:left;">\
+		  						<input class="number" type="textbox" value="1"></input>\
+		  						<input class="marks" type="textbox"></input>\
+		  						<input class="comments" type="textbox"></input>\
+		  						<input class="fmarks" type="textbox"></input>\
+		  						<input class="fcomments" type="textbox"></input>\
+		  					</div>\
+		  					<div class="task2" style="width:100%;float:left;">\
+		  						<input class="number" type="textbox" value="2"></input>\
+		  						<input class="marks" type="textbox"></input>\
+		  						<input class="comments" type="textbox"></input>\
+		  						<input class="fmarks" type="textbox"></input>\
+		  						<input class="fcomments" type="textbox"></input>\
+		  					</div>\
+		  				</div>\
+		  			');
+		  			$(".assessments-res .c_formid").val($(".assessments-btns .formid").val());
+		  			debugger;
+		  			var form = result.Form;
+		  			$(".assessments-res .c_formstatus").html(form.FormStatus);
+		  			$(".assessments-res .task1 .marks").val(form.Tasks[0].SelfAssessment);
+		  			$(".assessments-res .task1 .comments").val(form.Tasks[0].SelfComments);
+		  			$(".assessments-res .task1 .fmarks").val(form.Tasks[0].FacultyAssessment);
+		  			$(".assessments-res .task1 .fcomments").val(form.Tasks[0].FacultyComments);
+		  			$(".assessments-res .task2 .marks").val(form.Tasks[1].SelfAssessment);
+		  			$(".assessments-res .task2 .comments").val(form.Tasks[1].SelfComments);
+		  			$(".assessments-res .task2 .fmarks").val(form.Tasks[1].FacultyAssessment);
+		  			$(".assessments-res .task2 .fcomments").val(form.Tasks[1].FacultyComments);
+		  			$(".assessments-res #saveform").click(function(e) {
+		  				alert("in saveform");
+		  				e.stopPropagation();
+		  				var el = $(".assessments-res");
+		  				var form = {
+			  				Tasks: [
+			  					{Number: 1, FacultyAssessment: $(el).find(".task1 .fmarks").val(), FacultyComments: $(el).find(".task1 .fcomments").val()},
+			  					{Number: 2, FacultyAssessment: $(el).find(".task2 .fmarks").val(), FacultyComments: $(el).find(".task2 .fcomments").val()}
+			  				]
+		  				};
+		  				var api = 'courseforms/assess/faculty/'+$(".assessments-res .c_formid").val()+'/'+$(".assessments-btns .studentid").val();
+		  				alert(api);
+		  				debugger;
+		  				Util.ajaxPost(api, { criteria: { AssessedForm: form } }, function(result) {debugger;
+							renderAPIInfo($(".assessments-btns"), "POST", api);
+							if (result.Status) {
+								$(".assessments-res").html("Done");
+							} else {
+								renderErrorMessage($(".assessments-res"), result);
+							}
+		  				});
+		  			});
+		  			
+		  			$(".assessments-res #submitform").click(function(e) {
+		  				e.stopPropagation();
+		  				var api = 'courseforms/assess/faculty/'+$(".assessments-res .c_formid").val()+'/'+$(".assessments-btns .studentid").val()+'/approve';
+		  				
+		  				Util.ajaxPost(api, {}, function(result) {
+							renderAPIInfo($(".assessments-btns"), "POST", api);
+							if (result.Status) {
+								$(".assessments-res").html("Done");
+							} else {
+								renderErrorMessage($(".assessments-res"), result);
+							}
+		  				});
+		  			});
+		  		}
+	  		});
+  		});
+
+  	</script>
+</html>

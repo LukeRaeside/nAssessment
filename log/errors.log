@@ -1,0 +1,1888 @@
+[2015-01-28 14:31:32.072] [ERROR] app - [Error: Argument passed in must be a single String of 12 bytes or a string of 24 hex characters]
+Error: Argument passed in must be a single String of 12 bytes or a string of 24 hex characters
+    at Function.createFromHexString (/home/saimanasa/nassessment/nassessment/node_modules/mongodb/node_modules/bson/lib/bson/objectid.js:214:11)
+    at router.get.core.getCourseStudents.res.json.Status (/home/saimanasa/nassessment/nassessment/routes/courses.js:33:17)
+    at Layer.handle [as handle_request] (/home/saimanasa/nassessment/nassessment/node_modules/express/lib/router/layer.js:82:5)
+    at next (/home/saimanasa/nassessment/nassessment/node_modules/express/lib/router/route.js:110:13)
+    at Route.dispatch (/home/saimanasa/nassessment/nassessment/node_modules/express/lib/router/route.js:91:3)
+    at Layer.handle [as handle_request] (/home/saimanasa/nassessment/nassessment/node_modules/express/lib/router/layer.js:82:5)
+    at /home/saimanasa/nassessment/nassessment/node_modules/express/lib/router/index.js:267:22
+    at param (/home/saimanasa/nassessment/nassessment/node_modules/express/lib/router/index.js:340:14)
+    at param (/home/saimanasa/nassessment/nassessment/node_modules/express/lib/router/index.js:356:14)
+    at Function.proto.process_params (/home/saimanasa/nassessment/nassessment/node_modules/express/lib/router/index.js:400:3)
+[2015-01-28 14:31:32.100] [ERROR] app - [TypeError: Cannot read property 'IsFaculty' of undefined]
+TypeError: Cannot read property 'IsFaculty' of undefined
+    at router.get.user (/home/saimanasa/nassessment/nassessment/routes/courseforms.js:36:10)
+    at Layer.handle [as handle_request] (/home/saimanasa/nassessment/nassessment/node_modules/express/lib/router/layer.js:82:5)
+    at next (/home/saimanasa/nassessment/nassessment/node_modules/express/lib/router/route.js:110:13)
+    at Route.dispatch (/home/saimanasa/nassessment/nassessment/node_modules/express/lib/router/route.js:91:3)
+    at Layer.handle [as handle_request] (/home/saimanasa/nassessment/nassessment/node_modules/express/lib/router/layer.js:82:5)
+    at /home/saimanasa/nassessment/nassessment/node_modules/express/lib/router/index.js:267:22
+    at Function.proto.process_params (/home/saimanasa/nassessment/nassessment/node_modules/express/lib/router/index.js:321:12)
+    at next (/home/saimanasa/nassessment/nassessment/node_modules/express/lib/router/index.js:261:10)
+    at router.get.courseId (/home/saimanasa/nassessment/nassessment/routes/courseforms.js:16:2)
+    at Layer.handle [as handle_request] (/home/saimanasa/nassessment/nassessment/node_modules/express/lib/router/layer.js:82:5)
+[2015-01-28 14:32:45.232] [ERROR] app - [Error: Argument passed in must be a single String of 12 bytes or a string of 24 hex characters]
+Error: Argument passed in must be a single String of 12 bytes or a string of 24 hex characters
+    at Function.createFromHexString (/home/saimanasa/nassessment/nassessment/node_modules/mongodb/node_modules/bson/lib/bson/objectid.js:214:11)
+    at router.get.core.getCourseStudents.res.json.Status (/home/saimanasa/nassessment/nassessment/routes/courses.js:33:17)
+    at Layer.handle [as handle_request] (/home/saimanasa/nassessment/nassessment/node_modules/express/lib/router/layer.js:82:5)
+    at next (/home/saimanasa/nassessment/nassessment/node_modules/express/lib/router/route.js:110:13)
+    at Route.dispatch (/home/saimanasa/nassessment/nassessment/node_modules/express/lib/router/route.js:91:3)
+    at Layer.handle [as handle_request] (/home/saimanasa/nassessment/nassessment/node_modules/express/lib/router/layer.js:82:5)
+    at /home/saimanasa/nassessment/nassessment/node_modules/express/lib/router/index.js:267:22
+    at param (/home/saimanasa/nassessment/nassessment/node_modules/express/lib/router/index.js:340:14)
+    at param (/home/saimanasa/nassessment/nassessment/node_modules/express/lib/router/index.js:356:14)
+    at Function.proto.process_params (/home/saimanasa/nassessment/nassessment/node_modules/express/lib/router/index.js:400:3)
+[2015-01-28 14:33:19.288] [ERROR] app - [Error: Argument passed in must be a single String of 12 bytes or a string of 24 hex characters]
+Error: Argument passed in must be a single String of 12 bytes or a string of 24 hex characters
+    at Function.createFromHexString (/home/saimanasa/nassessment/nassessment/node_modules/mongodb/node_modules/bson/lib/bson/objectid.js:214:11)
+    at router.get.core.getCourseStudents.res.json.Status (/home/saimanasa/nassessment/nassessment/routes/courses.js:33:17)
+    at Layer.handle [as handle_request] (/home/saimanasa/nassessment/nassessment/node_modules/express/lib/router/layer.js:82:5)
+    at next (/home/saimanasa/nassessment/nassessment/node_modules/express/lib/router/route.js:110:13)
+    at Route.dispatch (/home/saimanasa/nassessment/nassessment/node_modules/express/lib/router/route.js:91:3)
+    at Layer.handle [as handle_request] (/home/saimanasa/nassessment/nassessment/node_modules/express/lib/router/layer.js:82:5)
+    at /home/saimanasa/nassessment/nassessment/node_modules/express/lib/router/index.js:267:22
+    at param (/home/saimanasa/nassessment/nassessment/node_modules/express/lib/router/index.js:340:14)
+    at param (/home/saimanasa/nassessment/nassessment/node_modules/express/lib/router/index.js:356:14)
+    at Function.proto.process_params (/home/saimanasa/nassessment/nassessment/node_modules/express/lib/router/index.js:400:3)
+[2015-01-28 15:44:20.507] [ERROR] app - { Message: 'Could not establish connection to the database.' }
+[2015-01-28 15:44:20.765] [ERROR] app - { Message: 'Could not establish connection to the database.' }
+[2015-02-02 11:21:47.092] [ERROR] app - { Message: 'Could not establish connection to the database.' }
+[2015-02-02 11:21:47.116] [ERROR] app - { Message: 'Could not establish connection to the database.' }
+[2015-02-02 11:21:47.118] [ERROR] app - { Message: 'Could not establish connection to the database.' }
+[2015-02-02 11:21:47.121] [ERROR] app - { Message: 'Could not establish connection to the database.' }
+[2015-02-02 11:24:22.929] [ERROR] app - { Message: 'Could not establish connection to the database.' }
+[2015-02-02 11:24:24.472] [ERROR] app - { Message: 'Could not establish connection to the database.' }
+[2015-02-02 11:24:25.647] [ERROR] app - { Message: 'Could not establish connection to the database.' }
+[2015-02-02 11:24:27.984] [ERROR] app - { Message: 'Could not establish connection to the database.' }
+[2015-02-02 11:28:26.548] [ERROR] app - { Message: 'Could not establish connection to the database.' }
+[2015-02-02 11:29:07.307] [ERROR] app - { Message: 'Could not establish connection to the database.' }
+[2015-02-02 11:29:08.450] [ERROR] app - { Message: 'Could not establish connection to the database.' }
+[2015-02-02 11:29:09.191] [ERROR] app - { Message: 'Could not establish connection to the database.' }
+[2015-02-02 11:29:09.527] [ERROR] app - { Message: 'Could not establish connection to the database.' }
+[2015-02-02 11:30:59.200] [ERROR] app - { Message: 'Could not establish connection to the database.' }
+[2015-02-02 11:31:01.893] [ERROR] app - { Message: 'Could not establish connection to the database.' }
+[2015-02-02 11:31:18.805] [ERROR] app - { Message: 'Could not establish connection to the database.' }
+[2015-02-02 11:31:18.880] [ERROR] app - { Message: 'Could not establish connection to the database.' }
+[2015-02-02 11:31:20.488] [ERROR] app - { Message: 'Could not establish connection to the database.' }
+[2015-02-02 11:58:45.569] [ERROR] app - { Message: 'Could not establish connection to the database.' }
+[2015-02-02 11:58:45.576] [ERROR] app - { Message: 'Could not establish connection to the database.' }
+[2015-02-02 11:58:45.932] [ERROR] app - { Message: 'Could not establish connection to the database.' }
+[2015-02-02 11:58:49.368] [ERROR] app - { Message: 'Could not establish connection to the database.' }
+[2015-02-02 11:58:53.225] [ERROR] app - { Message: 'Could not establish connection to the database.' }
+[2015-02-02 11:59:13.300] [ERROR] app - { Message: 'Could not establish connection to the database.' }
+[2015-02-02 12:01:24.391] [ERROR] app - { Message: 'Could not establish connection to the database.' }
+[2015-02-02 12:01:24.394] [ERROR] app - { Message: 'Could not establish connection to the database.' }
+[2015-02-02 12:01:24.400] [ERROR] app - { Message: 'Could not establish connection to the database.' }
+[2015-02-02 12:03:24.388] [ERROR] app - { Message: 'Could not establish connection to the database.' }
+[2015-02-02 14:14:12.423] [ERROR] app - { Message: 'Could not establish connection to the database.' }
+[2015-02-02 14:14:13.295] [ERROR] app - { Message: 'Could not establish connection to the database.' }
+[2015-02-02 14:14:13.822] [ERROR] app - { Message: 'Could not establish connection to the database.' }
+[2015-02-02 14:14:17.198] [ERROR] app - { Message: 'Could not establish connection to the database.' }
+[2015-02-02 14:14:26.750] [ERROR] app - { Message: 'Could not establish connection to the database.' }
+[2015-02-02 14:14:27.301] [ERROR] app - { Message: 'Could not establish connection to the database.' }
+[2015-02-02 14:14:27.520] [ERROR] app - { Message: 'Could not establish connection to the database.' }
+[2015-02-02 14:14:27.703] [ERROR] app - { Message: 'Could not establish connection to the database.' }
+[2015-02-02 14:14:27.867] [ERROR] app - { Message: 'Could not establish connection to the database.' }
+[2015-02-02 14:14:28.042] [ERROR] app - { Message: 'Could not establish connection to the database.' }
+[2015-02-02 14:14:28.237] [ERROR] app - { Message: 'Could not establish connection to the database.' }
+[2015-02-02 14:14:29.773] [ERROR] app - { Message: 'Could not establish connection to the database.' }
+[2015-02-02 14:14:30.277] [ERROR] app - { Message: 'Could not establish connection to the database.' }
+[2015-02-02 14:14:30.751] [ERROR] app - { Message: 'Could not establish connection to the database.' }
+[2015-02-02 14:14:31.155] [ERROR] app - { Message: 'Could not establish connection to the database.' }
+[2015-02-02 14:14:33.549] [ERROR] app - { Message: 'Could not establish connection to the database.' }
+[2015-02-02 14:14:33.766] [ERROR] app - { Message: 'Could not establish connection to the database.' }
+[2015-02-02 14:14:34.868] [ERROR] app - { Message: 'Could not establish connection to the database.' }
+[2015-02-02 14:14:50.392] [ERROR] app - { Message: 'Could not establish connection to the database.' }
+[2015-02-02 15:03:11.342] [ERROR] app - { Message: 'Could not establish connection to the database.' }
+[2015-02-02 15:03:11.939] [ERROR] app - { Message: 'Could not establish connection to the database.' }
+[2015-02-02 15:03:13.224] [ERROR] app - { Message: 'Could not establish connection to the database.' }
+[2015-02-02 15:03:34.788] [ERROR] app - { Message: 'Could not establish connection to the database.' }
+[2015-02-02 15:04:23.690] [ERROR] app - { Message: 'Could not establish connection to the database.' }
+[2015-02-02 15:17:50.801] [ERROR] app - { Message: 'Could not establish connection to the database.' }
+[2015-02-02 15:17:54.321] [ERROR] app - { Message: 'Could not establish connection to the database.' }
+[2015-02-02 15:18:11.705] [ERROR] app - { Message: 'Could not establish connection to the database.' }
+[2015-02-02 15:18:14.187] [ERROR] app - { Message: 'Could not establish connection to the database.' }
+[2015-02-02 16:54:17.397] [ERROR] app - { Message: 'Could not establish connection to the database.' }
+[2015-02-02 16:54:17.400] [ERROR] app - { Message: 'Could not establish connection to the database.' }
+[2015-02-02 16:54:17.403] [ERROR] app - { Message: 'Could not establish connection to the database.' }
+[2015-02-02 16:54:17.405] [ERROR] app - { Message: 'Could not establish connection to the database.' }
+[2015-02-02 16:54:21.098] [ERROR] app - { Message: 'Could not establish connection to the database.' }
+[2015-02-02 16:54:26.584] [ERROR] app - { Message: 'Could not establish connection to the database.' }
+[2015-02-02 17:03:37.733] [ERROR] app - { Message: 'Could not establish connection to the database.' }
+[2015-02-02 17:03:37.736] [ERROR] app - { Message: 'Could not establish connection to the database.' }
+[2015-02-02 17:03:37.739] [ERROR] app - { Message: 'Could not establish connection to the database.' }
+[2015-02-02 17:03:37.740] [ERROR] app - { Message: 'Could not establish connection to the database.' }
+[2015-02-02 17:03:39.745] [ERROR] app - { Message: 'Could not establish connection to the database.' }
+[2015-02-02 17:03:53.834] [ERROR] app - { Message: 'Could not establish connection to the database.' }
+[2015-02-02 17:03:56.387] [ERROR] app - { Message: 'Could not establish connection to the database.' }
+[2015-02-02 17:04:00.613] [ERROR] app - { Message: 'Could not establish connection to the database.' }
+[2015-02-02 17:04:06.218] [ERROR] app - { Message: 'Could not establish connection to the database.' }
+[2015-02-02 17:04:07.719] [ERROR] app - { Message: 'Could not establish connection to the database.' }
+[2015-02-02 17:04:18.376] [ERROR] app - { Message: 'Could not establish connection to the database.' }
+[2015-02-02 17:34:43.526] [ERROR] app - { Message: 'Could not establish connection to the database.' }
+[2015-02-02 17:34:45.239] [ERROR] app - { Message: 'Could not establish connection to the database.' }
+[2015-02-02 17:35:21.511] [ERROR] app - { Message: 'Could not establish connection to the database.' }
+[2015-02-02 17:35:56.844] [ERROR] app - { Message: 'Could not establish connection to the database.' }
+[2015-02-02 17:35:56.846] [ERROR] app - { Message: 'Could not establish connection to the database.' }
+[2015-02-02 17:35:56.900] [ERROR] app - { Message: 'Could not establish connection to the database.' }
+[2015-02-02 17:36:00.183] [ERROR] app - { Message: 'Could not establish connection to the database.' }
+[2015-02-02 17:36:02.951] [ERROR] app - { Message: 'Could not establish connection to the database.' }
+[2015-02-02 18:38:51.109] [ERROR] app - { Message: 'Could not establish connection to the database.' }
+[2015-02-03 11:32:45.340] [ERROR] app - { Message: 'Could not establish connection to the database.' }
+[2015-02-03 11:32:50.274] [ERROR] app - { Message: 'Could not establish connection to the database.' }
+[2015-02-03 11:32:52.704] [ERROR] app - { Message: 'Could not establish connection to the database.' }
+[2015-02-03 11:33:38.438] [ERROR] app - { Message: 'Could not establish connection to the database.' }
+[2015-02-03 11:33:38.445] [ERROR] app - { Message: 'Could not establish connection to the database.' }
+[2015-02-03 11:33:38.446] [ERROR] app - { Message: 'Could not establish connection to the database.' }
+[2015-02-03 11:33:38.448] [ERROR] app - { Message: 'Could not establish connection to the database.' }
+[2015-02-03 11:35:17.238] [ERROR] app - { Message: 'Could not establish connection to the database.' }
+[2015-02-03 11:35:21.117] [ERROR] app - { Message: 'Could not establish connection to the database.' }
+[2015-02-03 11:45:29.357] [ERROR] app - { Message: 'Could not establish connection to the database.' }
+[2015-02-03 11:48:58.724] [ERROR] app - { Message: 'Could not establish connection to the database.' }
+[2015-02-03 14:42:47.962] [ERROR] app - { Message: 'Could not establish connection to the database.' }
+[2015-02-03 14:42:47.967] [ERROR] app - { Message: 'Could not establish connection to the database.' }
+[2015-02-03 14:42:47.969] [ERROR] app - { Message: 'Could not establish connection to the database.' }
+[2015-02-03 14:42:51.572] [ERROR] app - { Message: 'Could not establish connection to the database.' }
+[2015-02-03 14:43:14.316] [ERROR] app - { Message: 'Could not establish connection to the database.' }
+[2015-02-03 16:55:31.480] [ERROR] app - { Message: 'Could not establish connection to the database.' }
+[2015-02-03 16:55:31.483] [ERROR] app - { Message: 'Could not establish connection to the database.' }
+[2015-02-03 16:55:31.484] [ERROR] app - { Message: 'Could not establish connection to the database.' }
+[2015-02-03 16:55:31.485] [ERROR] app - { Message: 'Could not establish connection to the database.' }
+[2015-02-03 16:55:35.022] [ERROR] app - { Message: 'Could not establish connection to the database.' }
+[2015-02-03 18:35:45.489] [ERROR] app - { Message: 'Could not establish connection to the database.' }
+[2015-02-03 18:35:45.498] [ERROR] app - { Message: 'Could not establish connection to the database.' }
+[2015-02-03 18:35:45.502] [ERROR] app - { Message: 'Could not establish connection to the database.' }
+[2015-02-03 18:35:49.083] [ERROR] app - { Message: 'Could not establish connection to the database.' }
+[2015-02-03 18:35:52.376] [ERROR] app - { Message: 'Could not establish connection to the database.' }
+[2015-02-04 10:50:07.093] [ERROR] app - { Message: 'Could not establish connection to the database.' }
+[2015-02-04 10:50:07.251] [ERROR] app - { Message: 'Could not establish connection to the database.' }
+[2015-02-04 10:50:10.090] [ERROR] app - { Message: 'Could not establish connection to the database.' }
+[2015-02-04 10:53:26.229] [ERROR] app - { Message: 'Could not establish connection to the database.' }
+[2015-02-04 10:53:29.227] [ERROR] app - { Message: 'Could not establish connection to the database.' }
+[2015-02-04 10:53:40.562] [ERROR] app - { Message: 'Could not establish connection to the database.' }
+[2015-02-04 10:53:43.562] [ERROR] app - { Message: 'Could not establish connection to the database.' }
+[2015-02-04 10:54:25.782] [ERROR] app - { Message: 'Could not establish connection to the database.' }
+[2015-02-04 10:54:25.784] [ERROR] app - { Message: 'Could not establish connection to the database.' }
+[2015-02-04 10:54:28.782] [ERROR] app - { Message: 'Could not establish connection to the database.' }
+[2015-02-04 10:54:28.784] [ERROR] app - { Message: 'Could not establish connection to the database.' }
+[2015-02-04 10:54:31.782] [ERROR] app - { Message: 'Could not establish connection to the database.' }
+[2015-02-04 10:54:34.782] [ERROR] app - { Message: 'Could not establish connection to the database.' }
+[2015-02-04 10:54:37.782] [ERROR] app - { Message: 'Could not establish connection to the database.' }
+[2015-02-04 10:55:07.009] [ERROR] app - { Message: 'Could not establish connection to the database.' }
+[2015-02-04 10:55:07.025] [ERROR] app - { Message: 'Could not establish connection to the database.' }
+[2015-02-04 10:55:10.006] [ERROR] app - { Message: 'Could not establish connection to the database.' }
+[2015-02-04 10:56:58.262] [ERROR] app - { Message: 'Could not establish connection to the database.' }
+[2015-02-04 10:57:01.262] [ERROR] app - { Message: 'Could not establish connection to the database.' }
+[2015-02-04 10:57:16.561] [ERROR] app - { Message: 'Could not establish connection to the database.' }
+[2015-02-04 10:57:19.559] [ERROR] app - { Message: 'Could not establish connection to the database.' }
+[2015-02-04 10:57:56.329] [ERROR] app - { Message: 'Could not establish connection to the database.' }
+[2015-02-04 10:57:59.327] [ERROR] app - { Message: 'Could not establish connection to the database.' }
+[2015-02-04 10:58:10.742] [ERROR] app - { Message: 'Could not establish connection to the database.' }
+[2015-02-04 10:58:13.742] [ERROR] app - { Message: 'Could not establish connection to the database.' }
+[2015-02-04 10:58:55.121] [ERROR] app - { Message: 'Could not establish connection to the database.' }
+[2015-02-04 10:58:58.119] [ERROR] app - { Message: 'Could not establish connection to the database.' }
+[2015-02-04 10:59:01.119] [ERROR] app - { Message: 'Could not establish connection to the database.' }
+[2015-02-04 10:59:04.163] [ERROR] app - { Message: 'Could not establish connection to the database.' }
+[2015-02-04 10:59:07.162] [ERROR] app - { Message: 'Could not establish connection to the database.' }
+[2015-02-04 10:59:11.354] [ERROR] app - { Message: 'Could not establish connection to the database.' }
+[2015-02-04 11:00:36.185] [ERROR] app - { Message: 'Could not establish connection to the database.' }
+[2015-02-04 11:00:36.204] [ERROR] app - { Message: 'Could not establish connection to the database.' }
+[2015-02-04 11:00:39.182] [ERROR] app - { Message: 'Could not establish connection to the database.' }
+[2015-02-04 11:01:23.978] [ERROR] app - { Message: 'Could not establish connection to the database.' }
+[2015-02-04 11:01:26.979] [ERROR] app - { Message: 'Could not establish connection to the database.' }
+[2015-02-04 11:01:40.254] [ERROR] app - { Message: 'Could not establish connection to the database.' }
+[2015-02-04 11:01:40.256] [ERROR] app - { Message: 'Could not establish connection to the database.' }
+[2015-02-04 11:01:43.254] [ERROR] app - { Message: 'Could not establish connection to the database.' }
+[2015-02-04 11:01:52.378] [ERROR] app - { Message: 'Could not establish connection to the database.' }
+[2015-02-04 11:01:55.378] [ERROR] app - { Message: 'Could not establish connection to the database.' }
+[2015-02-04 11:10:32.885] [ERROR] app - { Message: 'Could not establish connection to the database.' }
+[2015-02-04 11:10:32.905] [ERROR] app - { Message: 'Could not establish connection to the database.' }
+[2015-02-04 11:10:35.882] [ERROR] app - { Message: 'Could not establish connection to the database.' }
+[2015-02-04 11:11:22.114] [ERROR] app - { Message: 'Could not establish connection to the database.' }
+[2015-02-04 11:11:25.115] [ERROR] app - { Message: 'Could not establish connection to the database.' }
+[2015-02-04 11:11:28.114] [ERROR] app - { Message: 'Could not establish connection to the database.' }
+[2015-02-04 11:11:31.154] [ERROR] app - { Message: 'Could not establish connection to the database.' }
+[2015-02-04 11:11:58.426] [ERROR] app - { Message: 'Could not establish connection to the database.' }
+[2015-02-04 11:12:01.426] [ERROR] app - { Message: 'Could not establish connection to the database.' }
+[2015-02-04 11:12:57.351] [ERROR] app - { Message: 'Could not establish connection to the database.' }
+[2015-02-04 11:12:57.366] [ERROR] app - { Message: 'Could not establish connection to the database.' }
+[2015-02-04 11:13:00.350] [ERROR] app - { Message: 'Could not establish connection to the database.' }
+[2015-02-04 11:13:24.966] [ERROR] app - { Message: 'Could not establish connection to the database.' }
+[2015-02-04 11:13:27.966] [ERROR] app - { Message: 'Could not establish connection to the database.' }
+[2015-02-04 11:14:04.078] [ERROR] app - { Message: 'Could not establish connection to the database.' }
+[2015-02-04 11:14:07.078] [ERROR] app - { Message: 'Could not establish connection to the database.' }
+[2015-02-04 11:14:46.613] [ERROR] app - { Message: 'Could not establish connection to the database.' }
+[2015-02-04 11:14:49.611] [ERROR] app - { Message: 'Could not establish connection to the database.' }
+[2015-02-04 11:15:48.710] [ERROR] app - { Message: 'Could not establish connection to the database.' }
+[2015-02-04 11:15:51.711] [ERROR] app - { Message: 'Could not establish connection to the database.' }
+[2015-02-04 11:24:24.629] [ERROR] app - { Message: 'Could not establish connection to the database.' }
+[2015-02-04 11:24:27.627] [ERROR] app - { Message: 'Could not establish connection to the database.' }
+[2015-02-04 11:28:02.795] [ERROR] app - { Message: 'Could not establish connection to the database.' }
+[2015-02-04 11:28:02.811] [ERROR] app - { Message: 'Could not establish connection to the database.' }
+[2015-02-04 11:28:05.794] [ERROR] app - { Message: 'Could not establish connection to the database.' }
+[2015-02-04 11:41:39.229] [ERROR] app - { Message: 'Could not establish connection to the database.' }
+[2015-02-04 11:41:39.246] [ERROR] app - { Message: 'Could not establish connection to the database.' }
+[2015-02-04 11:41:42.226] [ERROR] app - { Message: 'Could not establish connection to the database.' }
+[2015-02-04 14:51:58.855] [ERROR] app - { Message: 'Could not establish connection to the database.' }
+[2015-02-04 14:52:04.901] [ERROR] app - { Message: 'Could not establish connection to the database.' }
+[2015-02-04 14:52:18.173] [ERROR] app - { Message: 'Could not establish connection to the database.' }
+[2015-02-04 14:52:39.078] [ERROR] app - { Message: 'Could not establish connection to the database.' }
+[2015-02-04 15:18:25.004] [ERROR] app - { Message: 'Could not establish connection to the database.' }
+[2015-02-04 15:18:25.007] [ERROR] app - { Message: 'Could not establish connection to the database.' }
+[2015-02-04 15:18:26.240] [ERROR] app - { Message: 'Could not establish connection to the database.' }
+[2015-02-04 15:18:26.243] [ERROR] app - { Message: 'Could not establish connection to the database.' }
+[2015-02-04 15:18:27.172] [ERROR] app - { Message: 'Could not establish connection to the database.' }
+[2015-02-04 15:18:32.058] [ERROR] app - { Message: 'Could not establish connection to the database.' }
+[2015-02-04 15:39:58.915] [ERROR] app - [Error: Argument passed in must be a single String of 12 bytes or a string of 24 hex characters]
+Error: Argument passed in must be a single String of 12 bytes or a string of 24 hex characters
+    at Function.createFromHexString (/home/saimanasa/nassessment/nassessment/node_modules/mongodb/node_modules/bson/lib/bson/objectid.js:214:11)
+    at Core.recordStudentFlag (/home/saimanasa/nassessment/nassessment/core/core.js:96:17)
+    at router.post.courseId (/home/saimanasa/nassessment/nassessment/routes/users.js:72:7)
+    at Layer.handle [as handle_request] (/home/saimanasa/nassessment/nassessment/node_modules/express/lib/router/layer.js:82:5)
+    at next (/home/saimanasa/nassessment/nassessment/node_modules/express/lib/router/route.js:110:13)
+    at Route.dispatch (/home/saimanasa/nassessment/nassessment/node_modules/express/lib/router/route.js:91:3)
+    at Layer.handle [as handle_request] (/home/saimanasa/nassessment/nassessment/node_modules/express/lib/router/layer.js:82:5)
+    at /home/saimanasa/nassessment/nassessment/node_modules/express/lib/router/index.js:267:22
+    at param (/home/saimanasa/nassessment/nassessment/node_modules/express/lib/router/index.js:340:14)
+    at param (/home/saimanasa/nassessment/nassessment/node_modules/express/lib/router/index.js:356:14)
+[2015-02-04 15:43:34.830] [ERROR] app - { Message: 'Could not establish connection to the database.' }
+[2015-02-04 15:43:35.420] [ERROR] app - { Message: 'Could not establish connection to the database.' }
+[2015-02-04 15:43:35.870] [ERROR] app - { Message: 'Could not establish connection to the database.' }
+[2015-02-04 15:43:37.755] [ERROR] app - { Message: 'Could not establish connection to the database.' }
+[2015-02-04 15:43:41.841] [ERROR] app - { Message: 'Could not establish connection to the database.' }
+[2015-02-04 15:43:42.778] [ERROR] app - { Message: 'Could not establish connection to the database.' }
+[2015-02-04 15:43:43.171] [ERROR] app - { Message: 'Could not establish connection to the database.' }
+[2015-02-04 15:43:43.658] [ERROR] app - { Message: 'Could not establish connection to the database.' }
+[2015-02-04 15:43:44.169] [ERROR] app - { Message: 'Could not establish connection to the database.' }
+[2015-02-04 15:43:44.378] [ERROR] app - { Message: 'Could not establish connection to the database.' }
+[2015-02-04 15:43:44.584] [ERROR] app - { Message: 'Could not establish connection to the database.' }
+[2015-02-04 15:43:48.986] [ERROR] app - { Message: 'Could not establish connection to the database.' }
+[2015-02-04 15:43:49.860] [ERROR] app - { Message: 'Could not establish connection to the database.' }
+[2015-02-04 15:43:50.058] [ERROR] app - { Message: 'Could not establish connection to the database.' }
+[2015-02-04 15:43:50.248] [ERROR] app - { Message: 'Could not establish connection to the database.' }
+[2015-02-04 15:43:50.433] [ERROR] app - { Message: 'Could not establish connection to the database.' }
+[2015-02-04 15:43:50.646] [ERROR] app - { Message: 'Could not establish connection to the database.' }
+[2015-02-04 15:43:51.460] [ERROR] app - { Message: 'Could not establish connection to the database.' }
+[2015-02-04 15:43:55.363] [ERROR] app - { Message: 'Could not establish connection to the database.' }
+[2015-02-04 15:44:33.173] [ERROR] app - { Message: 'Could not establish connection to the database.' }
+[2015-02-04 15:44:35.221] [ERROR] app - { Message: 'Could not establish connection to the database.' }
+[2015-02-04 15:44:35.628] [ERROR] app - { Message: 'Could not establish connection to the database.' }
+[2015-02-04 15:44:36.859] [ERROR] app - { Message: 'Could not establish connection to the database.' }
+[2015-02-04 15:44:37.108] [ERROR] app - { Message: 'Could not establish connection to the database.' }
+[2015-02-04 15:44:37.332] [ERROR] app - { Message: 'Could not establish connection to the database.' }
+[2015-02-04 15:44:37.524] [ERROR] app - { Message: 'Could not establish connection to the database.' }
+[2015-02-04 15:44:42.218] [ERROR] app - { Message: 'Could not establish connection to the database.' }
+[2015-02-04 15:45:05.190] [ERROR] app - { Message: 'Could not establish connection to the database.' }
+[2015-02-04 18:06:28.740] [ERROR] app - { Message: 'Could not establish connection to the database.' }
+[2015-02-04 18:06:28.793] [ERROR] app - { Message: 'Could not establish connection to the database.' }
+[2015-02-04 18:06:28.798] [ERROR] app - { Message: 'Could not establish connection to the database.' }
+[2015-02-04 18:06:28.801] [ERROR] app - { Message: 'Could not establish connection to the database.' }
+[2015-02-04 18:06:33.141] [ERROR] app - { Message: 'Could not establish connection to the database.' }
+[2015-02-04 18:06:50.076] [ERROR] app - { Message: 'Could not establish connection to the database.' }
+[2015-02-04 18:07:17.426] [ERROR] app - { Message: 'Could not establish connection to the database.' }
+[2015-02-04 18:07:17.429] [ERROR] app - { Message: 'Could not establish connection to the database.' }
+[2015-02-04 18:07:17.431] [ERROR] app - { Message: 'Could not establish connection to the database.' }
+[2015-02-04 18:07:17.433] [ERROR] app - { Message: 'Could not establish connection to the database.' }
+[2015-02-04 18:07:20.608] [ERROR] app - { Message: 'Could not establish connection to the database.' }
+[2015-02-04 18:07:23.865] [ERROR] app - { Message: 'Could not establish connection to the database.' }
+[2015-02-04 18:07:58.211] [ERROR] app - { Message: 'Could not establish connection to the database.' }
+[2015-02-04 18:07:58.215] [ERROR] app - { Message: 'Could not establish connection to the database.' }
+[2015-02-04 18:07:58.217] [ERROR] app - { Message: 'Could not establish connection to the database.' }
+[2015-02-04 18:08:00.449] [ERROR] app - { Message: 'Could not establish connection to the database.' }
+[2015-02-05 10:51:06.418] [ERROR] app - [Error: Argument passed in must be a single String of 12 bytes or a string of 24 hex characters]
+Error: Argument passed in must be a single String of 12 bytes or a string of 24 hex characters
+    at Function.createFromHexString (/home/saimanasa/nassessment/nassessment/node_modules/mongodb/node_modules/bson/lib/bson/objectid.js:214:11)
+    at Core.isUserFaculty (/home/saimanasa/nassessment/nassessment/core/core.js:126:17)
+    at router.get.user (/home/saimanasa/nassessment/nassessment/routes/courses.js:57:8)
+    at Layer.handle [as handle_request] (/home/saimanasa/nassessment/nassessment/node_modules/express/lib/router/layer.js:82:5)
+    at next (/home/saimanasa/nassessment/nassessment/node_modules/express/lib/router/route.js:110:13)
+    at Route.dispatch (/home/saimanasa/nassessment/nassessment/node_modules/express/lib/router/route.js:91:3)
+    at Layer.handle [as handle_request] (/home/saimanasa/nassessment/nassessment/node_modules/express/lib/router/layer.js:82:5)
+    at /home/saimanasa/nassessment/nassessment/node_modules/express/lib/router/index.js:267:22
+    at Function.proto.process_params (/home/saimanasa/nassessment/nassessment/node_modules/express/lib/router/index.js:321:12)
+    at next (/home/saimanasa/nassessment/nassessment/node_modules/express/lib/router/index.js:261:10)
+[2015-02-05 10:51:08.119] [ERROR] app - [Error: Argument passed in must be a single String of 12 bytes or a string of 24 hex characters]
+Error: Argument passed in must be a single String of 12 bytes or a string of 24 hex characters
+    at Function.createFromHexString (/home/saimanasa/nassessment/nassessment/node_modules/mongodb/node_modules/bson/lib/bson/objectid.js:214:11)
+    at Core.isUserFaculty (/home/saimanasa/nassessment/nassessment/core/core.js:126:17)
+    at router.get.user (/home/saimanasa/nassessment/nassessment/routes/courses.js:57:8)
+    at Layer.handle [as handle_request] (/home/saimanasa/nassessment/nassessment/node_modules/express/lib/router/layer.js:82:5)
+    at next (/home/saimanasa/nassessment/nassessment/node_modules/express/lib/router/route.js:110:13)
+    at Route.dispatch (/home/saimanasa/nassessment/nassessment/node_modules/express/lib/router/route.js:91:3)
+    at Layer.handle [as handle_request] (/home/saimanasa/nassessment/nassessment/node_modules/express/lib/router/layer.js:82:5)
+    at /home/saimanasa/nassessment/nassessment/node_modules/express/lib/router/index.js:267:22
+    at Function.proto.process_params (/home/saimanasa/nassessment/nassessment/node_modules/express/lib/router/index.js:321:12)
+    at next (/home/saimanasa/nassessment/nassessment/node_modules/express/lib/router/index.js:261:10)
+[2015-02-05 10:51:08.435] [ERROR] app - [Error: Argument passed in must be a single String of 12 bytes or a string of 24 hex characters]
+Error: Argument passed in must be a single String of 12 bytes or a string of 24 hex characters
+    at Function.createFromHexString (/home/saimanasa/nassessment/nassessment/node_modules/mongodb/node_modules/bson/lib/bson/objectid.js:214:11)
+    at Core.isUserFaculty (/home/saimanasa/nassessment/nassessment/core/core.js:126:17)
+    at router.get.user (/home/saimanasa/nassessment/nassessment/routes/courses.js:57:8)
+    at Layer.handle [as handle_request] (/home/saimanasa/nassessment/nassessment/node_modules/express/lib/router/layer.js:82:5)
+    at next (/home/saimanasa/nassessment/nassessment/node_modules/express/lib/router/route.js:110:13)
+    at Route.dispatch (/home/saimanasa/nassessment/nassessment/node_modules/express/lib/router/route.js:91:3)
+    at Layer.handle [as handle_request] (/home/saimanasa/nassessment/nassessment/node_modules/express/lib/router/layer.js:82:5)
+    at /home/saimanasa/nassessment/nassessment/node_modules/express/lib/router/index.js:267:22
+    at Function.proto.process_params (/home/saimanasa/nassessment/nassessment/node_modules/express/lib/router/index.js:321:12)
+    at next (/home/saimanasa/nassessment/nassessment/node_modules/express/lib/router/index.js:261:10)
+[2015-02-05 10:51:08.648] [ERROR] app - [Error: Argument passed in must be a single String of 12 bytes or a string of 24 hex characters]
+Error: Argument passed in must be a single String of 12 bytes or a string of 24 hex characters
+    at Function.createFromHexString (/home/saimanasa/nassessment/nassessment/node_modules/mongodb/node_modules/bson/lib/bson/objectid.js:214:11)
+    at Core.isUserFaculty (/home/saimanasa/nassessment/nassessment/core/core.js:126:17)
+    at router.get.user (/home/saimanasa/nassessment/nassessment/routes/courses.js:57:8)
+    at Layer.handle [as handle_request] (/home/saimanasa/nassessment/nassessment/node_modules/express/lib/router/layer.js:82:5)
+    at next (/home/saimanasa/nassessment/nassessment/node_modules/express/lib/router/route.js:110:13)
+    at Route.dispatch (/home/saimanasa/nassessment/nassessment/node_modules/express/lib/router/route.js:91:3)
+    at Layer.handle [as handle_request] (/home/saimanasa/nassessment/nassessment/node_modules/express/lib/router/layer.js:82:5)
+    at /home/saimanasa/nassessment/nassessment/node_modules/express/lib/router/index.js:267:22
+    at Function.proto.process_params (/home/saimanasa/nassessment/nassessment/node_modules/express/lib/router/index.js:321:12)
+    at next (/home/saimanasa/nassessment/nassessment/node_modules/express/lib/router/index.js:261:10)
+[2015-02-05 10:51:08.841] [ERROR] app - [Error: Argument passed in must be a single String of 12 bytes or a string of 24 hex characters]
+Error: Argument passed in must be a single String of 12 bytes or a string of 24 hex characters
+    at Function.createFromHexString (/home/saimanasa/nassessment/nassessment/node_modules/mongodb/node_modules/bson/lib/bson/objectid.js:214:11)
+    at Core.isUserFaculty (/home/saimanasa/nassessment/nassessment/core/core.js:126:17)
+    at router.get.user (/home/saimanasa/nassessment/nassessment/routes/courses.js:57:8)
+    at Layer.handle [as handle_request] (/home/saimanasa/nassessment/nassessment/node_modules/express/lib/router/layer.js:82:5)
+    at next (/home/saimanasa/nassessment/nassessment/node_modules/express/lib/router/route.js:110:13)
+    at Route.dispatch (/home/saimanasa/nassessment/nassessment/node_modules/express/lib/router/route.js:91:3)
+    at Layer.handle [as handle_request] (/home/saimanasa/nassessment/nassessment/node_modules/express/lib/router/layer.js:82:5)
+    at /home/saimanasa/nassessment/nassessment/node_modules/express/lib/router/index.js:267:22
+    at Function.proto.process_params (/home/saimanasa/nassessment/nassessment/node_modules/express/lib/router/index.js:321:12)
+    at next (/home/saimanasa/nassessment/nassessment/node_modules/express/lib/router/index.js:261:10)
+[2015-02-05 10:52:20.053] [ERROR] app - [Error: Argument passed in must be a single String of 12 bytes or a string of 24 hex characters]
+Error: Argument passed in must be a single String of 12 bytes or a string of 24 hex characters
+    at Function.createFromHexString (/home/saimanasa/nassessment/nassessment/node_modules/mongodb/node_modules/bson/lib/bson/objectid.js:214:11)
+    at Core.isUserFaculty (/home/saimanasa/nassessment/nassessment/core/core.js:126:17)
+    at router.get.user (/home/saimanasa/nassessment/nassessment/routes/courses.js:57:8)
+    at Layer.handle [as handle_request] (/home/saimanasa/nassessment/nassessment/node_modules/express/lib/router/layer.js:82:5)
+    at next (/home/saimanasa/nassessment/nassessment/node_modules/express/lib/router/route.js:110:13)
+    at Route.dispatch (/home/saimanasa/nassessment/nassessment/node_modules/express/lib/router/route.js:91:3)
+    at Layer.handle [as handle_request] (/home/saimanasa/nassessment/nassessment/node_modules/express/lib/router/layer.js:82:5)
+    at /home/saimanasa/nassessment/nassessment/node_modules/express/lib/router/index.js:267:22
+    at Function.proto.process_params (/home/saimanasa/nassessment/nassessment/node_modules/express/lib/router/index.js:321:12)
+    at next (/home/saimanasa/nassessment/nassessment/node_modules/express/lib/router/index.js:261:10)
+[2015-02-05 10:52:23.118] [ERROR] app - [Error: Argument passed in must be a single String of 12 bytes or a string of 24 hex characters]
+Error: Argument passed in must be a single String of 12 bytes or a string of 24 hex characters
+    at Function.createFromHexString (/home/saimanasa/nassessment/nassessment/node_modules/mongodb/node_modules/bson/lib/bson/objectid.js:214:11)
+    at Core.isUserFaculty (/home/saimanasa/nassessment/nassessment/core/core.js:126:17)
+    at router.get.user (/home/saimanasa/nassessment/nassessment/routes/courses.js:57:8)
+    at Layer.handle [as handle_request] (/home/saimanasa/nassessment/nassessment/node_modules/express/lib/router/layer.js:82:5)
+    at next (/home/saimanasa/nassessment/nassessment/node_modules/express/lib/router/route.js:110:13)
+    at Route.dispatch (/home/saimanasa/nassessment/nassessment/node_modules/express/lib/router/route.js:91:3)
+    at Layer.handle [as handle_request] (/home/saimanasa/nassessment/nassessment/node_modules/express/lib/router/layer.js:82:5)
+    at /home/saimanasa/nassessment/nassessment/node_modules/express/lib/router/index.js:267:22
+    at Function.proto.process_params (/home/saimanasa/nassessment/nassessment/node_modules/express/lib/router/index.js:321:12)
+    at next (/home/saimanasa/nassessment/nassessment/node_modules/express/lib/router/index.js:261:10)
+[2015-02-05 11:57:32.609] [ERROR] app - { Message: 'Could not establish connection to the database.' }
+[2015-02-05 11:57:32.612] [ERROR] app - { Message: 'Could not establish connection to the database.' }
+[2015-02-05 11:57:32.614] [ERROR] app - { Message: 'Could not establish connection to the database.' }
+[2015-02-05 11:57:35.962] [ERROR] app - { Message: 'Could not establish connection to the database.' }
+[2015-02-05 11:57:56.268] [ERROR] app - { Message: 'Could not establish connection to the database.' }
+[2015-02-05 12:34:13.844] [ERROR] app - { Message: 'Could not establish connection to the database.' }
+[2015-02-05 12:34:13.849] [ERROR] app - { Message: 'Could not establish connection to the database.' }
+[2015-02-05 12:34:13.852] [ERROR] app - { Message: 'Could not establish connection to the database.' }
+[2015-02-05 12:34:16.292] [ERROR] app - { Message: 'Could not establish connection to the database.' }
+[2015-02-05 12:54:58.210] [ERROR] app - { Message: 'Could not establish connection to the database.' }
+[2015-02-05 12:54:58.296] [ERROR] app - { Message: 'Could not establish connection to the database.' }
+[2015-02-05 12:55:01.232] [ERROR] app - { Message: 'Could not establish connection to the database.' }
+[2015-02-05 12:55:38.930] [ERROR] app - { Message: 'Could not establish connection to the database.' }
+[2015-02-05 13:04:45.666] [ERROR] app - { Message: 'Could not establish connection to the database.' }
+[2015-02-05 13:04:45.672] [ERROR] app - { Message: 'Could not establish connection to the database.' }
+[2015-02-05 13:04:45.676] [ERROR] app - { Message: 'Could not establish connection to the database.' }
+[2015-02-05 13:04:48.596] [ERROR] app - { Message: 'Could not establish connection to the database.' }
+[2015-02-05 13:04:48.598] [ERROR] app - { Message: 'Could not establish connection to the database.' }
+[2015-02-05 13:04:52.347] [ERROR] app - { Message: 'Could not establish connection to the database.' }
+[2015-02-05 13:04:52.349] [ERROR] app - { Message: 'Could not establish connection to the database.' }
+[2015-02-05 13:04:53.478] [ERROR] app - { Message: 'Could not establish connection to the database.' }
+[2015-02-05 13:58:07.373] [ERROR] app - { Message: 'Could not establish connection to the database.' }
+[2015-02-05 13:58:07.383] [ERROR] app - { Message: 'Could not establish connection to the database.' }
+[2015-02-05 14:09:15.162] [ERROR] app - { Message: 'Could not establish connection to the database.' }
+[2015-02-05 14:09:18.005] [ERROR] app - { Message: 'Could not establish connection to the database.' }
+[2015-02-05 14:09:34.649] [ERROR] app - { Message: 'Could not establish connection to the database.' }
+[2015-02-05 14:09:34.652] [ERROR] app - { Message: 'Could not establish connection to the database.' }
+[2015-02-05 14:09:34.950] [ERROR] app - { Message: 'Could not establish connection to the database.' }
+[2015-02-05 14:09:37.893] [ERROR] app - { Message: 'Could not establish connection to the database.' }
+[2015-02-06 11:22:18.669] [ERROR] app - { Message: 'Could not establish connection to the database.' }
+[2015-02-06 11:22:18.671] [ERROR] app - { Message: 'Could not establish connection to the database.' }
+[2015-02-06 11:22:18.673] [ERROR] app - { Message: 'Could not establish connection to the database.' }
+[2015-02-06 11:22:18.675] [ERROR] app - { Message: 'Could not establish connection to the database.' }
+[2015-02-06 11:22:22.078] [ERROR] app - { Message: 'Could not establish connection to the database.' }
+[2015-02-06 11:22:44.340] [ERROR] app - { Message: 'Could not establish connection to the database.' }
+[2015-02-06 14:35:29.026] [ERROR] app - { Message: 'Could not establish connection to the database.' }
+[2015-02-06 14:35:29.028] [ERROR] app - { Message: 'Could not establish connection to the database.' }
+[2015-02-06 14:35:29.032] [ERROR] app - { Message: 'Could not establish connection to the database.' }
+[2015-02-06 14:35:32.869] [ERROR] app - { Message: 'Could not establish connection to the database.' }
+[2015-02-06 14:35:34.427] [ERROR] app - { Message: 'Could not establish connection to the database.' }
+[2015-02-06 14:36:05.031] [ERROR] app - { Message: 'Could not establish connection to the database.' }
+[2015-02-06 14:41:24.273] [ERROR] app - [Error: Argument passed in must be a single String of 12 bytes or a string of 24 hex characters]
+Error: Argument passed in must be a single String of 12 bytes or a string of 24 hex characters
+    at Function.createFromHexString (/home/saimanasa/nassessment/nassessment/node_modules/mongodb/node_modules/bson/lib/bson/objectid.js:214:11)
+    at Core.recordStudentFlag (/home/saimanasa/nassessment/nassessment/core/core.js:96:17)
+    at router.post.courseId (/home/saimanasa/nassessment/nassessment/routes/users.js:72:7)
+    at Layer.handle [as handle_request] (/home/saimanasa/nassessment/nassessment/node_modules/express/lib/router/layer.js:82:5)
+    at next (/home/saimanasa/nassessment/nassessment/node_modules/express/lib/router/route.js:110:13)
+    at Route.dispatch (/home/saimanasa/nassessment/nassessment/node_modules/express/lib/router/route.js:91:3)
+    at Layer.handle [as handle_request] (/home/saimanasa/nassessment/nassessment/node_modules/express/lib/router/layer.js:82:5)
+    at /home/saimanasa/nassessment/nassessment/node_modules/express/lib/router/index.js:267:22
+    at param (/home/saimanasa/nassessment/nassessment/node_modules/express/lib/router/index.js:340:14)
+    at param (/home/saimanasa/nassessment/nassessment/node_modules/express/lib/router/index.js:356:14)
+[2015-02-06 14:41:48.888] [ERROR] app - [Error: Argument passed in must be a single String of 12 bytes or a string of 24 hex characters]
+Error: Argument passed in must be a single String of 12 bytes or a string of 24 hex characters
+    at Function.createFromHexString (/home/saimanasa/nassessment/nassessment/node_modules/mongodb/node_modules/bson/lib/bson/objectid.js:214:11)
+    at Core.recordStudentFlag (/home/saimanasa/nassessment/nassessment/core/core.js:96:17)
+    at router.post.courseId (/home/saimanasa/nassessment/nassessment/routes/users.js:72:7)
+    at Layer.handle [as handle_request] (/home/saimanasa/nassessment/nassessment/node_modules/express/lib/router/layer.js:82:5)
+    at next (/home/saimanasa/nassessment/nassessment/node_modules/express/lib/router/route.js:110:13)
+    at Route.dispatch (/home/saimanasa/nassessment/nassessment/node_modules/express/lib/router/route.js:91:3)
+    at Layer.handle [as handle_request] (/home/saimanasa/nassessment/nassessment/node_modules/express/lib/router/layer.js:82:5)
+    at /home/saimanasa/nassessment/nassessment/node_modules/express/lib/router/index.js:267:22
+    at param (/home/saimanasa/nassessment/nassessment/node_modules/express/lib/router/index.js:340:14)
+    at param (/home/saimanasa/nassessment/nassessment/node_modules/express/lib/router/index.js:356:14)
+[2015-02-06 15:01:14.067] [ERROR] app - [Error: Argument passed in must be a single String of 12 bytes or a string of 24 hex characters]
+Error: Argument passed in must be a single String of 12 bytes or a string of 24 hex characters
+    at Function.createFromHexString (/home/saimanasa/nassessment/nassessment/node_modules/mongodb/node_modules/bson/lib/bson/objectid.js:214:11)
+    at Core.recordStudentFlag (/home/saimanasa/nassessment/nassessment/core/core.js:96:17)
+    at router.post.courseId (/home/saimanasa/nassessment/nassessment/routes/users.js:72:7)
+    at Layer.handle [as handle_request] (/home/saimanasa/nassessment/nassessment/node_modules/express/lib/router/layer.js:82:5)
+    at next (/home/saimanasa/nassessment/nassessment/node_modules/express/lib/router/route.js:110:13)
+    at Route.dispatch (/home/saimanasa/nassessment/nassessment/node_modules/express/lib/router/route.js:91:3)
+    at Layer.handle [as handle_request] (/home/saimanasa/nassessment/nassessment/node_modules/express/lib/router/layer.js:82:5)
+    at /home/saimanasa/nassessment/nassessment/node_modules/express/lib/router/index.js:267:22
+    at param (/home/saimanasa/nassessment/nassessment/node_modules/express/lib/router/index.js:340:14)
+    at param (/home/saimanasa/nassessment/nassessment/node_modules/express/lib/router/index.js:356:14)
+[2015-02-06 15:11:47.521] [ERROR] app - { Message: 'Could not establish connection to the database.' }
+[2015-02-06 15:12:03.171] [ERROR] app - { Message: 'Could not establish connection to the database.' }
+[2015-02-06 15:12:07.445] [ERROR] app - { Message: 'Could not establish connection to the database.' }
+[2015-02-06 15:12:09.055] [ERROR] app - { Message: 'Could not establish connection to the database.' }
+[2015-02-06 15:13:32.086] [ERROR] app - { Message: 'Could not establish connection to the database.' }
+[2015-02-06 15:13:32.089] [ERROR] app - { Message: 'Could not establish connection to the database.' }
+[2015-02-06 15:13:32.453] [ERROR] app - { Message: 'Could not establish connection to the database.' }
+[2015-02-06 15:13:34.643] [ERROR] app - { Message: 'Could not establish connection to the database.' }
+[2015-02-10 12:31:18.551] [ERROR] app - { Message: 'Could not establish connection to the database.' }
+[2015-02-10 12:31:22.942] [ERROR] app - { Message: 'Could not establish connection to the database.' }
+[2015-02-10 12:33:18.549] [ERROR] app - { Message: 'Could not establish connection to the database.' }
+[2015-02-10 12:49:59.762] [ERROR] app - { Message: 'Could not establish connection to the database.' }
+[2015-02-10 14:34:28.104] [ERROR] app - { Message: 'Could not establish connection to the database.' }
+[2015-02-10 14:34:28.107] [ERROR] app - { Message: 'Could not establish connection to the database.' }
+[2015-02-10 14:34:30.374] [ERROR] app - { Message: 'Could not establish connection to the database.' }
+[2015-02-10 14:34:35.362] [ERROR] app - { Message: 'Could not establish connection to the database.' }
+[2015-02-11 11:36:31.086] [ERROR] app - { Message: 'Could not establish connection to the database.' }
+[2015-02-11 11:36:31.117] [ERROR] app - { Message: 'Could not establish connection to the database.' }
+[2015-02-11 11:36:31.625] [ERROR] app - { Message: 'Could not establish connection to the database.' }
+[2015-02-11 11:36:33.624] [ERROR] app - { Message: 'Could not establish connection to the database.' }
+[2015-02-11 15:29:33.821] [ERROR] app - { Message: 'Could not establish connection to the database.' }
+[2015-02-11 15:29:33.826] [ERROR] app - { Message: 'Could not establish connection to the database.' }
+[2015-02-11 15:29:36.111] [ERROR] app - { Message: 'Could not establish connection to the database.' }
+[2015-02-11 15:29:41.476] [ERROR] app - { Message: 'Could not establish connection to the database.' }
+[2015-02-11 15:29:52.867] [ERROR] app - { Message: 'Could not establish connection to the database.' }
+[2015-02-11 15:29:55.208] [ERROR] app - { Message: 'Could not establish connection to the database.' }
+[2015-02-12 14:10:25.808] [ERROR] app - { Message: 'Could not establish connection to the database.' }
+[2015-02-12 14:10:25.832] [ERROR] app - { Message: 'Could not establish connection to the database.' }
+[2015-02-12 14:10:31.642] [ERROR] app - { Message: 'Could not establish connection to the database.' }
+[2015-02-12 14:10:31.654] [ERROR] app - { Message: 'Could not establish connection to the database.' }
+[2015-02-12 14:10:34.116] [ERROR] app - { Message: 'Could not establish connection to the database.' }
+[2015-02-12 14:33:37.161] [ERROR] app - { Message: 'Could not establish connection to the database.' }
+[2015-02-12 14:33:37.167] [ERROR] app - { Message: 'Could not establish connection to the database.' }
+[2015-02-12 14:33:40.489] [ERROR] app - { Message: 'Could not establish connection to the database.' }
+[2015-02-12 14:35:37.143] [ERROR] app - { Message: 'Could not establish connection to the database.' }
+[2015-02-12 14:45:25.380] [ERROR] app - { Message: 'Could not establish connection to the database.' }
+[2015-02-12 15:13:59.982] [ERROR] app - { Message: 'Could not establish connection to the database.' }
+[2015-02-12 15:13:59.994] [ERROR] app - { Message: 'Could not establish connection to the database.' }
+[2015-02-12 15:13:59.998] [ERROR] app - { Message: 'Could not establish connection to the database.' }
+[2015-02-12 15:14:02.169] [ERROR] app - { Message: 'Could not establish connection to the database.' }
+[2015-02-12 15:34:50.572] [ERROR] app - { Message: 'Could not establish connection to the database.' }
+[2015-02-12 15:34:51.267] [ERROR] app - { Message: 'Could not establish connection to the database.' }
+[2015-02-12 15:34:54.947] [ERROR] app - { Message: 'Could not establish connection to the database.' }
+[2015-02-12 15:35:11.873] [ERROR] app - { Message: 'Could not establish connection to the database.' }
+[2015-02-12 15:37:30.331] [ERROR] app - { Message: 'Could not establish connection to the database.' }
+[2015-02-13 11:38:21.972] [ERROR] app - [TypeError: Cannot read property 'user' of undefined]
+TypeError: Cannot read property 'user' of undefined
+    at router.get.userId (/home/saimanasa/nassessment/nassessment/routes/users.js:32:30)
+    at Layer.handle [as handle_request] (/home/saimanasa/nassessment/nassessment/node_modules/express/lib/router/layer.js:82:5)
+    at next (/home/saimanasa/nassessment/nassessment/node_modules/express/lib/router/route.js:110:13)
+    at Route.dispatch (/home/saimanasa/nassessment/nassessment/node_modules/express/lib/router/route.js:91:3)
+    at Layer.handle [as handle_request] (/home/saimanasa/nassessment/nassessment/node_modules/express/lib/router/layer.js:82:5)
+    at /home/saimanasa/nassessment/nassessment/node_modules/express/lib/router/index.js:267:22
+    at Function.proto.process_params (/home/saimanasa/nassessment/nassessment/node_modules/express/lib/router/index.js:321:12)
+    at next (/home/saimanasa/nassessment/nassessment/node_modules/express/lib/router/index.js:261:10)
+    at router.get.core.getUsers.res.json.Status (/home/saimanasa/nassessment/nassessment/routes/users.js:15:2)
+    at Layer.handle [as handle_request] (/home/saimanasa/nassessment/nassessment/node_modules/express/lib/router/layer.js:82:5)
+[2015-02-13 11:39:10.086] [ERROR] app - [TypeError: Cannot read property 'user' of undefined]
+TypeError: Cannot read property 'user' of undefined
+    at router.get.userId (/home/saimanasa/nassessment/nassessment/routes/users.js:32:30)
+    at Layer.handle [as handle_request] (/home/saimanasa/nassessment/nassessment/node_modules/express/lib/router/layer.js:82:5)
+    at next (/home/saimanasa/nassessment/nassessment/node_modules/express/lib/router/route.js:110:13)
+    at Route.dispatch (/home/saimanasa/nassessment/nassessment/node_modules/express/lib/router/route.js:91:3)
+    at Layer.handle [as handle_request] (/home/saimanasa/nassessment/nassessment/node_modules/express/lib/router/layer.js:82:5)
+    at /home/saimanasa/nassessment/nassessment/node_modules/express/lib/router/index.js:267:22
+    at Function.proto.process_params (/home/saimanasa/nassessment/nassessment/node_modules/express/lib/router/index.js:321:12)
+    at next (/home/saimanasa/nassessment/nassessment/node_modules/express/lib/router/index.js:261:10)
+    at router.get.core.getUsers.res.json.Status (/home/saimanasa/nassessment/nassessment/routes/users.js:15:2)
+    at Layer.handle [as handle_request] (/home/saimanasa/nassessment/nassessment/node_modules/express/lib/router/layer.js:82:5)
+[2015-02-13 11:40:48.220] [ERROR] app - [TypeError: Cannot read property 'user' of undefined]
+TypeError: Cannot read property 'user' of undefined
+    at router.get.userId (/home/saimanasa/nassessment/nassessment/routes/users.js:32:30)
+    at Layer.handle [as handle_request] (/home/saimanasa/nassessment/nassessment/node_modules/express/lib/router/layer.js:82:5)
+    at next (/home/saimanasa/nassessment/nassessment/node_modules/express/lib/router/route.js:110:13)
+    at Route.dispatch (/home/saimanasa/nassessment/nassessment/node_modules/express/lib/router/route.js:91:3)
+    at Layer.handle [as handle_request] (/home/saimanasa/nassessment/nassessment/node_modules/express/lib/router/layer.js:82:5)
+    at /home/saimanasa/nassessment/nassessment/node_modules/express/lib/router/index.js:267:22
+    at Function.proto.process_params (/home/saimanasa/nassessment/nassessment/node_modules/express/lib/router/index.js:321:12)
+    at next (/home/saimanasa/nassessment/nassessment/node_modules/express/lib/router/index.js:261:10)
+    at router.get.core.getUsers.res.json.Status (/home/saimanasa/nassessment/nassessment/routes/users.js:15:2)
+    at Layer.handle [as handle_request] (/home/saimanasa/nassessment/nassessment/node_modules/express/lib/router/layer.js:82:5)
+[2015-02-13 12:00:01.204] [ERROR] app - [TypeError: Cannot read property 'user' of undefined]
+TypeError: Cannot read property 'user' of undefined
+    at router.get.userId (/home/saimanasa/nassessment/nassessment/routes/users.js:32:30)
+    at Layer.handle [as handle_request] (/home/saimanasa/nassessment/nassessment/node_modules/express/lib/router/layer.js:82:5)
+    at next (/home/saimanasa/nassessment/nassessment/node_modules/express/lib/router/route.js:110:13)
+    at Route.dispatch (/home/saimanasa/nassessment/nassessment/node_modules/express/lib/router/route.js:91:3)
+    at Layer.handle [as handle_request] (/home/saimanasa/nassessment/nassessment/node_modules/express/lib/router/layer.js:82:5)
+    at /home/saimanasa/nassessment/nassessment/node_modules/express/lib/router/index.js:267:22
+    at Function.proto.process_params (/home/saimanasa/nassessment/nassessment/node_modules/express/lib/router/index.js:321:12)
+    at next (/home/saimanasa/nassessment/nassessment/node_modules/express/lib/router/index.js:261:10)
+    at router.get.core.getUsers.res.json.Status (/home/saimanasa/nassessment/nassessment/routes/users.js:15:2)
+    at Layer.handle [as handle_request] (/home/saimanasa/nassessment/nassessment/node_modules/express/lib/router/layer.js:82:5)
+[2015-02-13 18:34:14.705] [ERROR] app - { Message: 'Could not establish connection to the database.' }
+[2015-02-13 18:34:14.708] [ERROR] app - { Message: 'Could not establish connection to the database.' }
+[2015-02-13 18:34:14.710] [ERROR] app - { Message: 'Could not establish connection to the database.' }
+[2015-02-13 18:34:16.641] [ERROR] app - { Message: 'Could not establish connection to the database.' }
+[2015-02-16 12:14:53.344] [ERROR] app - [ReferenceError: alert is not defined]
+ReferenceError: alert is not defined
+    at router.post.formId (/home/saimanasa/nassessment/nassessment/routes/courseforms.js:343:2)
+    at Layer.handle [as handle_request] (/home/saimanasa/nassessment/nassessment/node_modules/express/lib/router/layer.js:82:5)
+    at next (/home/saimanasa/nassessment/nassessment/node_modules/express/lib/router/route.js:110:13)
+    at Route.dispatch (/home/saimanasa/nassessment/nassessment/node_modules/express/lib/router/route.js:91:3)
+    at Layer.handle [as handle_request] (/home/saimanasa/nassessment/nassessment/node_modules/express/lib/router/layer.js:82:5)
+    at /home/saimanasa/nassessment/nassessment/node_modules/express/lib/router/index.js:267:22
+    at param (/home/saimanasa/nassessment/nassessment/node_modules/express/lib/router/index.js:340:14)
+    at param (/home/saimanasa/nassessment/nassessment/node_modules/express/lib/router/index.js:356:14)
+    at param (/home/saimanasa/nassessment/nassessment/node_modules/express/lib/router/index.js:356:14)
+    at Function.proto.process_params (/home/saimanasa/nassessment/nassessment/node_modules/express/lib/router/index.js:400:3)
+[2015-02-16 12:15:50.238] [ERROR] app - [ReferenceError: alert is not defined]
+ReferenceError: alert is not defined
+    at router.post.formId (/home/saimanasa/nassessment/nassessment/routes/courseforms.js:343:2)
+    at Layer.handle [as handle_request] (/home/saimanasa/nassessment/nassessment/node_modules/express/lib/router/layer.js:82:5)
+    at next (/home/saimanasa/nassessment/nassessment/node_modules/express/lib/router/route.js:110:13)
+    at Route.dispatch (/home/saimanasa/nassessment/nassessment/node_modules/express/lib/router/route.js:91:3)
+    at Layer.handle [as handle_request] (/home/saimanasa/nassessment/nassessment/node_modules/express/lib/router/layer.js:82:5)
+    at /home/saimanasa/nassessment/nassessment/node_modules/express/lib/router/index.js:267:22
+    at param (/home/saimanasa/nassessment/nassessment/node_modules/express/lib/router/index.js:340:14)
+    at param (/home/saimanasa/nassessment/nassessment/node_modules/express/lib/router/index.js:356:14)
+    at param (/home/saimanasa/nassessment/nassessment/node_modules/express/lib/router/index.js:356:14)
+    at Function.proto.process_params (/home/saimanasa/nassessment/nassessment/node_modules/express/lib/router/index.js:400:3)
+[2015-02-16 12:17:10.364] [ERROR] app - [ReferenceError: alert is not defined]
+ReferenceError: alert is not defined
+    at router.post.formId (/home/saimanasa/nassessment/nassessment/routes/courseforms.js:343:2)
+    at Layer.handle [as handle_request] (/home/saimanasa/nassessment/nassessment/node_modules/express/lib/router/layer.js:82:5)
+    at next (/home/saimanasa/nassessment/nassessment/node_modules/express/lib/router/route.js:110:13)
+    at Route.dispatch (/home/saimanasa/nassessment/nassessment/node_modules/express/lib/router/route.js:91:3)
+    at Layer.handle [as handle_request] (/home/saimanasa/nassessment/nassessment/node_modules/express/lib/router/layer.js:82:5)
+    at /home/saimanasa/nassessment/nassessment/node_modules/express/lib/router/index.js:267:22
+    at param (/home/saimanasa/nassessment/nassessment/node_modules/express/lib/router/index.js:340:14)
+    at param (/home/saimanasa/nassessment/nassessment/node_modules/express/lib/router/index.js:356:14)
+    at param (/home/saimanasa/nassessment/nassessment/node_modules/express/lib/router/index.js:356:14)
+    at Function.proto.process_params (/home/saimanasa/nassessment/nassessment/node_modules/express/lib/router/index.js:400:3)
+[2015-02-16 12:33:02.903] [ERROR] app - [ReferenceError: alert is not defined]
+ReferenceError: alert is not defined
+    at router.post.formId (/home/saimanasa/nassessment/nassessment/routes/courseforms.js:343:2)
+    at Layer.handle [as handle_request] (/home/saimanasa/nassessment/nassessment/node_modules/express/lib/router/layer.js:82:5)
+    at next (/home/saimanasa/nassessment/nassessment/node_modules/express/lib/router/route.js:110:13)
+    at Route.dispatch (/home/saimanasa/nassessment/nassessment/node_modules/express/lib/router/route.js:91:3)
+    at Layer.handle [as handle_request] (/home/saimanasa/nassessment/nassessment/node_modules/express/lib/router/layer.js:82:5)
+    at /home/saimanasa/nassessment/nassessment/node_modules/express/lib/router/index.js:267:22
+    at param (/home/saimanasa/nassessment/nassessment/node_modules/express/lib/router/index.js:340:14)
+    at param (/home/saimanasa/nassessment/nassessment/node_modules/express/lib/router/index.js:356:14)
+    at param (/home/saimanasa/nassessment/nassessment/node_modules/express/lib/router/index.js:356:14)
+    at Function.proto.process_params (/home/saimanasa/nassessment/nassessment/node_modules/express/lib/router/index.js:400:3)
+[2015-02-16 12:38:18.082] [ERROR] app - [ReferenceError: alert is not defined]
+ReferenceError: alert is not defined
+    at router.post.formId (/home/saimanasa/nassessment/nassessment/routes/courseforms.js:343:2)
+    at Layer.handle [as handle_request] (/home/saimanasa/nassessment/nassessment/node_modules/express/lib/router/layer.js:82:5)
+    at next (/home/saimanasa/nassessment/nassessment/node_modules/express/lib/router/route.js:110:13)
+    at Route.dispatch (/home/saimanasa/nassessment/nassessment/node_modules/express/lib/router/route.js:91:3)
+    at Layer.handle [as handle_request] (/home/saimanasa/nassessment/nassessment/node_modules/express/lib/router/layer.js:82:5)
+    at /home/saimanasa/nassessment/nassessment/node_modules/express/lib/router/index.js:267:22
+    at param (/home/saimanasa/nassessment/nassessment/node_modules/express/lib/router/index.js:340:14)
+    at param (/home/saimanasa/nassessment/nassessment/node_modules/express/lib/router/index.js:356:14)
+    at param (/home/saimanasa/nassessment/nassessment/node_modules/express/lib/router/index.js:356:14)
+    at Function.proto.process_params (/home/saimanasa/nassessment/nassessment/node_modules/express/lib/router/index.js:400:3)
+[2015-02-16 12:46:31.433] [ERROR] app - [ReferenceError: alert is not defined]
+ReferenceError: alert is not defined
+    at router.post.formId (/home/saimanasa/nassessment/nassessment/routes/courseforms.js:343:2)
+    at Layer.handle [as handle_request] (/home/saimanasa/nassessment/nassessment/node_modules/express/lib/router/layer.js:82:5)
+    at next (/home/saimanasa/nassessment/nassessment/node_modules/express/lib/router/route.js:110:13)
+    at Route.dispatch (/home/saimanasa/nassessment/nassessment/node_modules/express/lib/router/route.js:91:3)
+    at Layer.handle [as handle_request] (/home/saimanasa/nassessment/nassessment/node_modules/express/lib/router/layer.js:82:5)
+    at /home/saimanasa/nassessment/nassessment/node_modules/express/lib/router/index.js:267:22
+    at param (/home/saimanasa/nassessment/nassessment/node_modules/express/lib/router/index.js:340:14)
+    at param (/home/saimanasa/nassessment/nassessment/node_modules/express/lib/router/index.js:356:14)
+    at param (/home/saimanasa/nassessment/nassessment/node_modules/express/lib/router/index.js:356:14)
+    at Function.proto.process_params (/home/saimanasa/nassessment/nassessment/node_modules/express/lib/router/index.js:400:3)
+[2015-02-16 13:01:00.789] [ERROR] app - [ReferenceError: alert is not defined]
+ReferenceError: alert is not defined
+    at router.post.formId (/home/saimanasa/nassessment/nassessment/routes/courseforms.js:343:2)
+    at Layer.handle [as handle_request] (/home/saimanasa/nassessment/nassessment/node_modules/express/lib/router/layer.js:82:5)
+    at next (/home/saimanasa/nassessment/nassessment/node_modules/express/lib/router/route.js:110:13)
+    at Route.dispatch (/home/saimanasa/nassessment/nassessment/node_modules/express/lib/router/route.js:91:3)
+    at Layer.handle [as handle_request] (/home/saimanasa/nassessment/nassessment/node_modules/express/lib/router/layer.js:82:5)
+    at /home/saimanasa/nassessment/nassessment/node_modules/express/lib/router/index.js:267:22
+    at param (/home/saimanasa/nassessment/nassessment/node_modules/express/lib/router/index.js:340:14)
+    at param (/home/saimanasa/nassessment/nassessment/node_modules/express/lib/router/index.js:356:14)
+    at param (/home/saimanasa/nassessment/nassessment/node_modules/express/lib/router/index.js:356:14)
+    at Function.proto.process_params (/home/saimanasa/nassessment/nassessment/node_modules/express/lib/router/index.js:400:3)
+[2015-02-16 13:01:01.627] [ERROR] app - [ReferenceError: alert is not defined]
+ReferenceError: alert is not defined
+    at router.post.formId (/home/saimanasa/nassessment/nassessment/routes/courseforms.js:343:2)
+    at Layer.handle [as handle_request] (/home/saimanasa/nassessment/nassessment/node_modules/express/lib/router/layer.js:82:5)
+    at next (/home/saimanasa/nassessment/nassessment/node_modules/express/lib/router/route.js:110:13)
+    at Route.dispatch (/home/saimanasa/nassessment/nassessment/node_modules/express/lib/router/route.js:91:3)
+    at Layer.handle [as handle_request] (/home/saimanasa/nassessment/nassessment/node_modules/express/lib/router/layer.js:82:5)
+    at /home/saimanasa/nassessment/nassessment/node_modules/express/lib/router/index.js:267:22
+    at param (/home/saimanasa/nassessment/nassessment/node_modules/express/lib/router/index.js:340:14)
+    at param (/home/saimanasa/nassessment/nassessment/node_modules/express/lib/router/index.js:356:14)
+    at param (/home/saimanasa/nassessment/nassessment/node_modules/express/lib/router/index.js:356:14)
+    at Function.proto.process_params (/home/saimanasa/nassessment/nassessment/node_modules/express/lib/router/index.js:400:3)
+[2015-02-16 13:01:01.864] [ERROR] app - [ReferenceError: alert is not defined]
+ReferenceError: alert is not defined
+    at router.post.formId (/home/saimanasa/nassessment/nassessment/routes/courseforms.js:343:2)
+    at Layer.handle [as handle_request] (/home/saimanasa/nassessment/nassessment/node_modules/express/lib/router/layer.js:82:5)
+    at next (/home/saimanasa/nassessment/nassessment/node_modules/express/lib/router/route.js:110:13)
+    at Route.dispatch (/home/saimanasa/nassessment/nassessment/node_modules/express/lib/router/route.js:91:3)
+    at Layer.handle [as handle_request] (/home/saimanasa/nassessment/nassessment/node_modules/express/lib/router/layer.js:82:5)
+    at /home/saimanasa/nassessment/nassessment/node_modules/express/lib/router/index.js:267:22
+    at param (/home/saimanasa/nassessment/nassessment/node_modules/express/lib/router/index.js:340:14)
+    at param (/home/saimanasa/nassessment/nassessment/node_modules/express/lib/router/index.js:356:14)
+    at param (/home/saimanasa/nassessment/nassessment/node_modules/express/lib/router/index.js:356:14)
+    at Function.proto.process_params (/home/saimanasa/nassessment/nassessment/node_modules/express/lib/router/index.js:400:3)
+[2015-02-16 13:01:02.120] [ERROR] app - [ReferenceError: alert is not defined]
+ReferenceError: alert is not defined
+    at router.post.formId (/home/saimanasa/nassessment/nassessment/routes/courseforms.js:343:2)
+    at Layer.handle [as handle_request] (/home/saimanasa/nassessment/nassessment/node_modules/express/lib/router/layer.js:82:5)
+    at next (/home/saimanasa/nassessment/nassessment/node_modules/express/lib/router/route.js:110:13)
+    at Route.dispatch (/home/saimanasa/nassessment/nassessment/node_modules/express/lib/router/route.js:91:3)
+    at Layer.handle [as handle_request] (/home/saimanasa/nassessment/nassessment/node_modules/express/lib/router/layer.js:82:5)
+    at /home/saimanasa/nassessment/nassessment/node_modules/express/lib/router/index.js:267:22
+    at param (/home/saimanasa/nassessment/nassessment/node_modules/express/lib/router/index.js:340:14)
+    at param (/home/saimanasa/nassessment/nassessment/node_modules/express/lib/router/index.js:356:14)
+    at param (/home/saimanasa/nassessment/nassessment/node_modules/express/lib/router/index.js:356:14)
+    at Function.proto.process_params (/home/saimanasa/nassessment/nassessment/node_modules/express/lib/router/index.js:400:3)
+[2015-02-16 13:01:02.357] [ERROR] app - [ReferenceError: alert is not defined]
+ReferenceError: alert is not defined
+    at router.post.formId (/home/saimanasa/nassessment/nassessment/routes/courseforms.js:343:2)
+    at Layer.handle [as handle_request] (/home/saimanasa/nassessment/nassessment/node_modules/express/lib/router/layer.js:82:5)
+    at next (/home/saimanasa/nassessment/nassessment/node_modules/express/lib/router/route.js:110:13)
+    at Route.dispatch (/home/saimanasa/nassessment/nassessment/node_modules/express/lib/router/route.js:91:3)
+    at Layer.handle [as handle_request] (/home/saimanasa/nassessment/nassessment/node_modules/express/lib/router/layer.js:82:5)
+    at /home/saimanasa/nassessment/nassessment/node_modules/express/lib/router/index.js:267:22
+    at param (/home/saimanasa/nassessment/nassessment/node_modules/express/lib/router/index.js:340:14)
+    at param (/home/saimanasa/nassessment/nassessment/node_modules/express/lib/router/index.js:356:14)
+    at param (/home/saimanasa/nassessment/nassessment/node_modules/express/lib/router/index.js:356:14)
+    at Function.proto.process_params (/home/saimanasa/nassessment/nassessment/node_modules/express/lib/router/index.js:400:3)
+[2015-02-16 13:01:02.600] [ERROR] app - [ReferenceError: alert is not defined]
+ReferenceError: alert is not defined
+    at router.post.formId (/home/saimanasa/nassessment/nassessment/routes/courseforms.js:343:2)
+    at Layer.handle [as handle_request] (/home/saimanasa/nassessment/nassessment/node_modules/express/lib/router/layer.js:82:5)
+    at next (/home/saimanasa/nassessment/nassessment/node_modules/express/lib/router/route.js:110:13)
+    at Route.dispatch (/home/saimanasa/nassessment/nassessment/node_modules/express/lib/router/route.js:91:3)
+    at Layer.handle [as handle_request] (/home/saimanasa/nassessment/nassessment/node_modules/express/lib/router/layer.js:82:5)
+    at /home/saimanasa/nassessment/nassessment/node_modules/express/lib/router/index.js:267:22
+    at param (/home/saimanasa/nassessment/nassessment/node_modules/express/lib/router/index.js:340:14)
+    at param (/home/saimanasa/nassessment/nassessment/node_modules/express/lib/router/index.js:356:14)
+    at param (/home/saimanasa/nassessment/nassessment/node_modules/express/lib/router/index.js:356:14)
+    at Function.proto.process_params (/home/saimanasa/nassessment/nassessment/node_modules/express/lib/router/index.js:400:3)
+[2015-02-16 13:01:02.862] [ERROR] app - [ReferenceError: alert is not defined]
+ReferenceError: alert is not defined
+    at router.post.formId (/home/saimanasa/nassessment/nassessment/routes/courseforms.js:343:2)
+    at Layer.handle [as handle_request] (/home/saimanasa/nassessment/nassessment/node_modules/express/lib/router/layer.js:82:5)
+    at next (/home/saimanasa/nassessment/nassessment/node_modules/express/lib/router/route.js:110:13)
+    at Route.dispatch (/home/saimanasa/nassessment/nassessment/node_modules/express/lib/router/route.js:91:3)
+    at Layer.handle [as handle_request] (/home/saimanasa/nassessment/nassessment/node_modules/express/lib/router/layer.js:82:5)
+    at /home/saimanasa/nassessment/nassessment/node_modules/express/lib/router/index.js:267:22
+    at param (/home/saimanasa/nassessment/nassessment/node_modules/express/lib/router/index.js:340:14)
+    at param (/home/saimanasa/nassessment/nassessment/node_modules/express/lib/router/index.js:356:14)
+    at param (/home/saimanasa/nassessment/nassessment/node_modules/express/lib/router/index.js:356:14)
+    at Function.proto.process_params (/home/saimanasa/nassessment/nassessment/node_modules/express/lib/router/index.js:400:3)
+[2015-02-16 13:01:03.450] [ERROR] app - [ReferenceError: alert is not defined]
+ReferenceError: alert is not defined
+    at router.post.formId (/home/saimanasa/nassessment/nassessment/routes/courseforms.js:343:2)
+    at Layer.handle [as handle_request] (/home/saimanasa/nassessment/nassessment/node_modules/express/lib/router/layer.js:82:5)
+    at next (/home/saimanasa/nassessment/nassessment/node_modules/express/lib/router/route.js:110:13)
+    at Route.dispatch (/home/saimanasa/nassessment/nassessment/node_modules/express/lib/router/route.js:91:3)
+    at Layer.handle [as handle_request] (/home/saimanasa/nassessment/nassessment/node_modules/express/lib/router/layer.js:82:5)
+    at /home/saimanasa/nassessment/nassessment/node_modules/express/lib/router/index.js:267:22
+    at param (/home/saimanasa/nassessment/nassessment/node_modules/express/lib/router/index.js:340:14)
+    at param (/home/saimanasa/nassessment/nassessment/node_modules/express/lib/router/index.js:356:14)
+    at param (/home/saimanasa/nassessment/nassessment/node_modules/express/lib/router/index.js:356:14)
+    at Function.proto.process_params (/home/saimanasa/nassessment/nassessment/node_modules/express/lib/router/index.js:400:3)
+[2015-02-16 13:01:11.380] [ERROR] app - [ReferenceError: alert is not defined]
+ReferenceError: alert is not defined
+    at router.post.formId (/home/saimanasa/nassessment/nassessment/routes/courseforms.js:343:2)
+    at Layer.handle [as handle_request] (/home/saimanasa/nassessment/nassessment/node_modules/express/lib/router/layer.js:82:5)
+    at next (/home/saimanasa/nassessment/nassessment/node_modules/express/lib/router/route.js:110:13)
+    at Route.dispatch (/home/saimanasa/nassessment/nassessment/node_modules/express/lib/router/route.js:91:3)
+    at Layer.handle [as handle_request] (/home/saimanasa/nassessment/nassessment/node_modules/express/lib/router/layer.js:82:5)
+    at /home/saimanasa/nassessment/nassessment/node_modules/express/lib/router/index.js:267:22
+    at param (/home/saimanasa/nassessment/nassessment/node_modules/express/lib/router/index.js:340:14)
+    at param (/home/saimanasa/nassessment/nassessment/node_modules/express/lib/router/index.js:356:14)
+    at param (/home/saimanasa/nassessment/nassessment/node_modules/express/lib/router/index.js:356:14)
+    at Function.proto.process_params (/home/saimanasa/nassessment/nassessment/node_modules/express/lib/router/index.js:400:3)
+[2015-02-16 13:07:39.814] [ERROR] app - [ReferenceError: alert is not defined]
+ReferenceError: alert is not defined
+    at router.post.formId (/home/saimanasa/nassessment/nassessment/routes/courseforms.js:343:2)
+    at Layer.handle [as handle_request] (/home/saimanasa/nassessment/nassessment/node_modules/express/lib/router/layer.js:82:5)
+    at next (/home/saimanasa/nassessment/nassessment/node_modules/express/lib/router/route.js:110:13)
+    at Route.dispatch (/home/saimanasa/nassessment/nassessment/node_modules/express/lib/router/route.js:91:3)
+    at Layer.handle [as handle_request] (/home/saimanasa/nassessment/nassessment/node_modules/express/lib/router/layer.js:82:5)
+    at proto.handle.c (/home/saimanasa/nassessment/nassessment/node_modules/express/lib/router/index.js:267:22)
+    at param (/home/saimanasa/nassessment/nassessment/node_modules/express/lib/router/index.js:340:14)
+    at param (/home/saimanasa/nassessment/nassessment/node_modules/express/lib/router/index.js:356:14)
+    at param (/home/saimanasa/nassessment/nassessment/node_modules/express/lib/router/index.js:356:14)
+    at Function.proto.process_params (/home/saimanasa/nassessment/nassessment/node_modules/express/lib/router/index.js:400:3)
+[2015-02-16 13:07:41.199] [ERROR] app - [ReferenceError: alert is not defined]
+ReferenceError: alert is not defined
+    at router.post.formId (/home/saimanasa/nassessment/nassessment/routes/courseforms.js:343:2)
+    at Layer.handle [as handle_request] (/home/saimanasa/nassessment/nassessment/node_modules/express/lib/router/layer.js:82:5)
+    at next (/home/saimanasa/nassessment/nassessment/node_modules/express/lib/router/route.js:110:13)
+    at Route.dispatch (/home/saimanasa/nassessment/nassessment/node_modules/express/lib/router/route.js:91:3)
+    at Layer.handle [as handle_request] (/home/saimanasa/nassessment/nassessment/node_modules/express/lib/router/layer.js:82:5)
+    at proto.handle.c (/home/saimanasa/nassessment/nassessment/node_modules/express/lib/router/index.js:267:22)
+    at param (/home/saimanasa/nassessment/nassessment/node_modules/express/lib/router/index.js:340:14)
+    at param (/home/saimanasa/nassessment/nassessment/node_modules/express/lib/router/index.js:356:14)
+    at param (/home/saimanasa/nassessment/nassessment/node_modules/express/lib/router/index.js:356:14)
+    at Function.proto.process_params (/home/saimanasa/nassessment/nassessment/node_modules/express/lib/router/index.js:400:3)
+[2015-02-16 13:22:37.552] [ERROR] app - [ReferenceError: alert is not defined]
+ReferenceError: alert is not defined
+    at router.post.formId (/home/saimanasa/nassessment/nassessment/routes/courseforms.js:343:2)
+    at Layer.handle [as handle_request] (/home/saimanasa/nassessment/nassessment/node_modules/express/lib/router/layer.js:82:5)
+    at next (/home/saimanasa/nassessment/nassessment/node_modules/express/lib/router/route.js:110:13)
+    at Route.dispatch (/home/saimanasa/nassessment/nassessment/node_modules/express/lib/router/route.js:91:3)
+    at Layer.handle [as handle_request] (/home/saimanasa/nassessment/nassessment/node_modules/express/lib/router/layer.js:82:5)
+    at proto.handle.c (/home/saimanasa/nassessment/nassessment/node_modules/express/lib/router/index.js:267:22)
+    at param (/home/saimanasa/nassessment/nassessment/node_modules/express/lib/router/index.js:340:14)
+    at param (/home/saimanasa/nassessment/nassessment/node_modules/express/lib/router/index.js:356:14)
+    at param (/home/saimanasa/nassessment/nassessment/node_modules/express/lib/router/index.js:356:14)
+    at Function.proto.process_params (/home/saimanasa/nassessment/nassessment/node_modules/express/lib/router/index.js:400:3)
+[2015-02-16 13:25:09.425] [ERROR] app - [ReferenceError: alert is not defined]
+ReferenceError: alert is not defined
+    at router.post.formId (/home/saimanasa/nassessment/nassessment/routes/courseforms.js:343:2)
+    at Layer.handle [as handle_request] (/home/saimanasa/nassessment/nassessment/node_modules/express/lib/router/layer.js:82:5)
+    at next (/home/saimanasa/nassessment/nassessment/node_modules/express/lib/router/route.js:110:13)
+    at Route.dispatch (/home/saimanasa/nassessment/nassessment/node_modules/express/lib/router/route.js:91:3)
+    at Layer.handle [as handle_request] (/home/saimanasa/nassessment/nassessment/node_modules/express/lib/router/layer.js:82:5)
+    at /home/saimanasa/nassessment/nassessment/node_modules/express/lib/router/index.js:267:22
+    at param (/home/saimanasa/nassessment/nassessment/node_modules/express/lib/router/index.js:340:14)
+    at param (/home/saimanasa/nassessment/nassessment/node_modules/express/lib/router/index.js:356:14)
+    at param (/home/saimanasa/nassessment/nassessment/node_modules/express/lib/router/index.js:356:14)
+    at Function.proto.process_params (/home/saimanasa/nassessment/nassessment/node_modules/express/lib/router/index.js:400:3)
+[2015-02-16 13:33:39.235] [ERROR] app - [ReferenceError: alert is not defined]
+ReferenceError: alert is not defined
+    at router.post.formId (/home/saimanasa/nassessment/nassessment/routes/courseforms.js:343:2)
+    at Layer.handle [as handle_request] (/home/saimanasa/nassessment/nassessment/node_modules/express/lib/router/layer.js:82:5)
+    at next (/home/saimanasa/nassessment/nassessment/node_modules/express/lib/router/route.js:110:13)
+    at Route.dispatch (/home/saimanasa/nassessment/nassessment/node_modules/express/lib/router/route.js:91:3)
+    at Layer.handle [as handle_request] (/home/saimanasa/nassessment/nassessment/node_modules/express/lib/router/layer.js:82:5)
+    at proto.handle.c (/home/saimanasa/nassessment/nassessment/node_modules/express/lib/router/index.js:267:22)
+    at param (/home/saimanasa/nassessment/nassessment/node_modules/express/lib/router/index.js:340:14)
+    at param (/home/saimanasa/nassessment/nassessment/node_modules/express/lib/router/index.js:356:14)
+    at param (/home/saimanasa/nassessment/nassessment/node_modules/express/lib/router/index.js:356:14)
+    at Function.proto.process_params (/home/saimanasa/nassessment/nassessment/node_modules/express/lib/router/index.js:400:3)
+[2015-02-16 13:37:18.340] [ERROR] app - [ReferenceError: alert is not defined]
+ReferenceError: alert is not defined
+    at router.post.formId (/home/saimanasa/nassessment/nassessment/routes/courseforms.js:343:2)
+    at Layer.handle [as handle_request] (/home/saimanasa/nassessment/nassessment/node_modules/express/lib/router/layer.js:82:5)
+    at next (/home/saimanasa/nassessment/nassessment/node_modules/express/lib/router/route.js:110:13)
+    at Route.dispatch (/home/saimanasa/nassessment/nassessment/node_modules/express/lib/router/route.js:91:3)
+    at Layer.handle [as handle_request] (/home/saimanasa/nassessment/nassessment/node_modules/express/lib/router/layer.js:82:5)
+    at /home/saimanasa/nassessment/nassessment/node_modules/express/lib/router/index.js:267:22
+    at param (/home/saimanasa/nassessment/nassessment/node_modules/express/lib/router/index.js:340:14)
+    at param (/home/saimanasa/nassessment/nassessment/node_modules/express/lib/router/index.js:356:14)
+    at param (/home/saimanasa/nassessment/nassessment/node_modules/express/lib/router/index.js:356:14)
+    at Function.proto.process_params (/home/saimanasa/nassessment/nassessment/node_modules/express/lib/router/index.js:400:3)
+[2015-02-16 13:39:04.517] [ERROR] app - [ReferenceError: alert is not defined]
+ReferenceError: alert is not defined
+    at router.post.formId (/home/saimanasa/nassessment/nassessment/routes/courseforms.js:343:2)
+    at Layer.handle [as handle_request] (/home/saimanasa/nassessment/nassessment/node_modules/express/lib/router/layer.js:82:5)
+    at next (/home/saimanasa/nassessment/nassessment/node_modules/express/lib/router/route.js:110:13)
+    at Route.dispatch (/home/saimanasa/nassessment/nassessment/node_modules/express/lib/router/route.js:91:3)
+    at Layer.handle [as handle_request] (/home/saimanasa/nassessment/nassessment/node_modules/express/lib/router/layer.js:82:5)
+    at /home/saimanasa/nassessment/nassessment/node_modules/express/lib/router/index.js:267:22
+    at param (/home/saimanasa/nassessment/nassessment/node_modules/express/lib/router/index.js:340:14)
+    at param (/home/saimanasa/nassessment/nassessment/node_modules/express/lib/router/index.js:356:14)
+    at param (/home/saimanasa/nassessment/nassessment/node_modules/express/lib/router/index.js:356:14)
+    at Function.proto.process_params (/home/saimanasa/nassessment/nassessment/node_modules/express/lib/router/index.js:400:3)
+[2015-02-16 13:40:06.378] [ERROR] app - [ReferenceError: alert is not defined]
+ReferenceError: alert is not defined
+    at router.post.formId (/home/saimanasa/nassessment/nassessment/routes/courseforms.js:343:2)
+    at Layer.handle [as handle_request] (/home/saimanasa/nassessment/nassessment/node_modules/express/lib/router/layer.js:82:5)
+    at next (/home/saimanasa/nassessment/nassessment/node_modules/express/lib/router/route.js:110:13)
+    at Route.dispatch (/home/saimanasa/nassessment/nassessment/node_modules/express/lib/router/route.js:91:3)
+    at Layer.handle [as handle_request] (/home/saimanasa/nassessment/nassessment/node_modules/express/lib/router/layer.js:82:5)
+    at /home/saimanasa/nassessment/nassessment/node_modules/express/lib/router/index.js:267:22
+    at param (/home/saimanasa/nassessment/nassessment/node_modules/express/lib/router/index.js:340:14)
+    at param (/home/saimanasa/nassessment/nassessment/node_modules/express/lib/router/index.js:356:14)
+    at param (/home/saimanasa/nassessment/nassessment/node_modules/express/lib/router/index.js:356:14)
+    at Function.proto.process_params (/home/saimanasa/nassessment/nassessment/node_modules/express/lib/router/index.js:400:3)
+[2015-02-16 13:42:08.665] [ERROR] app - [ReferenceError: alert is not defined]
+ReferenceError: alert is not defined
+    at router.post.formId (/home/saimanasa/nassessment/nassessment/routes/courseforms.js:343:2)
+    at Layer.handle [as handle_request] (/home/saimanasa/nassessment/nassessment/node_modules/express/lib/router/layer.js:82:5)
+    at next (/home/saimanasa/nassessment/nassessment/node_modules/express/lib/router/route.js:110:13)
+    at Route.dispatch (/home/saimanasa/nassessment/nassessment/node_modules/express/lib/router/route.js:91:3)
+    at Layer.handle [as handle_request] (/home/saimanasa/nassessment/nassessment/node_modules/express/lib/router/layer.js:82:5)
+    at /home/saimanasa/nassessment/nassessment/node_modules/express/lib/router/index.js:267:22
+    at param (/home/saimanasa/nassessment/nassessment/node_modules/express/lib/router/index.js:340:14)
+    at param (/home/saimanasa/nassessment/nassessment/node_modules/express/lib/router/index.js:356:14)
+    at param (/home/saimanasa/nassessment/nassessment/node_modules/express/lib/router/index.js:356:14)
+    at Function.proto.process_params (/home/saimanasa/nassessment/nassessment/node_modules/express/lib/router/index.js:400:3)
+[2015-02-16 13:44:08.765] [ERROR] app - [ReferenceError: alert is not defined]
+ReferenceError: alert is not defined
+    at router.post.formId (/home/saimanasa/nassessment/nassessment/routes/courseforms.js:343:2)
+    at Layer.handle [as handle_request] (/home/saimanasa/nassessment/nassessment/node_modules/express/lib/router/layer.js:82:5)
+    at next (/home/saimanasa/nassessment/nassessment/node_modules/express/lib/router/route.js:110:13)
+    at Route.dispatch (/home/saimanasa/nassessment/nassessment/node_modules/express/lib/router/route.js:91:3)
+    at Layer.handle [as handle_request] (/home/saimanasa/nassessment/nassessment/node_modules/express/lib/router/layer.js:82:5)
+    at /home/saimanasa/nassessment/nassessment/node_modules/express/lib/router/index.js:267:22
+    at param (/home/saimanasa/nassessment/nassessment/node_modules/express/lib/router/index.js:340:14)
+    at param (/home/saimanasa/nassessment/nassessment/node_modules/express/lib/router/index.js:356:14)
+    at param (/home/saimanasa/nassessment/nassessment/node_modules/express/lib/router/index.js:356:14)
+    at Function.proto.process_params (/home/saimanasa/nassessment/nassessment/node_modules/express/lib/router/index.js:400:3)
+[2015-02-16 13:45:43.385] [ERROR] app - [ReferenceError: alert is not defined]
+ReferenceError: alert is not defined
+    at router.post.formId (/home/saimanasa/nassessment/nassessment/routes/courseforms.js:343:2)
+    at Layer.handle [as handle_request] (/home/saimanasa/nassessment/nassessment/node_modules/express/lib/router/layer.js:82:5)
+    at next (/home/saimanasa/nassessment/nassessment/node_modules/express/lib/router/route.js:110:13)
+    at Route.dispatch (/home/saimanasa/nassessment/nassessment/node_modules/express/lib/router/route.js:91:3)
+    at Layer.handle [as handle_request] (/home/saimanasa/nassessment/nassessment/node_modules/express/lib/router/layer.js:82:5)
+    at /home/saimanasa/nassessment/nassessment/node_modules/express/lib/router/index.js:267:22
+    at param (/home/saimanasa/nassessment/nassessment/node_modules/express/lib/router/index.js:340:14)
+    at param (/home/saimanasa/nassessment/nassessment/node_modules/express/lib/router/index.js:356:14)
+    at param (/home/saimanasa/nassessment/nassessment/node_modules/express/lib/router/index.js:356:14)
+    at Function.proto.process_params (/home/saimanasa/nassessment/nassessment/node_modules/express/lib/router/index.js:400:3)
+[2015-02-16 14:52:36.001] [ERROR] app - [ReferenceError: alert is not defined]
+ReferenceError: alert is not defined
+    at router.post.formId (/home/saimanasa/nassessment/nassessment/routes/courseforms.js:343:2)
+    at Layer.handle [as handle_request] (/home/saimanasa/nassessment/nassessment/node_modules/express/lib/router/layer.js:82:5)
+    at next (/home/saimanasa/nassessment/nassessment/node_modules/express/lib/router/route.js:110:13)
+    at Route.dispatch (/home/saimanasa/nassessment/nassessment/node_modules/express/lib/router/route.js:91:3)
+    at Layer.handle [as handle_request] (/home/saimanasa/nassessment/nassessment/node_modules/express/lib/router/layer.js:82:5)
+    at /home/saimanasa/nassessment/nassessment/node_modules/express/lib/router/index.js:267:22
+    at param (/home/saimanasa/nassessment/nassessment/node_modules/express/lib/router/index.js:340:14)
+    at param (/home/saimanasa/nassessment/nassessment/node_modules/express/lib/router/index.js:356:14)
+    at param (/home/saimanasa/nassessment/nassessment/node_modules/express/lib/router/index.js:356:14)
+    at Function.proto.process_params (/home/saimanasa/nassessment/nassessment/node_modules/express/lib/router/index.js:400:3)
+[2015-02-16 15:00:02.804] [ERROR] app - [ReferenceError: alert is not defined]
+ReferenceError: alert is not defined
+    at router.post.formId (/home/saimanasa/nassessment/nassessment/routes/courseforms.js:343:2)
+    at Layer.handle [as handle_request] (/home/saimanasa/nassessment/nassessment/node_modules/express/lib/router/layer.js:82:5)
+    at next (/home/saimanasa/nassessment/nassessment/node_modules/express/lib/router/route.js:110:13)
+    at Route.dispatch (/home/saimanasa/nassessment/nassessment/node_modules/express/lib/router/route.js:91:3)
+    at Layer.handle [as handle_request] (/home/saimanasa/nassessment/nassessment/node_modules/express/lib/router/layer.js:82:5)
+    at /home/saimanasa/nassessment/nassessment/node_modules/express/lib/router/index.js:267:22
+    at param (/home/saimanasa/nassessment/nassessment/node_modules/express/lib/router/index.js:340:14)
+    at param (/home/saimanasa/nassessment/nassessment/node_modules/express/lib/router/index.js:356:14)
+    at param (/home/saimanasa/nassessment/nassessment/node_modules/express/lib/router/index.js:356:14)
+    at Function.proto.process_params (/home/saimanasa/nassessment/nassessment/node_modules/express/lib/router/index.js:400:3)
+[2015-02-16 15:02:03.615] [ERROR] app - [ReferenceError: alert is not defined]
+ReferenceError: alert is not defined
+    at router.post.formId (/home/saimanasa/nassessment/nassessment/routes/courseforms.js:343:2)
+    at Layer.handle [as handle_request] (/home/saimanasa/nassessment/nassessment/node_modules/express/lib/router/layer.js:82:5)
+    at next (/home/saimanasa/nassessment/nassessment/node_modules/express/lib/router/route.js:110:13)
+    at Route.dispatch (/home/saimanasa/nassessment/nassessment/node_modules/express/lib/router/route.js:91:3)
+    at Layer.handle [as handle_request] (/home/saimanasa/nassessment/nassessment/node_modules/express/lib/router/layer.js:82:5)
+    at /home/saimanasa/nassessment/nassessment/node_modules/express/lib/router/index.js:267:22
+    at param (/home/saimanasa/nassessment/nassessment/node_modules/express/lib/router/index.js:340:14)
+    at param (/home/saimanasa/nassessment/nassessment/node_modules/express/lib/router/index.js:356:14)
+    at param (/home/saimanasa/nassessment/nassessment/node_modules/express/lib/router/index.js:356:14)
+    at Function.proto.process_params (/home/saimanasa/nassessment/nassessment/node_modules/express/lib/router/index.js:400:3)
+[2015-02-16 15:45:27.332] [ERROR] app - [ReferenceError: alert is not defined]
+ReferenceError: alert is not defined
+    at router.post.formId (/home/saimanasa/nassessment/nassessment/routes/courseforms.js:343:2)
+    at Layer.handle [as handle_request] (/home/saimanasa/nassessment/nassessment/node_modules/express/lib/router/layer.js:82:5)
+    at next (/home/saimanasa/nassessment/nassessment/node_modules/express/lib/router/route.js:110:13)
+    at Route.dispatch (/home/saimanasa/nassessment/nassessment/node_modules/express/lib/router/route.js:91:3)
+    at Layer.handle [as handle_request] (/home/saimanasa/nassessment/nassessment/node_modules/express/lib/router/layer.js:82:5)
+    at /home/saimanasa/nassessment/nassessment/node_modules/express/lib/router/index.js:267:22
+    at param (/home/saimanasa/nassessment/nassessment/node_modules/express/lib/router/index.js:340:14)
+    at param (/home/saimanasa/nassessment/nassessment/node_modules/express/lib/router/index.js:356:14)
+    at param (/home/saimanasa/nassessment/nassessment/node_modules/express/lib/router/index.js:356:14)
+    at Function.proto.process_params (/home/saimanasa/nassessment/nassessment/node_modules/express/lib/router/index.js:400:3)
+[2015-02-16 17:23:07.661] [ERROR] app - [ReferenceError: alert is not defined]
+ReferenceError: alert is not defined
+    at router.post.formId (/home/saimanasa/nassessment/nassessment/routes/courseforms.js:343:2)
+    at Layer.handle [as handle_request] (/home/saimanasa/nassessment/nassessment/node_modules/express/lib/router/layer.js:82:5)
+    at next (/home/saimanasa/nassessment/nassessment/node_modules/express/lib/router/route.js:110:13)
+    at Route.dispatch (/home/saimanasa/nassessment/nassessment/node_modules/express/lib/router/route.js:91:3)
+    at Layer.handle [as handle_request] (/home/saimanasa/nassessment/nassessment/node_modules/express/lib/router/layer.js:82:5)
+    at /home/saimanasa/nassessment/nassessment/node_modules/express/lib/router/index.js:267:22
+    at param (/home/saimanasa/nassessment/nassessment/node_modules/express/lib/router/index.js:340:14)
+    at param (/home/saimanasa/nassessment/nassessment/node_modules/express/lib/router/index.js:356:14)
+    at param (/home/saimanasa/nassessment/nassessment/node_modules/express/lib/router/index.js:356:14)
+    at Function.proto.process_params (/home/saimanasa/nassessment/nassessment/node_modules/express/lib/router/index.js:400:3)
+[2015-02-16 17:25:56.117] [ERROR] app - [ReferenceError: alert is not defined]
+ReferenceError: alert is not defined
+    at router.post.formId (/home/saimanasa/nassessment/nassessment/routes/courseforms.js:343:2)
+    at Layer.handle [as handle_request] (/home/saimanasa/nassessment/nassessment/node_modules/express/lib/router/layer.js:82:5)
+    at next (/home/saimanasa/nassessment/nassessment/node_modules/express/lib/router/route.js:110:13)
+    at Route.dispatch (/home/saimanasa/nassessment/nassessment/node_modules/express/lib/router/route.js:91:3)
+    at Layer.handle [as handle_request] (/home/saimanasa/nassessment/nassessment/node_modules/express/lib/router/layer.js:82:5)
+    at /home/saimanasa/nassessment/nassessment/node_modules/express/lib/router/index.js:267:22
+    at param (/home/saimanasa/nassessment/nassessment/node_modules/express/lib/router/index.js:340:14)
+    at param (/home/saimanasa/nassessment/nassessment/node_modules/express/lib/router/index.js:356:14)
+    at param (/home/saimanasa/nassessment/nassessment/node_modules/express/lib/router/index.js:356:14)
+    at Function.proto.process_params (/home/saimanasa/nassessment/nassessment/node_modules/express/lib/router/index.js:400:3)
+[2015-02-16 17:29:12.510] [ERROR] app - [ReferenceError: alert is not defined]
+ReferenceError: alert is not defined
+    at router.post.formId (/home/saimanasa/nassessment/nassessment/routes/courseforms.js:343:2)
+    at Layer.handle [as handle_request] (/home/saimanasa/nassessment/nassessment/node_modules/express/lib/router/layer.js:82:5)
+    at next (/home/saimanasa/nassessment/nassessment/node_modules/express/lib/router/route.js:110:13)
+    at Route.dispatch (/home/saimanasa/nassessment/nassessment/node_modules/express/lib/router/route.js:91:3)
+    at Layer.handle [as handle_request] (/home/saimanasa/nassessment/nassessment/node_modules/express/lib/router/layer.js:82:5)
+    at /home/saimanasa/nassessment/nassessment/node_modules/express/lib/router/index.js:267:22
+    at param (/home/saimanasa/nassessment/nassessment/node_modules/express/lib/router/index.js:340:14)
+    at param (/home/saimanasa/nassessment/nassessment/node_modules/express/lib/router/index.js:356:14)
+    at param (/home/saimanasa/nassessment/nassessment/node_modules/express/lib/router/index.js:356:14)
+    at Function.proto.process_params (/home/saimanasa/nassessment/nassessment/node_modules/express/lib/router/index.js:400:3)
+[2015-02-16 17:29:52.651] [ERROR] app - [ReferenceError: alert is not defined]
+ReferenceError: alert is not defined
+    at router.post.formId (/home/saimanasa/nassessment/nassessment/routes/courseforms.js:343:2)
+    at Layer.handle [as handle_request] (/home/saimanasa/nassessment/nassessment/node_modules/express/lib/router/layer.js:82:5)
+    at next (/home/saimanasa/nassessment/nassessment/node_modules/express/lib/router/route.js:110:13)
+    at Route.dispatch (/home/saimanasa/nassessment/nassessment/node_modules/express/lib/router/route.js:91:3)
+    at Layer.handle [as handle_request] (/home/saimanasa/nassessment/nassessment/node_modules/express/lib/router/layer.js:82:5)
+    at /home/saimanasa/nassessment/nassessment/node_modules/express/lib/router/index.js:267:22
+    at param (/home/saimanasa/nassessment/nassessment/node_modules/express/lib/router/index.js:340:14)
+    at param (/home/saimanasa/nassessment/nassessment/node_modules/express/lib/router/index.js:356:14)
+    at param (/home/saimanasa/nassessment/nassessment/node_modules/express/lib/router/index.js:356:14)
+    at Function.proto.process_params (/home/saimanasa/nassessment/nassessment/node_modules/express/lib/router/index.js:400:3)
+[2015-02-16 17:31:00.179] [ERROR] app - [ReferenceError: alert is not defined]
+ReferenceError: alert is not defined
+    at router.post.formId (/home/saimanasa/nassessment/nassessment/routes/courseforms.js:343:2)
+    at Layer.handle [as handle_request] (/home/saimanasa/nassessment/nassessment/node_modules/express/lib/router/layer.js:82:5)
+    at next (/home/saimanasa/nassessment/nassessment/node_modules/express/lib/router/route.js:110:13)
+    at Route.dispatch (/home/saimanasa/nassessment/nassessment/node_modules/express/lib/router/route.js:91:3)
+    at Layer.handle [as handle_request] (/home/saimanasa/nassessment/nassessment/node_modules/express/lib/router/layer.js:82:5)
+    at /home/saimanasa/nassessment/nassessment/node_modules/express/lib/router/index.js:267:22
+    at param (/home/saimanasa/nassessment/nassessment/node_modules/express/lib/router/index.js:340:14)
+    at param (/home/saimanasa/nassessment/nassessment/node_modules/express/lib/router/index.js:356:14)
+    at param (/home/saimanasa/nassessment/nassessment/node_modules/express/lib/router/index.js:356:14)
+    at Function.proto.process_params (/home/saimanasa/nassessment/nassessment/node_modules/express/lib/router/index.js:400:3)
+[2015-02-16 17:54:18.678] [ERROR] app - [ReferenceError: alert is not defined]
+ReferenceError: alert is not defined
+    at router.post.formId (/home/saimanasa/nassessment/nassessment/routes/courseforms.js:343:2)
+    at Layer.handle [as handle_request] (/home/saimanasa/nassessment/nassessment/node_modules/express/lib/router/layer.js:82:5)
+    at next (/home/saimanasa/nassessment/nassessment/node_modules/express/lib/router/route.js:110:13)
+    at Route.dispatch (/home/saimanasa/nassessment/nassessment/node_modules/express/lib/router/route.js:91:3)
+    at Layer.handle [as handle_request] (/home/saimanasa/nassessment/nassessment/node_modules/express/lib/router/layer.js:82:5)
+    at /home/saimanasa/nassessment/nassessment/node_modules/express/lib/router/index.js:267:22
+    at param (/home/saimanasa/nassessment/nassessment/node_modules/express/lib/router/index.js:340:14)
+    at param (/home/saimanasa/nassessment/nassessment/node_modules/express/lib/router/index.js:356:14)
+    at param (/home/saimanasa/nassessment/nassessment/node_modules/express/lib/router/index.js:356:14)
+    at Function.proto.process_params (/home/saimanasa/nassessment/nassessment/node_modules/express/lib/router/index.js:400:3)
+[2015-02-18 11:31:31.451] [ERROR] app - { Message: 'Could not establish connection to the database.' }
+[2015-02-18 11:41:00.575] [ERROR] app - { Message: 'Could not establish connection to the database.' }
+[2015-02-18 11:41:00.580] [ERROR] app - { Message: 'Could not establish connection to the database.' }
+[2015-02-18 11:41:02.649] [ERROR] app - { Message: 'Could not establish connection to the database.' }
+[2015-02-18 11:41:22.963] [ERROR] app - { Message: 'Could not establish connection to the database.' }
+[2015-02-19 12:44:17.611] [ERROR] app - { Message: 'Could not establish connection to the database.' }
+[2015-02-19 12:44:18.267] [ERROR] app - { Message: 'Could not establish connection to the database.' }
+[2015-02-19 12:44:23.386] [ERROR] app - { Message: 'Could not establish connection to the database.' }
+[2015-02-19 12:44:25.960] [ERROR] app - { Message: 'Could not establish connection to the database.' }
+[2015-02-19 12:44:26.903] [ERROR] app - { Message: 'Could not establish connection to the database.' }
+[2015-02-19 12:44:27.143] [ERROR] app - { Message: 'Could not establish connection to the database.' }
+[2015-02-19 12:44:28.032] [ERROR] app - { Message: 'Could not establish connection to the database.' }
+[2015-02-19 12:44:51.444] [ERROR] app - { Message: 'Could not establish connection to the database.' }
+[2015-02-19 13:02:51.034] [ERROR] app - [TypeError: Cannot read property 'user' of undefined]
+TypeError: Cannot read property 'user' of undefined
+    at router.get.userId (/home/saimanasa/nassessment/nassessment/routes/users.js:32:30)
+    at Layer.handle [as handle_request] (/home/saimanasa/nassessment/nassessment/node_modules/express/lib/router/layer.js:82:5)
+    at next (/home/saimanasa/nassessment/nassessment/node_modules/express/lib/router/route.js:110:13)
+    at Route.dispatch (/home/saimanasa/nassessment/nassessment/node_modules/express/lib/router/route.js:91:3)
+    at Layer.handle [as handle_request] (/home/saimanasa/nassessment/nassessment/node_modules/express/lib/router/layer.js:82:5)
+    at /home/saimanasa/nassessment/nassessment/node_modules/express/lib/router/index.js:267:22
+    at Function.proto.process_params (/home/saimanasa/nassessment/nassessment/node_modules/express/lib/router/index.js:321:12)
+    at next (/home/saimanasa/nassessment/nassessment/node_modules/express/lib/router/index.js:261:10)
+    at router.get.core.getUsers.res.json.Status (/home/saimanasa/nassessment/nassessment/routes/users.js:15:2)
+    at Layer.handle [as handle_request] (/home/saimanasa/nassessment/nassessment/node_modules/express/lib/router/layer.js:82:5)
+[2015-02-19 13:09:42.926] [ERROR] app - [TypeError: Cannot read property 'user' of undefined]
+TypeError: Cannot read property 'user' of undefined
+    at router.get.userId (/home/saimanasa/nassessment/nassessment/routes/users.js:32:30)
+    at Layer.handle [as handle_request] (/home/saimanasa/nassessment/nassessment/node_modules/express/lib/router/layer.js:82:5)
+    at next (/home/saimanasa/nassessment/nassessment/node_modules/express/lib/router/route.js:110:13)
+    at Route.dispatch (/home/saimanasa/nassessment/nassessment/node_modules/express/lib/router/route.js:91:3)
+    at Layer.handle [as handle_request] (/home/saimanasa/nassessment/nassessment/node_modules/express/lib/router/layer.js:82:5)
+    at /home/saimanasa/nassessment/nassessment/node_modules/express/lib/router/index.js:267:22
+    at Function.proto.process_params (/home/saimanasa/nassessment/nassessment/node_modules/express/lib/router/index.js:321:12)
+    at next (/home/saimanasa/nassessment/nassessment/node_modules/express/lib/router/index.js:261:10)
+    at router.get.core.getUsers.res.json.Status (/home/saimanasa/nassessment/nassessment/routes/users.js:15:2)
+    at Layer.handle [as handle_request] (/home/saimanasa/nassessment/nassessment/node_modules/express/lib/router/layer.js:82:5)
+[2015-02-19 13:11:10.970] [ERROR] app - [TypeError: Cannot read property 'user' of undefined]
+TypeError: Cannot read property 'user' of undefined
+    at router.get.userId (/home/saimanasa/nassessment/nassessment/routes/users.js:32:30)
+    at Layer.handle [as handle_request] (/home/saimanasa/nassessment/nassessment/node_modules/express/lib/router/layer.js:82:5)
+    at next (/home/saimanasa/nassessment/nassessment/node_modules/express/lib/router/route.js:110:13)
+    at Route.dispatch (/home/saimanasa/nassessment/nassessment/node_modules/express/lib/router/route.js:91:3)
+    at Layer.handle [as handle_request] (/home/saimanasa/nassessment/nassessment/node_modules/express/lib/router/layer.js:82:5)
+    at /home/saimanasa/nassessment/nassessment/node_modules/express/lib/router/index.js:267:22
+    at Function.proto.process_params (/home/saimanasa/nassessment/nassessment/node_modules/express/lib/router/index.js:321:12)
+    at next (/home/saimanasa/nassessment/nassessment/node_modules/express/lib/router/index.js:261:10)
+    at router.get.core.getUsers.res.json.Status (/home/saimanasa/nassessment/nassessment/routes/users.js:15:2)
+    at Layer.handle [as handle_request] (/home/saimanasa/nassessment/nassessment/node_modules/express/lib/router/layer.js:82:5)
+[2015-02-19 13:14:10.634] [ERROR] app - [TypeError: Cannot read property 'user' of undefined]
+TypeError: Cannot read property 'user' of undefined
+    at router.get.userId (/home/saimanasa/nassessment/nassessment/routes/users.js:32:30)
+    at Layer.handle [as handle_request] (/home/saimanasa/nassessment/nassessment/node_modules/express/lib/router/layer.js:82:5)
+    at next (/home/saimanasa/nassessment/nassessment/node_modules/express/lib/router/route.js:110:13)
+    at Route.dispatch (/home/saimanasa/nassessment/nassessment/node_modules/express/lib/router/route.js:91:3)
+    at Layer.handle [as handle_request] (/home/saimanasa/nassessment/nassessment/node_modules/express/lib/router/layer.js:82:5)
+    at /home/saimanasa/nassessment/nassessment/node_modules/express/lib/router/index.js:267:22
+    at Function.proto.process_params (/home/saimanasa/nassessment/nassessment/node_modules/express/lib/router/index.js:321:12)
+    at next (/home/saimanasa/nassessment/nassessment/node_modules/express/lib/router/index.js:261:10)
+    at router.get.core.getUsers.res.json.Status (/home/saimanasa/nassessment/nassessment/routes/users.js:15:2)
+    at Layer.handle [as handle_request] (/home/saimanasa/nassessment/nassessment/node_modules/express/lib/router/layer.js:82:5)
+[2015-02-19 13:16:02.773] [ERROR] app - [TypeError: Cannot read property 'user' of undefined]
+TypeError: Cannot read property 'user' of undefined
+    at router.get.userId (/home/saimanasa/nassessment/nassessment/routes/users.js:32:30)
+    at Layer.handle [as handle_request] (/home/saimanasa/nassessment/nassessment/node_modules/express/lib/router/layer.js:82:5)
+    at next (/home/saimanasa/nassessment/nassessment/node_modules/express/lib/router/route.js:110:13)
+    at Route.dispatch (/home/saimanasa/nassessment/nassessment/node_modules/express/lib/router/route.js:91:3)
+    at Layer.handle [as handle_request] (/home/saimanasa/nassessment/nassessment/node_modules/express/lib/router/layer.js:82:5)
+    at /home/saimanasa/nassessment/nassessment/node_modules/express/lib/router/index.js:267:22
+    at Function.proto.process_params (/home/saimanasa/nassessment/nassessment/node_modules/express/lib/router/index.js:321:12)
+    at next (/home/saimanasa/nassessment/nassessment/node_modules/express/lib/router/index.js:261:10)
+    at router.get.core.getUsers.res.json.Status (/home/saimanasa/nassessment/nassessment/routes/users.js:15:2)
+    at Layer.handle [as handle_request] (/home/saimanasa/nassessment/nassessment/node_modules/express/lib/router/layer.js:82:5)
+[2015-02-19 13:18:14.042] [ERROR] app - [TypeError: Cannot read property 'user' of undefined]
+TypeError: Cannot read property 'user' of undefined
+    at router.get.userId (/home/saimanasa/nassessment/nassessment/routes/users.js:32:30)
+    at Layer.handle [as handle_request] (/home/saimanasa/nassessment/nassessment/node_modules/express/lib/router/layer.js:82:5)
+    at next (/home/saimanasa/nassessment/nassessment/node_modules/express/lib/router/route.js:110:13)
+    at Route.dispatch (/home/saimanasa/nassessment/nassessment/node_modules/express/lib/router/route.js:91:3)
+    at Layer.handle [as handle_request] (/home/saimanasa/nassessment/nassessment/node_modules/express/lib/router/layer.js:82:5)
+    at /home/saimanasa/nassessment/nassessment/node_modules/express/lib/router/index.js:267:22
+    at Function.proto.process_params (/home/saimanasa/nassessment/nassessment/node_modules/express/lib/router/index.js:321:12)
+    at next (/home/saimanasa/nassessment/nassessment/node_modules/express/lib/router/index.js:261:10)
+    at router.get.core.getUsers.res.json.Status (/home/saimanasa/nassessment/nassessment/routes/users.js:15:2)
+    at Layer.handle [as handle_request] (/home/saimanasa/nassessment/nassessment/node_modules/express/lib/router/layer.js:82:5)
+[2015-02-19 13:19:11.941] [ERROR] app - [TypeError: Cannot read property 'user' of undefined]
+TypeError: Cannot read property 'user' of undefined
+    at router.get.userId (/home/saimanasa/nassessment/nassessment/routes/users.js:32:30)
+    at Layer.handle [as handle_request] (/home/saimanasa/nassessment/nassessment/node_modules/express/lib/router/layer.js:82:5)
+    at next (/home/saimanasa/nassessment/nassessment/node_modules/express/lib/router/route.js:110:13)
+    at Route.dispatch (/home/saimanasa/nassessment/nassessment/node_modules/express/lib/router/route.js:91:3)
+    at Layer.handle [as handle_request] (/home/saimanasa/nassessment/nassessment/node_modules/express/lib/router/layer.js:82:5)
+    at /home/saimanasa/nassessment/nassessment/node_modules/express/lib/router/index.js:267:22
+    at Function.proto.process_params (/home/saimanasa/nassessment/nassessment/node_modules/express/lib/router/index.js:321:12)
+    at next (/home/saimanasa/nassessment/nassessment/node_modules/express/lib/router/index.js:261:10)
+    at router.get.core.getUsers.res.json.Status (/home/saimanasa/nassessment/nassessment/routes/users.js:15:2)
+    at Layer.handle [as handle_request] (/home/saimanasa/nassessment/nassessment/node_modules/express/lib/router/layer.js:82:5)
+[2015-02-19 13:20:55.275] [ERROR] app - [TypeError: Cannot read property 'user' of undefined]
+TypeError: Cannot read property 'user' of undefined
+    at router.get.userId (/home/saimanasa/nassessment/nassessment/routes/users.js:32:30)
+    at Layer.handle [as handle_request] (/home/saimanasa/nassessment/nassessment/node_modules/express/lib/router/layer.js:82:5)
+    at next (/home/saimanasa/nassessment/nassessment/node_modules/express/lib/router/route.js:110:13)
+    at Route.dispatch (/home/saimanasa/nassessment/nassessment/node_modules/express/lib/router/route.js:91:3)
+    at Layer.handle [as handle_request] (/home/saimanasa/nassessment/nassessment/node_modules/express/lib/router/layer.js:82:5)
+    at /home/saimanasa/nassessment/nassessment/node_modules/express/lib/router/index.js:267:22
+    at Function.proto.process_params (/home/saimanasa/nassessment/nassessment/node_modules/express/lib/router/index.js:321:12)
+    at next (/home/saimanasa/nassessment/nassessment/node_modules/express/lib/router/index.js:261:10)
+    at router.get.core.getUsers.res.json.Status (/home/saimanasa/nassessment/nassessment/routes/users.js:15:2)
+    at Layer.handle [as handle_request] (/home/saimanasa/nassessment/nassessment/node_modules/express/lib/router/layer.js:82:5)
+[2015-02-19 13:20:57.667] [ERROR] app - [TypeError: Cannot read property 'user' of undefined]
+TypeError: Cannot read property 'user' of undefined
+    at router.get.userId (/home/saimanasa/nassessment/nassessment/routes/users.js:32:30)
+    at Layer.handle [as handle_request] (/home/saimanasa/nassessment/nassessment/node_modules/express/lib/router/layer.js:82:5)
+    at next (/home/saimanasa/nassessment/nassessment/node_modules/express/lib/router/route.js:110:13)
+    at Route.dispatch (/home/saimanasa/nassessment/nassessment/node_modules/express/lib/router/route.js:91:3)
+    at Layer.handle [as handle_request] (/home/saimanasa/nassessment/nassessment/node_modules/express/lib/router/layer.js:82:5)
+    at /home/saimanasa/nassessment/nassessment/node_modules/express/lib/router/index.js:267:22
+    at Function.proto.process_params (/home/saimanasa/nassessment/nassessment/node_modules/express/lib/router/index.js:321:12)
+    at next (/home/saimanasa/nassessment/nassessment/node_modules/express/lib/router/index.js:261:10)
+    at router.get.core.getUsers.res.json.Status (/home/saimanasa/nassessment/nassessment/routes/users.js:15:2)
+    at Layer.handle [as handle_request] (/home/saimanasa/nassessment/nassessment/node_modules/express/lib/router/layer.js:82:5)
+[2015-02-19 14:12:51.285] [ERROR] app - { Message: 'Could not establish connection to the database.' }
+[2015-02-19 14:12:56.495] [ERROR] app - { Message: 'Could not establish connection to the database.' }
+[2015-02-19 15:19:37.804] [ERROR] app - { Message: 'Could not establish connection to the database.' }
+[2015-02-19 15:19:38.421] [ERROR] app - { Message: 'Could not establish connection to the database.' }
+[2015-02-19 15:19:40.647] [ERROR] app - { Message: 'Could not establish connection to the database.' }
+[2015-02-19 16:10:44.479] [ERROR] app - { Message: 'Could not establish connection to the database.' }
+[2015-02-19 16:10:44.483] [ERROR] app - { Message: 'Could not establish connection to the database.' }
+[2015-02-19 16:10:46.497] [ERROR] app - { Message: 'Could not establish connection to the database.' }
+[2015-02-19 16:10:46.501] [ERROR] app - { Message: 'Could not establish connection to the database.' }
+[2015-02-19 16:10:48.163] [ERROR] app - { Message: 'Could not establish connection to the database.' }
+[2015-02-19 17:30:22.288] [ERROR] app - { Message: 'Could not establish connection to the database.' }
+[2015-02-19 17:30:22.293] [ERROR] app - { Message: 'Could not establish connection to the database.' }
+[2015-02-19 17:30:22.296] [ERROR] app - { Message: 'Could not establish connection to the database.' }
+[2015-02-19 17:30:24.496] [ERROR] app - { Message: 'Could not establish connection to the database.' }
+[2015-02-20 18:14:01.263] [ERROR] app - { Message: 'Could not establish connection to the database.' }
+[2015-02-20 18:14:04.518] [ERROR] app - { Message: 'Could not establish connection to the database.' }
+[2015-02-23 17:12:42.519] [ERROR] app - { Message: 'Could not establish connection to the database.' }
+[2015-02-23 17:12:43.358] [ERROR] app - { Message: 'Could not establish connection to the database.' }
+[2015-02-23 17:12:46.574] [ERROR] app - { Message: 'Could not establish connection to the database.' }
+[2015-02-23 18:57:59.551] [ERROR] app - { Message: 'Could not establish connection to the database.' }
+[2015-02-23 18:57:59.556] [ERROR] app - { Message: 'Could not establish connection to the database.' }
+[2015-02-23 18:58:02.907] [ERROR] app - { Message: 'Could not establish connection to the database.' }
+[2015-02-24 16:47:23.976] [ERROR] app - { Message: 'Could not establish connection to the database.' }
+[2015-02-24 16:47:23.982] [ERROR] app - { Message: 'Could not establish connection to the database.' }
+[2015-02-24 16:47:26.401] [ERROR] app - { Message: 'Could not establish connection to the database.' }
+[2015-02-24 17:27:34.886] [ERROR] app - { Message: 'Could not establish connection to the database.' }
+[2015-02-24 17:27:34.893] [ERROR] app - { Message: 'Could not establish connection to the database.' }
+[2015-02-24 17:27:34.897] [ERROR] app - { Message: 'Could not establish connection to the database.' }
+[2015-02-24 17:28:48.840] [ERROR] app - { Message: 'Could not establish connection to the database.' }
+[2015-02-24 18:39:52.645] [ERROR] app - { Message: 'Could not establish connection to the database.' }
+[2015-02-24 18:39:53.089] [ERROR] app - { Message: 'Could not establish connection to the database.' }
+[2015-02-24 18:39:53.091] [ERROR] app - { Message: 'Could not establish connection to the database.' }
+[2015-02-24 18:39:53.094] [ERROR] app - { Message: 'Could not establish connection to the database.' }
+[2015-02-24 18:39:53.579] [ERROR] app - { Message: 'Could not establish connection to the database.' }
+[2015-02-24 18:39:53.581] [ERROR] app - { Message: 'Could not establish connection to the database.' }
+[2015-02-24 18:39:53.583] [ERROR] app - { Message: 'Could not establish connection to the database.' }
+[2015-02-24 18:39:54.177] [ERROR] app - { Message: 'Could not establish connection to the database.' }
+[2015-02-24 18:39:54.182] [ERROR] app - { Message: 'Could not establish connection to the database.' }
+[2015-02-24 18:39:54.184] [ERROR] app - { Message: 'Could not establish connection to the database.' }
+[2015-02-24 18:39:55.610] [ERROR] app - { Message: 'Could not establish connection to the database.' }
+[2015-02-24 18:39:55.613] [ERROR] app - { Message: 'Could not establish connection to the database.' }
+[2015-02-24 18:39:55.615] [ERROR] app - { Message: 'Could not establish connection to the database.' }
+[2015-02-24 18:39:58.069] [ERROR] app - { Message: 'Could not establish connection to the database.' }
+[2015-02-24 18:39:58.071] [ERROR] app - { Message: 'Could not establish connection to the database.' }
+[2015-02-24 18:39:58.072] [ERROR] app - { Message: 'Could not establish connection to the database.' }
+[2015-02-24 18:39:59.008] [ERROR] app - { Message: 'Could not establish connection to the database.' }
+[2015-02-24 18:39:59.010] [ERROR] app - { Message: 'Could not establish connection to the database.' }
+[2015-02-24 18:39:59.013] [ERROR] app - { Message: 'Could not establish connection to the database.' }
+[2015-02-24 18:39:59.918] [ERROR] app - { Message: 'Could not establish connection to the database.' }
+[2015-02-24 18:39:59.920] [ERROR] app - { Message: 'Could not establish connection to the database.' }
+[2015-02-24 18:39:59.922] [ERROR] app - { Message: 'Could not establish connection to the database.' }
+[2015-02-24 18:40:00.481] [ERROR] app - { Message: 'Could not establish connection to the database.' }
+[2015-02-24 18:40:00.482] [ERROR] app - { Message: 'Could not establish connection to the database.' }
+[2015-02-24 18:40:00.484] [ERROR] app - { Message: 'Could not establish connection to the database.' }
+[2015-02-24 18:40:01.308] [ERROR] app - { Message: 'Could not establish connection to the database.' }
+[2015-02-24 18:40:01.310] [ERROR] app - { Message: 'Could not establish connection to the database.' }
+[2015-02-24 18:40:01.312] [ERROR] app - { Message: 'Could not establish connection to the database.' }
+[2015-02-24 18:40:03.168] [ERROR] app - { Message: 'Could not establish connection to the database.' }
+[2015-02-24 18:40:03.170] [ERROR] app - { Message: 'Could not establish connection to the database.' }
+[2015-02-24 18:40:03.179] [ERROR] app - { Message: 'Could not establish connection to the database.' }
+[2015-02-24 18:42:04.932] [ERROR] app - { Message: 'Could not establish connection to the database.' }
+[2015-02-24 18:42:04.936] [ERROR] app - { Message: 'Could not establish connection to the database.' }
+[2015-02-24 18:42:04.939] [ERROR] app - { Message: 'Could not establish connection to the database.' }
+[2015-02-24 18:42:06.312] [ERROR] app - { Message: 'Could not establish connection to the database.' }
+[2015-02-24 18:42:06.314] [ERROR] app - { Message: 'Could not establish connection to the database.' }
+[2015-02-24 18:42:06.316] [ERROR] app - { Message: 'Could not establish connection to the database.' }
+[2015-02-24 18:42:07.114] [ERROR] app - { Message: 'Could not establish connection to the database.' }
+[2015-02-24 18:42:07.115] [ERROR] app - { Message: 'Could not establish connection to the database.' }
+[2015-02-24 18:42:07.117] [ERROR] app - { Message: 'Could not establish connection to the database.' }
+[2015-02-24 18:42:07.837] [ERROR] app - { Message: 'Could not establish connection to the database.' }
+[2015-02-24 18:42:07.839] [ERROR] app - { Message: 'Could not establish connection to the database.' }
+[2015-02-24 18:42:07.841] [ERROR] app - { Message: 'Could not establish connection to the database.' }
+[2015-02-24 18:42:08.373] [ERROR] app - { Message: 'Could not establish connection to the database.' }
+[2015-02-24 18:42:08.376] [ERROR] app - { Message: 'Could not establish connection to the database.' }
+[2015-02-24 18:42:08.378] [ERROR] app - { Message: 'Could not establish connection to the database.' }
+[2015-02-24 18:42:09.119] [ERROR] app - { Message: 'Could not establish connection to the database.' }
+[2015-02-24 18:42:09.121] [ERROR] app - { Message: 'Could not establish connection to the database.' }
+[2015-02-24 18:42:09.124] [ERROR] app - { Message: 'Could not establish connection to the database.' }
+[2015-02-24 18:42:09.843] [ERROR] app - { Message: 'Could not establish connection to the database.' }
+[2015-02-24 18:42:09.845] [ERROR] app - { Message: 'Could not establish connection to the database.' }
+[2015-02-24 18:42:09.847] [ERROR] app - { Message: 'Could not establish connection to the database.' }
+[2015-02-24 18:42:10.907] [ERROR] app - { Message: 'Could not establish connection to the database.' }
+[2015-02-24 18:42:10.908] [ERROR] app - { Message: 'Could not establish connection to the database.' }
+[2015-02-24 18:42:10.910] [ERROR] app - { Message: 'Could not establish connection to the database.' }
+[2015-02-24 18:42:11.525] [ERROR] app - { Message: 'Could not establish connection to the database.' }
+[2015-02-24 18:42:11.526] [ERROR] app - { Message: 'Could not establish connection to the database.' }
+[2015-02-24 18:42:11.528] [ERROR] app - { Message: 'Could not establish connection to the database.' }
+[2015-02-24 18:42:12.060] [ERROR] app - { Message: 'Could not establish connection to the database.' }
+[2015-02-24 18:42:12.062] [ERROR] app - { Message: 'Could not establish connection to the database.' }
+[2015-02-24 18:42:12.064] [ERROR] app - { Message: 'Could not establish connection to the database.' }
+[2015-02-24 18:42:12.505] [ERROR] app - { Message: 'Could not establish connection to the database.' }
+[2015-02-24 18:42:12.507] [ERROR] app - { Message: 'Could not establish connection to the database.' }
+[2015-02-24 18:42:12.510] [ERROR] app - { Message: 'Could not establish connection to the database.' }
+[2015-02-24 18:42:13.041] [ERROR] app - { Message: 'Could not establish connection to the database.' }
+[2015-02-24 18:42:13.043] [ERROR] app - { Message: 'Could not establish connection to the database.' }
+[2015-02-24 18:42:13.048] [ERROR] app - { Message: 'Could not establish connection to the database.' }
+[2015-02-24 18:42:13.616] [ERROR] app - { Message: 'Could not establish connection to the database.' }
+[2015-02-24 18:42:13.619] [ERROR] app - { Message: 'Could not establish connection to the database.' }
+[2015-02-24 18:42:13.620] [ERROR] app - { Message: 'Could not establish connection to the database.' }
+[2015-02-24 18:42:20.013] [ERROR] app - { Message: 'Could not establish connection to the database.' }
+[2015-02-24 18:42:20.015] [ERROR] app - { Message: 'Could not establish connection to the database.' }
+[2015-02-24 18:42:20.017] [ERROR] app - { Message: 'Could not establish connection to the database.' }
+[2015-02-24 18:42:23.989] [ERROR] app - { Message: 'Could not establish connection to the database.' }
+[2015-02-24 18:42:23.991] [ERROR] app - { Message: 'Could not establish connection to the database.' }
+[2015-02-24 18:42:23.994] [ERROR] app - { Message: 'Could not establish connection to the database.' }
+[2015-02-24 18:42:25.439] [ERROR] app - { Message: 'Could not establish connection to the database.' }
+[2015-02-24 18:42:25.446] [ERROR] app - { Message: 'Could not establish connection to the database.' }
+[2015-02-24 18:42:25.448] [ERROR] app - { Message: 'Could not establish connection to the database.' }
+[2015-02-24 18:42:28.153] [ERROR] app - { Message: 'Could not establish connection to the database.' }
+[2015-02-24 18:42:28.155] [ERROR] app - { Message: 'Could not establish connection to the database.' }
+[2015-02-24 18:42:28.159] [ERROR] app - { Message: 'Could not establish connection to the database.' }
+[2015-02-24 18:42:28.965] [ERROR] app - { Message: 'Could not establish connection to the database.' }
+[2015-02-24 18:42:28.970] [ERROR] app - { Message: 'Could not establish connection to the database.' }
+[2015-02-24 18:42:28.978] [ERROR] app - { Message: 'Could not establish connection to the database.' }
+[2015-02-24 18:42:29.677] [ERROR] app - { Message: 'Could not establish connection to the database.' }
+[2015-02-24 18:42:29.679] [ERROR] app - { Message: 'Could not establish connection to the database.' }
+[2015-02-24 18:42:29.681] [ERROR] app - { Message: 'Could not establish connection to the database.' }
+[2015-02-24 18:42:30.575] [ERROR] app - { Message: 'Could not establish connection to the database.' }
+[2015-02-24 18:42:30.577] [ERROR] app - { Message: 'Could not establish connection to the database.' }
+[2015-02-24 18:42:30.582] [ERROR] app - { Message: 'Could not establish connection to the database.' }
+[2015-02-24 18:42:31.430] [ERROR] app - { Message: 'Could not establish connection to the database.' }
+[2015-02-24 18:42:31.433] [ERROR] app - { Message: 'Could not establish connection to the database.' }
+[2015-02-24 18:42:31.435] [ERROR] app - { Message: 'Could not establish connection to the database.' }
+[2015-02-24 18:42:32.043] [ERROR] app - { Message: 'Could not establish connection to the database.' }
+[2015-02-24 18:42:32.045] [ERROR] app - { Message: 'Could not establish connection to the database.' }
+[2015-02-24 18:42:32.048] [ERROR] app - { Message: 'Could not establish connection to the database.' }
+[2015-02-24 18:42:32.728] [ERROR] app - { Message: 'Could not establish connection to the database.' }
+[2015-02-24 18:42:32.730] [ERROR] app - { Message: 'Could not establish connection to the database.' }
+[2015-02-24 18:42:32.732] [ERROR] app - { Message: 'Could not establish connection to the database.' }
+[2015-02-24 18:42:34.311] [ERROR] app - { Message: 'Could not establish connection to the database.' }
+[2015-02-24 18:42:34.313] [ERROR] app - { Message: 'Could not establish connection to the database.' }
+[2015-02-24 18:42:34.315] [ERROR] app - { Message: 'Could not establish connection to the database.' }
+[2015-02-24 18:42:35.257] [ERROR] app - { Message: 'Could not establish connection to the database.' }
+[2015-02-24 18:42:35.260] [ERROR] app - { Message: 'Could not establish connection to the database.' }
+[2015-02-24 18:42:35.262] [ERROR] app - { Message: 'Could not establish connection to the database.' }
+[2015-02-24 18:42:42.418] [ERROR] app - { Message: 'Could not establish connection to the database.' }
+[2015-02-24 18:42:42.420] [ERROR] app - { Message: 'Could not establish connection to the database.' }
+[2015-02-24 18:42:42.428] [ERROR] app - { Message: 'Could not establish connection to the database.' }
+[2015-02-24 18:42:43.349] [ERROR] app - { Message: 'Could not establish connection to the database.' }
+[2015-02-24 18:42:43.351] [ERROR] app - { Message: 'Could not establish connection to the database.' }
+[2015-02-24 18:42:43.353] [ERROR] app - { Message: 'Could not establish connection to the database.' }
+[2015-02-24 18:42:44.556] [ERROR] app - { Message: 'Could not establish connection to the database.' }
+[2015-02-24 18:42:44.558] [ERROR] app - { Message: 'Could not establish connection to the database.' }
+[2015-02-24 18:42:44.560] [ERROR] app - { Message: 'Could not establish connection to the database.' }
+[2015-02-24 18:42:49.296] [ERROR] app - { Message: 'Could not establish connection to the database.' }
+[2015-02-24 18:42:49.297] [ERROR] app - { Message: 'Could not establish connection to the database.' }
+[2015-02-24 18:42:49.300] [ERROR] app - { Message: 'Could not establish connection to the database.' }
+[2015-02-24 18:42:51.019] [ERROR] app - { Message: 'Could not establish connection to the database.' }
+[2015-02-24 18:42:51.024] [ERROR] app - { Message: 'Could not establish connection to the database.' }
+[2015-02-24 18:42:51.028] [ERROR] app - { Message: 'Could not establish connection to the database.' }
+[2015-02-24 18:42:51.565] [ERROR] app - { Message: 'Could not establish connection to the database.' }
+[2015-02-24 18:42:51.568] [ERROR] app - { Message: 'Could not establish connection to the database.' }
+[2015-02-24 18:42:51.569] [ERROR] app - { Message: 'Could not establish connection to the database.' }
+[2015-02-24 18:42:52.076] [ERROR] app - { Message: 'Could not establish connection to the database.' }
+[2015-02-24 18:42:52.079] [ERROR] app - { Message: 'Could not establish connection to the database.' }
+[2015-02-24 18:42:52.083] [ERROR] app - { Message: 'Could not establish connection to the database.' }
+[2015-02-24 18:42:52.970] [ERROR] app - { Message: 'Could not establish connection to the database.' }
+[2015-02-24 18:42:52.972] [ERROR] app - { Message: 'Could not establish connection to the database.' }
+[2015-02-24 18:42:52.976] [ERROR] app - { Message: 'Could not establish connection to the database.' }
+[2015-02-24 18:42:55.055] [ERROR] app - { Message: 'Could not establish connection to the database.' }
+[2015-02-24 18:42:55.057] [ERROR] app - { Message: 'Could not establish connection to the database.' }
+[2015-02-24 18:42:55.064] [ERROR] app - { Message: 'Could not establish connection to the database.' }
+[2015-02-24 18:42:55.635] [ERROR] app - { Message: 'Could not establish connection to the database.' }
+[2015-02-24 18:42:55.637] [ERROR] app - { Message: 'Could not establish connection to the database.' }
+[2015-02-24 18:42:55.639] [ERROR] app - { Message: 'Could not establish connection to the database.' }
+[2015-02-24 18:42:56.100] [ERROR] app - { Message: 'Could not establish connection to the database.' }
+[2015-02-24 18:42:56.102] [ERROR] app - { Message: 'Could not establish connection to the database.' }
+[2015-02-24 18:42:56.105] [ERROR] app - { Message: 'Could not establish connection to the database.' }
+[2015-02-24 18:42:56.530] [ERROR] app - { Message: 'Could not establish connection to the database.' }
+[2015-02-24 18:42:56.532] [ERROR] app - { Message: 'Could not establish connection to the database.' }
+[2015-02-24 18:42:56.535] [ERROR] app - { Message: 'Could not establish connection to the database.' }
+[2015-02-24 18:42:56.963] [ERROR] app - { Message: 'Could not establish connection to the database.' }
+[2015-02-24 18:42:56.965] [ERROR] app - { Message: 'Could not establish connection to the database.' }
+[2015-02-24 18:42:56.969] [ERROR] app - { Message: 'Could not establish connection to the database.' }
+[2015-02-24 18:42:57.577] [ERROR] app - { Message: 'Could not establish connection to the database.' }
+[2015-02-24 18:42:57.580] [ERROR] app - { Message: 'Could not establish connection to the database.' }
+[2015-02-24 18:42:57.589] [ERROR] app - { Message: 'Could not establish connection to the database.' }
+[2015-02-24 18:42:58.178] [ERROR] app - { Message: 'Could not establish connection to the database.' }
+[2015-02-24 18:42:58.181] [ERROR] app - { Message: 'Could not establish connection to the database.' }
+[2015-02-24 18:42:58.183] [ERROR] app - { Message: 'Could not establish connection to the database.' }
+[2015-02-24 18:43:03.205] [ERROR] app - { Message: 'Could not establish connection to the database.' }
+[2015-02-24 18:43:03.208] [ERROR] app - { Message: 'Could not establish connection to the database.' }
+[2015-02-24 18:43:03.210] [ERROR] app - { Message: 'Could not establish connection to the database.' }
+[2015-02-24 18:43:03.771] [ERROR] app - { Message: 'Could not establish connection to the database.' }
+[2015-02-24 18:43:03.773] [ERROR] app - { Message: 'Could not establish connection to the database.' }
+[2015-02-24 18:43:03.776] [ERROR] app - { Message: 'Could not establish connection to the database.' }
+[2015-02-24 18:43:04.412] [ERROR] app - { Message: 'Could not establish connection to the database.' }
+[2015-02-24 18:43:04.418] [ERROR] app - { Message: 'Could not establish connection to the database.' }
+[2015-02-24 18:43:04.425] [ERROR] app - { Message: 'Could not establish connection to the database.' }
+[2015-02-24 18:43:04.945] [ERROR] app - { Message: 'Could not establish connection to the database.' }
+[2015-02-24 18:43:04.948] [ERROR] app - { Message: 'Could not establish connection to the database.' }
+[2015-02-24 18:43:04.952] [ERROR] app - { Message: 'Could not establish connection to the database.' }
+[2015-02-26 12:17:28.496] [ERROR] app - { Message: 'Could not establish connection to the database.' }
+[2015-02-26 12:17:28.522] [ERROR] app - { Message: 'Could not establish connection to the database.' }
+[2015-02-26 12:17:33.550] [ERROR] app - { Message: 'Could not establish connection to the database.' }
+[2015-02-26 12:17:35.624] [ERROR] app - { Message: 'Could not establish connection to the database.' }
+[2015-02-26 12:17:50.744] [ERROR] app - { Message: 'Could not establish connection to the database.' }
+[2015-02-27 11:10:40.399] [ERROR] app - { Message: 'Could not establish connection to the database.' }
+[2015-02-27 11:10:56.702] [ERROR] app - { Message: 'Could not establish connection to the database.' }
+[2015-02-27 11:19:36.159] [ERROR] app - [TypeError: Cannot read property 'IsStudent' of undefined]
+TypeError: Cannot read property 'IsStudent' of undefined
+    at router.get.studentId (/home/saimanasa/nassessment/nassessment/routes/courseforms.js:164:10)
+    at Layer.handle [as handle_request] (/home/saimanasa/nassessment/nassessment/node_modules/express/lib/router/layer.js:82:5)
+    at next (/home/saimanasa/nassessment/nassessment/node_modules/express/lib/router/route.js:110:13)
+    at Route.dispatch (/home/saimanasa/nassessment/nassessment/node_modules/express/lib/router/route.js:91:3)
+    at Layer.handle [as handle_request] (/home/saimanasa/nassessment/nassessment/node_modules/express/lib/router/layer.js:82:5)
+    at /home/saimanasa/nassessment/nassessment/node_modules/express/lib/router/index.js:267:22
+    at Function.proto.process_params (/home/saimanasa/nassessment/nassessment/node_modules/express/lib/router/index.js:321:12)
+    at next (/home/saimanasa/nassessment/nassessment/node_modules/express/lib/router/index.js:261:10)
+    at router.get.core.getCourseForms.res.json.Status (/home/saimanasa/nassessment/nassessment/routes/courseforms.js:16:2)
+    at Layer.handle [as handle_request] (/home/saimanasa/nassessment/nassessment/node_modules/express/lib/router/layer.js:82:5)
+[2015-02-27 11:51:53.732] [ERROR] app - { Message: 'Could not establish connection to the database.' }
+[2015-02-27 11:52:00.445] [ERROR] app - { Message: 'Could not establish connection to the database.' }
+[2015-02-27 11:52:02.603] [ERROR] app - { Message: 'Could not establish connection to the database.' }
+[2015-02-27 11:52:07.391] [ERROR] app - { Message: 'Could not establish connection to the database.' }
+[2015-02-27 12:22:39.553] [ERROR] app - { Message: 'Could not establish connection to the database.' }
+[2015-02-27 12:22:41.278] [ERROR] app - { Message: 'Could not establish connection to the database.' }
+[2015-02-27 12:22:42.377] [ERROR] app - { Message: 'Could not establish connection to the database.' }
+[2015-02-27 12:22:59.960] [ERROR] app - { Message: 'Could not establish connection to the database.' }
+[2015-03-03 17:12:13.678] [ERROR] app - { Message: 'Could not establish connection to the database.' }
+[2015-03-09 12:09:14.943] [ERROR] app - { Message: 'Could not establish connection to the database.' }
+[2015-03-09 12:09:15.183] [ERROR] app - { Message: 'Could not establish connection to the database.' }
+[2015-03-09 12:09:16.605] [ERROR] app - { Message: 'Could not establish connection to the database.' }
+[2015-03-10 16:00:21.688] [ERROR] app - { Message: 'Could not establish connection to the database.' }
+[2015-03-10 16:00:21.702] [ERROR] app - { Message: 'Could not establish connection to the database.' }
+[2015-03-10 16:00:44.104] [ERROR] app - { Message: 'Could not establish connection to the database.' }
+[2015-03-12 12:15:07.598] [ERROR] app - { Message: 'Could not establish connection to the database.' }
+[2015-03-12 12:15:07.843] [ERROR] app - { Message: 'Could not establish connection to the database.' }
+[2015-03-12 15:00:28.446] [ERROR] app - { Message: 'Could not establish connection to the database.' }
+[2015-03-27 12:57:53.962] [ERROR] app - { Message: 'Could not establish connection to the database.' }
+[2015-03-27 12:57:55.678] [ERROR] app - { Message: 'Could not establish connection to the database.' }
+[2015-03-27 12:57:56.430] [ERROR] app - { Message: 'Could not establish connection to the database.' }
+[2015-03-27 12:57:56.841] [ERROR] app - { Message: 'Could not establish connection to the database.' }
+[2015-03-27 12:57:57.836] [ERROR] app - { Message: 'Could not establish connection to the database.' }
+[2015-03-27 12:59:55.677] [ERROR] app - { Message: 'Could not establish connection to the database.' }
+[2015-03-27 13:00:30.704] [ERROR] app - { Message: 'Could not establish connection to the database.' }
+[2015-04-16 15:18:12.406] [ERROR] app - { Message: 'Could not establish connection to the database.' }
+[2015-04-16 15:18:12.629] [ERROR] app - { Message: 'Could not establish connection to the database.' }
+[2015-04-16 15:18:16.675] [ERROR] app - { Message: 'Could not establish connection to the database.' }
+[2015-04-20 13:02:06.748] [ERROR] app - [ReferenceError: nodemailer is not defined]
+ReferenceError: nodemailer is not defined
+    at Core.registerUser (/home/saimanasa/nassessment/nassessment/core/core.js:62:22)
+    at router.get.userId (/home/saimanasa/nassessment/nassessment/routes/users.js:34:7)
+    at Layer.handle [as handle_request] (/home/saimanasa/nassessment/nassessment/node_modules/express/lib/router/layer.js:82:5)
+    at next (/home/saimanasa/nassessment/nassessment/node_modules/express/lib/router/route.js:110:13)
+    at Route.dispatch (/home/saimanasa/nassessment/nassessment/node_modules/express/lib/router/route.js:91:3)
+    at Layer.handle [as handle_request] (/home/saimanasa/nassessment/nassessment/node_modules/express/lib/router/layer.js:82:5)
+    at /home/saimanasa/nassessment/nassessment/node_modules/express/lib/router/index.js:267:22
+    at Function.proto.process_params (/home/saimanasa/nassessment/nassessment/node_modules/express/lib/router/index.js:321:12)
+    at next (/home/saimanasa/nassessment/nassessment/node_modules/express/lib/router/index.js:261:10)
+    at router.get.core.getUsers.res.json.Status (/home/saimanasa/nassessment/nassessment/routes/users.js:15:2)
+[2015-04-20 13:02:08.036] [ERROR] app - [ReferenceError: nodemailer is not defined]
+ReferenceError: nodemailer is not defined
+    at Core.registerUser (/home/saimanasa/nassessment/nassessment/core/core.js:62:22)
+    at router.get.userId (/home/saimanasa/nassessment/nassessment/routes/users.js:34:7)
+    at Layer.handle [as handle_request] (/home/saimanasa/nassessment/nassessment/node_modules/express/lib/router/layer.js:82:5)
+    at next (/home/saimanasa/nassessment/nassessment/node_modules/express/lib/router/route.js:110:13)
+    at Route.dispatch (/home/saimanasa/nassessment/nassessment/node_modules/express/lib/router/route.js:91:3)
+    at Layer.handle [as handle_request] (/home/saimanasa/nassessment/nassessment/node_modules/express/lib/router/layer.js:82:5)
+    at /home/saimanasa/nassessment/nassessment/node_modules/express/lib/router/index.js:267:22
+    at Function.proto.process_params (/home/saimanasa/nassessment/nassessment/node_modules/express/lib/router/index.js:321:12)
+    at next (/home/saimanasa/nassessment/nassessment/node_modules/express/lib/router/index.js:261:10)
+    at router.get.core.getUsers.res.json.Status (/home/saimanasa/nassessment/nassessment/routes/users.js:15:2)
+[2015-04-20 13:02:58.358] [ERROR] app - [ReferenceError: nodemailer is not defined]
+ReferenceError: nodemailer is not defined
+    at Core.registerUser (/home/saimanasa/nassessment/nassessment/core/core.js:62:22)
+    at router.get.userId (/home/saimanasa/nassessment/nassessment/routes/users.js:34:7)
+    at Layer.handle [as handle_request] (/home/saimanasa/nassessment/nassessment/node_modules/express/lib/router/layer.js:82:5)
+    at next (/home/saimanasa/nassessment/nassessment/node_modules/express/lib/router/route.js:110:13)
+    at Route.dispatch (/home/saimanasa/nassessment/nassessment/node_modules/express/lib/router/route.js:91:3)
+    at Layer.handle [as handle_request] (/home/saimanasa/nassessment/nassessment/node_modules/express/lib/router/layer.js:82:5)
+    at /home/saimanasa/nassessment/nassessment/node_modules/express/lib/router/index.js:267:22
+    at Function.proto.process_params (/home/saimanasa/nassessment/nassessment/node_modules/express/lib/router/index.js:321:12)
+    at next (/home/saimanasa/nassessment/nassessment/node_modules/express/lib/router/index.js:261:10)
+    at router.get.core.getUsers.res.json.Status (/home/saimanasa/nassessment/nassessment/routes/users.js:15:2)
+[2015-04-20 13:02:58.798] [ERROR] app - [ReferenceError: nodemailer is not defined]
+ReferenceError: nodemailer is not defined
+    at Core.registerUser (/home/saimanasa/nassessment/nassessment/core/core.js:62:22)
+    at router.get.userId (/home/saimanasa/nassessment/nassessment/routes/users.js:34:7)
+    at Layer.handle [as handle_request] (/home/saimanasa/nassessment/nassessment/node_modules/express/lib/router/layer.js:82:5)
+    at next (/home/saimanasa/nassessment/nassessment/node_modules/express/lib/router/route.js:110:13)
+    at Route.dispatch (/home/saimanasa/nassessment/nassessment/node_modules/express/lib/router/route.js:91:3)
+    at Layer.handle [as handle_request] (/home/saimanasa/nassessment/nassessment/node_modules/express/lib/router/layer.js:82:5)
+    at /home/saimanasa/nassessment/nassessment/node_modules/express/lib/router/index.js:267:22
+    at Function.proto.process_params (/home/saimanasa/nassessment/nassessment/node_modules/express/lib/router/index.js:321:12)
+    at next (/home/saimanasa/nassessment/nassessment/node_modules/express/lib/router/index.js:261:10)
+    at router.get.core.getUsers.res.json.Status (/home/saimanasa/nassessment/nassessment/routes/users.js:15:2)
+[2015-04-20 13:02:59.232] [ERROR] app - [ReferenceError: nodemailer is not defined]
+ReferenceError: nodemailer is not defined
+    at Core.registerUser (/home/saimanasa/nassessment/nassessment/core/core.js:62:22)
+    at router.get.userId (/home/saimanasa/nassessment/nassessment/routes/users.js:34:7)
+    at Layer.handle [as handle_request] (/home/saimanasa/nassessment/nassessment/node_modules/express/lib/router/layer.js:82:5)
+    at next (/home/saimanasa/nassessment/nassessment/node_modules/express/lib/router/route.js:110:13)
+    at Route.dispatch (/home/saimanasa/nassessment/nassessment/node_modules/express/lib/router/route.js:91:3)
+    at Layer.handle [as handle_request] (/home/saimanasa/nassessment/nassessment/node_modules/express/lib/router/layer.js:82:5)
+    at /home/saimanasa/nassessment/nassessment/node_modules/express/lib/router/index.js:267:22
+    at Function.proto.process_params (/home/saimanasa/nassessment/nassessment/node_modules/express/lib/router/index.js:321:12)
+    at next (/home/saimanasa/nassessment/nassessment/node_modules/express/lib/router/index.js:261:10)
+    at router.get.core.getUsers.res.json.Status (/home/saimanasa/nassessment/nassessment/routes/users.js:15:2)
+[2015-04-20 13:02:59.509] [ERROR] app - [ReferenceError: nodemailer is not defined]
+ReferenceError: nodemailer is not defined
+    at Core.registerUser (/home/saimanasa/nassessment/nassessment/core/core.js:62:22)
+    at router.get.userId (/home/saimanasa/nassessment/nassessment/routes/users.js:34:7)
+    at Layer.handle [as handle_request] (/home/saimanasa/nassessment/nassessment/node_modules/express/lib/router/layer.js:82:5)
+    at next (/home/saimanasa/nassessment/nassessment/node_modules/express/lib/router/route.js:110:13)
+    at Route.dispatch (/home/saimanasa/nassessment/nassessment/node_modules/express/lib/router/route.js:91:3)
+    at Layer.handle [as handle_request] (/home/saimanasa/nassessment/nassessment/node_modules/express/lib/router/layer.js:82:5)
+    at /home/saimanasa/nassessment/nassessment/node_modules/express/lib/router/index.js:267:22
+    at Function.proto.process_params (/home/saimanasa/nassessment/nassessment/node_modules/express/lib/router/index.js:321:12)
+    at next (/home/saimanasa/nassessment/nassessment/node_modules/express/lib/router/index.js:261:10)
+    at router.get.core.getUsers.res.json.Status (/home/saimanasa/nassessment/nassessment/routes/users.js:15:2)
+[2015-04-21 18:41:27.251] [ERROR] app - { Message: 'Could not establish connection to the database.' }
+[2015-04-21 18:41:34.346] [ERROR] app - { Message: 'Could not establish connection to the database.' }
+[2015-04-21 19:39:46.854] [ERROR] app - { Message: 'Could not establish connection to the database.' }
+[2015-04-21 19:39:49.044] [ERROR] app - { Message: 'Could not establish connection to the database.' }
+[2015-04-21 19:40:03.165] [ERROR] app - { Message: 'Could not establish connection to the database.' }
+[2015-04-22 11:36:45.697] [ERROR] app - { Message: 'Could not establish connection to the database.' }
+[2015-04-22 11:36:45.911] [ERROR] app - { Message: 'Could not establish connection to the database.' }
+[2015-04-22 11:36:46.594] [ERROR] app - { Message: 'Could not establish connection to the database.' }
+[2015-04-22 15:36:30.600] [ERROR] app - { Message: 'Could not establish connection to the database.' }
+[2015-04-22 15:36:39.063] [ERROR] app - { Message: 'Could not establish connection to the database.' }
+[2015-04-22 15:36:40.818] [ERROR] app - { Message: 'Could not establish connection to the database.' }
+[2015-04-22 16:24:59.693] [ERROR] app - { Message: 'Could not establish connection to the database.' }
+[2015-04-22 16:24:59.700] [ERROR] app - { Message: 'Could not establish connection to the database.' }
+[2015-04-22 16:25:02.527] [ERROR] app - { Message: 'Could not establish connection to the database.' }
+[2015-04-22 16:25:04.930] [ERROR] app - { Message: 'Could not establish connection to the database.' }
+[2015-04-22 16:25:06.987] [ERROR] app - { Message: 'Could not establish connection to the database.' }
+[2015-04-22 16:25:09.837] [ERROR] app - { Message: 'Could not establish connection to the database.' }
+[2015-04-22 16:25:09.839] [ERROR] app - { Message: 'Could not establish connection to the database.' }
+[2015-04-22 16:25:11.924] [ERROR] app - { Message: 'Could not establish connection to the database.' }
+[2015-04-22 16:25:11.927] [ERROR] app - { Message: 'Could not establish connection to the database.' }
+[2015-04-22 16:25:16.555] [ERROR] app - { Message: 'Could not establish connection to the database.' }
+[2015-04-22 16:57:46.920] [ERROR] app - { Message: 'Could not establish connection to the database.' }
+[2015-04-22 16:57:47.925] [ERROR] app - { Message: 'Could not establish connection to the database.' }
+[2015-04-22 16:57:49.294] [ERROR] app - { Message: 'Could not establish connection to the database.' }
+[2015-04-22 16:57:50.533] [ERROR] app - { Message: 'Could not establish connection to the database.' }
+[2015-04-22 16:58:08.184] [ERROR] app - { Message: 'Could not establish connection to the database.' }
+[2015-04-22 16:58:08.491] [ERROR] app - { Message: 'Could not establish connection to the database.' }
+[2015-04-22 16:58:08.521] [ERROR] app - { Message: 'Could not establish connection to the database.' }
+[2015-04-22 16:58:15.381] [ERROR] app - { Message: 'Could not establish connection to the database.' }
+[2015-04-23 10:55:15.866] [ERROR] app - { Message: 'Could not establish connection to the database.' }
+[2015-04-23 10:55:16.306] [ERROR] app - { Message: 'Could not establish connection to the database.' }
+[2015-04-27 14:42:25.897] [ERROR] app - { Message: 'Could not establish connection to the database.' }
+[2015-04-27 14:42:26.176] [ERROR] app - { Message: 'Could not establish connection to the database.' }
+[2015-04-27 14:42:30.126] [ERROR] app - { Message: 'Could not establish connection to the database.' }
+[2015-04-27 14:42:43.831] [ERROR] app - { Message: 'Could not establish connection to the database.' }
+[2015-04-28 10:42:50.654] [ERROR] app - { Message: 'Could not establish connection to the database.' }
+[2015-04-28 10:42:50.888] [ERROR] app - { Message: 'Could not establish connection to the database.' }
+[2015-04-28 10:42:53.702] [ERROR] app - { Message: 'Could not establish connection to the database.' }
+[2015-04-29 11:38:06.208] [ERROR] app - { Message: 'Could not establish connection to the database.' }
+[2015-04-29 11:38:06.589] [ERROR] app - { Message: 'Could not establish connection to the database.' }
+[2015-04-29 11:38:12.698] [ERROR] app - { Message: 'Could not establish connection to the database.' }
+[2015-04-29 19:01:18.576] [ERROR] app - { Message: 'Could not establish connection to the database.' }
+[2015-04-29 19:01:18.579] [ERROR] app - { Message: 'Could not establish connection to the database.' }
+[2015-04-29 19:01:34.459] [ERROR] app - { Message: 'Could not establish connection to the database.' }
+[2015-04-29 19:01:45.194] [ERROR] app - { Message: 'Could not establish connection to the database.' }
+[2015-04-29 19:01:54.950] [ERROR] app - { Message: 'Could not establish connection to the database.' }
+[2015-05-01 19:06:03.203] [ERROR] app - { Message: 'Could not establish connection to the database.' }
+[2015-05-01 19:06:03.264] [ERROR] app - { Message: 'Could not establish connection to the database.' }
+[2015-05-01 19:06:03.343] [ERROR] app - { Message: 'Could not establish connection to the database.' }
+[2015-05-01 19:06:03.440] [ERROR] app - { Message: 'Could not establish connection to the database.' }
+[2015-05-01 19:06:03.928] [ERROR] app - { Message: 'Could not establish connection to the database.' }
+[2015-05-01 19:06:16.612] [ERROR] app - { Message: 'Could not establish connection to the database.' }
+[2015-05-04 16:27:39.238] [ERROR] app - { Message: 'Could not establish connection to the database.' }
+[2015-05-04 16:27:59.293] [ERROR] app - { Message: 'Could not establish connection to the database.' }
+[2015-05-08 12:00:11.427] [ERROR] app - { Message: 'Could not establish connection to the database.' }
+[2015-05-08 12:43:22.098] [ERROR] app - { Message: 'Could not establish connection to the database.' }
+[2015-05-08 12:43:22.103] [ERROR] app - { Message: 'Could not establish connection to the database.' }
+[2015-05-08 12:43:24.001] [ERROR] app - { Message: 'Could not establish connection to the database.' }
+[2015-05-08 12:43:30.697] [ERROR] app - { Message: 'Could not establish connection to the database.' }
+[2015-05-08 16:20:22.187] [ERROR] app - [ReferenceError: Inactive is not defined]
+ReferenceError: Inactive is not defined
+    at router.get.userId (/home/saimanasa/nassessment/nassessment/routes/users.js:38:17)
+    at Layer.handle [as handle_request] (/home/saimanasa/nassessment/nassessment/node_modules/express/lib/router/layer.js:82:5)
+    at next (/home/saimanasa/nassessment/nassessment/node_modules/express/lib/router/route.js:110:13)
+    at Route.dispatch (/home/saimanasa/nassessment/nassessment/node_modules/express/lib/router/route.js:91:3)
+    at Layer.handle [as handle_request] (/home/saimanasa/nassessment/nassessment/node_modules/express/lib/router/layer.js:82:5)
+    at /home/saimanasa/nassessment/nassessment/node_modules/express/lib/router/index.js:267:22
+    at Function.proto.process_params (/home/saimanasa/nassessment/nassessment/node_modules/express/lib/router/index.js:321:12)
+    at next (/home/saimanasa/nassessment/nassessment/node_modules/express/lib/router/index.js:261:10)
+    at router.get.core.getUsers.res.json.Status (/home/saimanasa/nassessment/nassessment/routes/users.js:15:2)
+    at Layer.handle [as handle_request] (/home/saimanasa/nassessment/nassessment/node_modules/express/lib/router/layer.js:82:5)
+[2015-05-08 16:21:13.530] [ERROR] app - [ReferenceError: Inactive is not defined]
+ReferenceError: Inactive is not defined
+    at router.get.userId (/home/saimanasa/nassessment/nassessment/routes/users.js:38:17)
+    at Layer.handle [as handle_request] (/home/saimanasa/nassessment/nassessment/node_modules/express/lib/router/layer.js:82:5)
+    at next (/home/saimanasa/nassessment/nassessment/node_modules/express/lib/router/route.js:110:13)
+    at Route.dispatch (/home/saimanasa/nassessment/nassessment/node_modules/express/lib/router/route.js:91:3)
+    at Layer.handle [as handle_request] (/home/saimanasa/nassessment/nassessment/node_modules/express/lib/router/layer.js:82:5)
+    at /home/saimanasa/nassessment/nassessment/node_modules/express/lib/router/index.js:267:22
+    at Function.proto.process_params (/home/saimanasa/nassessment/nassessment/node_modules/express/lib/router/index.js:321:12)
+    at next (/home/saimanasa/nassessment/nassessment/node_modules/express/lib/router/index.js:261:10)
+    at router.get.core.getUsers.res.json.Status (/home/saimanasa/nassessment/nassessment/routes/users.js:15:2)
+    at Layer.handle [as handle_request] (/home/saimanasa/nassessment/nassessment/node_modules/express/lib/router/layer.js:82:5)
+[2015-05-08 18:01:24.982] [ERROR] app - [ReferenceError: criteria is not defined]
+ReferenceError: criteria is not defined
+    at router.post.flag (/home/saimanasa/nassessment/nassessment/routes/users.js:80:16)
+    at Layer.handle [as handle_request] (/home/saimanasa/nassessment/nassessment/node_modules/express/lib/router/layer.js:82:5)
+    at next (/home/saimanasa/nassessment/nassessment/node_modules/express/lib/router/route.js:110:13)
+    at Route.dispatch (/home/saimanasa/nassessment/nassessment/node_modules/express/lib/router/route.js:91:3)
+    at Layer.handle [as handle_request] (/home/saimanasa/nassessment/nassessment/node_modules/express/lib/router/layer.js:82:5)
+    at /home/saimanasa/nassessment/nassessment/node_modules/express/lib/router/index.js:267:22
+    at Function.proto.process_params (/home/saimanasa/nassessment/nassessment/node_modules/express/lib/router/index.js:321:12)
+    at next (/home/saimanasa/nassessment/nassessment/node_modules/express/lib/router/index.js:261:10)
+    at router.get.core.getUsers.res.json.Status (/home/saimanasa/nassessment/nassessment/routes/users.js:15:2)
+    at Layer.handle [as handle_request] (/home/saimanasa/nassessment/nassessment/node_modules/express/lib/router/layer.js:82:5)
+[2015-05-08 18:25:48.122] [ERROR] app - [ReferenceError: criteria is not defined]
+ReferenceError: criteria is not defined
+    at router.post.flag (/home/saimanasa/nassessment/nassessment/routes/users.js:80:16)
+    at Layer.handle [as handle_request] (/home/saimanasa/nassessment/nassessment/node_modules/express/lib/router/layer.js:82:5)
+    at next (/home/saimanasa/nassessment/nassessment/node_modules/express/lib/router/route.js:110:13)
+    at Route.dispatch (/home/saimanasa/nassessment/nassessment/node_modules/express/lib/router/route.js:91:3)
+    at Layer.handle [as handle_request] (/home/saimanasa/nassessment/nassessment/node_modules/express/lib/router/layer.js:82:5)
+    at /home/saimanasa/nassessment/nassessment/node_modules/express/lib/router/index.js:267:22
+    at Function.proto.process_params (/home/saimanasa/nassessment/nassessment/node_modules/express/lib/router/index.js:321:12)
+    at next (/home/saimanasa/nassessment/nassessment/node_modules/express/lib/router/index.js:261:10)
+    at router.get.core.getUsers.res.json.Status (/home/saimanasa/nassessment/nassessment/routes/users.js:15:2)
+    at Layer.handle [as handle_request] (/home/saimanasa/nassessment/nassessment/node_modules/express/lib/router/layer.js:82:5)
+[2015-05-08 21:21:12.562] [ERROR] app - { Message: 'Could not establish connection to the database.' }
+[2015-05-08 21:21:13.063] [ERROR] app - { Message: 'Could not establish connection to the database.' }
+[2015-05-08 21:21:13.280] [ERROR] app - { Message: 'Could not establish connection to the database.' }
+[2015-05-08 21:21:14.187] [ERROR] app - { Message: 'Could not establish connection to the database.' }
+[2015-05-08 21:21:18.549] [ERROR] app - { Message: 'Could not establish connection to the database.' }
+[2015-05-08 21:21:41.239] [ERROR] app - [ReferenceError: encrypt is not defined]
+ReferenceError: encrypt is not defined
+    at Core.forgotPassword (/home/saimanasa/nassessment/nassessment/core/core.js:98:14)
+    at router.post.flag (/home/saimanasa/nassessment/nassessment/routes/users.js:97:7)
+    at Layer.handle [as handle_request] (/home/saimanasa/nassessment/nassessment/node_modules/express/lib/router/layer.js:82:5)
+    at next (/home/saimanasa/nassessment/nassessment/node_modules/express/lib/router/route.js:110:13)
+    at Route.dispatch (/home/saimanasa/nassessment/nassessment/node_modules/express/lib/router/route.js:91:3)
+    at Layer.handle [as handle_request] (/home/saimanasa/nassessment/nassessment/node_modules/express/lib/router/layer.js:82:5)
+    at /home/saimanasa/nassessment/nassessment/node_modules/express/lib/router/index.js:267:22
+    at Function.proto.process_params (/home/saimanasa/nassessment/nassessment/node_modules/express/lib/router/index.js:321:12)
+    at next (/home/saimanasa/nassessment/nassessment/node_modules/express/lib/router/index.js:261:10)
+    at router.get.core.getUsers.res.json.Status (/home/saimanasa/nassessment/nassessment/routes/users.js:15:2)
+[2015-05-08 21:21:42.731] [ERROR] app - [ReferenceError: encrypt is not defined]
+ReferenceError: encrypt is not defined
+    at Core.forgotPassword (/home/saimanasa/nassessment/nassessment/core/core.js:98:14)
+    at router.post.flag (/home/saimanasa/nassessment/nassessment/routes/users.js:97:7)
+    at Layer.handle [as handle_request] (/home/saimanasa/nassessment/nassessment/node_modules/express/lib/router/layer.js:82:5)
+    at next (/home/saimanasa/nassessment/nassessment/node_modules/express/lib/router/route.js:110:13)
+    at Route.dispatch (/home/saimanasa/nassessment/nassessment/node_modules/express/lib/router/route.js:91:3)
+    at Layer.handle [as handle_request] (/home/saimanasa/nassessment/nassessment/node_modules/express/lib/router/layer.js:82:5)
+    at /home/saimanasa/nassessment/nassessment/node_modules/express/lib/router/index.js:267:22
+    at Function.proto.process_params (/home/saimanasa/nassessment/nassessment/node_modules/express/lib/router/index.js:321:12)
+    at next (/home/saimanasa/nassessment/nassessment/node_modules/express/lib/router/index.js:261:10)
+    at router.get.core.getUsers.res.json.Status (/home/saimanasa/nassessment/nassessment/routes/users.js:15:2)
+[2015-05-08 21:23:22.095] [ERROR] app - [ReferenceError: encrypt is not defined]
+ReferenceError: encrypt is not defined
+    at Core.forgotPassword (/home/saimanasa/nassessment/nassessment/core/core.js:98:14)
+    at router.post.flag (/home/saimanasa/nassessment/nassessment/routes/users.js:97:7)
+    at Layer.handle [as handle_request] (/home/saimanasa/nassessment/nassessment/node_modules/express/lib/router/layer.js:82:5)
+    at next (/home/saimanasa/nassessment/nassessment/node_modules/express/lib/router/route.js:110:13)
+    at Route.dispatch (/home/saimanasa/nassessment/nassessment/node_modules/express/lib/router/route.js:91:3)
+    at Layer.handle [as handle_request] (/home/saimanasa/nassessment/nassessment/node_modules/express/lib/router/layer.js:82:5)
+    at /home/saimanasa/nassessment/nassessment/node_modules/express/lib/router/index.js:267:22
+    at Function.proto.process_params (/home/saimanasa/nassessment/nassessment/node_modules/express/lib/router/index.js:321:12)
+    at next (/home/saimanasa/nassessment/nassessment/node_modules/express/lib/router/index.js:261:10)
+    at router.get.core.getUsers.res.json.Status (/home/saimanasa/nassessment/nassessment/routes/users.js:15:2)
+[2015-05-08 21:23:22.678] [ERROR] app - [ReferenceError: encrypt is not defined]
+ReferenceError: encrypt is not defined
+    at Core.forgotPassword (/home/saimanasa/nassessment/nassessment/core/core.js:98:14)
+    at router.post.flag (/home/saimanasa/nassessment/nassessment/routes/users.js:97:7)
+    at Layer.handle [as handle_request] (/home/saimanasa/nassessment/nassessment/node_modules/express/lib/router/layer.js:82:5)
+    at next (/home/saimanasa/nassessment/nassessment/node_modules/express/lib/router/route.js:110:13)
+    at Route.dispatch (/home/saimanasa/nassessment/nassessment/node_modules/express/lib/router/route.js:91:3)
+    at Layer.handle [as handle_request] (/home/saimanasa/nassessment/nassessment/node_modules/express/lib/router/layer.js:82:5)
+    at /home/saimanasa/nassessment/nassessment/node_modules/express/lib/router/index.js:267:22
+    at Function.proto.process_params (/home/saimanasa/nassessment/nassessment/node_modules/express/lib/router/index.js:321:12)
+    at next (/home/saimanasa/nassessment/nassessment/node_modules/express/lib/router/index.js:261:10)
+    at router.get.core.getUsers.res.json.Status (/home/saimanasa/nassessment/nassessment/routes/users.js:15:2)
+[2015-05-08 21:23:22.878] [ERROR] app - [ReferenceError: encrypt is not defined]
+ReferenceError: encrypt is not defined
+    at Core.forgotPassword (/home/saimanasa/nassessment/nassessment/core/core.js:98:14)
+    at router.post.flag (/home/saimanasa/nassessment/nassessment/routes/users.js:97:7)
+    at Layer.handle [as handle_request] (/home/saimanasa/nassessment/nassessment/node_modules/express/lib/router/layer.js:82:5)
+    at next (/home/saimanasa/nassessment/nassessment/node_modules/express/lib/router/route.js:110:13)
+    at Route.dispatch (/home/saimanasa/nassessment/nassessment/node_modules/express/lib/router/route.js:91:3)
+    at Layer.handle [as handle_request] (/home/saimanasa/nassessment/nassessment/node_modules/express/lib/router/layer.js:82:5)
+    at /home/saimanasa/nassessment/nassessment/node_modules/express/lib/router/index.js:267:22
+    at Function.proto.process_params (/home/saimanasa/nassessment/nassessment/node_modules/express/lib/router/index.js:321:12)
+    at next (/home/saimanasa/nassessment/nassessment/node_modules/express/lib/router/index.js:261:10)
+    at router.get.core.getUsers.res.json.Status (/home/saimanasa/nassessment/nassessment/routes/users.js:15:2)
+[2015-05-09 13:00:14.252] [ERROR] app - [ReferenceError: encrypt is not defined]
+ReferenceError: encrypt is not defined
+    at Core.forgotPassword (/home/saimanasa/nassessment/nassessment/core/core.js:98:14)
+    at router.post.flag (/home/saimanasa/nassessment/nassessment/routes/users.js:97:7)
+    at Layer.handle [as handle_request] (/home/saimanasa/nassessment/nassessment/node_modules/express/lib/router/layer.js:82:5)
+    at next (/home/saimanasa/nassessment/nassessment/node_modules/express/lib/router/route.js:110:13)
+    at Route.dispatch (/home/saimanasa/nassessment/nassessment/node_modules/express/lib/router/route.js:91:3)
+    at Layer.handle [as handle_request] (/home/saimanasa/nassessment/nassessment/node_modules/express/lib/router/layer.js:82:5)
+    at /home/saimanasa/nassessment/nassessment/node_modules/express/lib/router/index.js:267:22
+    at Function.proto.process_params (/home/saimanasa/nassessment/nassessment/node_modules/express/lib/router/index.js:321:12)
+    at next (/home/saimanasa/nassessment/nassessment/node_modules/express/lib/router/index.js:261:10)
+    at router.get.core.getUsers.res.json.Status (/home/saimanasa/nassessment/nassessment/routes/users.js:15:2)
+[2015-05-09 13:00:15.044] [ERROR] app - [ReferenceError: encrypt is not defined]
+ReferenceError: encrypt is not defined
+    at Core.forgotPassword (/home/saimanasa/nassessment/nassessment/core/core.js:98:14)
+    at router.post.flag (/home/saimanasa/nassessment/nassessment/routes/users.js:97:7)
+    at Layer.handle [as handle_request] (/home/saimanasa/nassessment/nassessment/node_modules/express/lib/router/layer.js:82:5)
+    at next (/home/saimanasa/nassessment/nassessment/node_modules/express/lib/router/route.js:110:13)
+    at Route.dispatch (/home/saimanasa/nassessment/nassessment/node_modules/express/lib/router/route.js:91:3)
+    at Layer.handle [as handle_request] (/home/saimanasa/nassessment/nassessment/node_modules/express/lib/router/layer.js:82:5)
+    at /home/saimanasa/nassessment/nassessment/node_modules/express/lib/router/index.js:267:22
+    at Function.proto.process_params (/home/saimanasa/nassessment/nassessment/node_modules/express/lib/router/index.js:321:12)
+    at next (/home/saimanasa/nassessment/nassessment/node_modules/express/lib/router/index.js:261:10)
+    at router.get.core.getUsers.res.json.Status (/home/saimanasa/nassessment/nassessment/routes/users.js:15:2)
+[2015-05-09 13:00:15.264] [ERROR] app - [ReferenceError: encrypt is not defined]
+ReferenceError: encrypt is not defined
+    at Core.forgotPassword (/home/saimanasa/nassessment/nassessment/core/core.js:98:14)
+    at router.post.flag (/home/saimanasa/nassessment/nassessment/routes/users.js:97:7)
+    at Layer.handle [as handle_request] (/home/saimanasa/nassessment/nassessment/node_modules/express/lib/router/layer.js:82:5)
+    at next (/home/saimanasa/nassessment/nassessment/node_modules/express/lib/router/route.js:110:13)
+    at Route.dispatch (/home/saimanasa/nassessment/nassessment/node_modules/express/lib/router/route.js:91:3)
+    at Layer.handle [as handle_request] (/home/saimanasa/nassessment/nassessment/node_modules/express/lib/router/layer.js:82:5)
+    at /home/saimanasa/nassessment/nassessment/node_modules/express/lib/router/index.js:267:22
+    at Function.proto.process_params (/home/saimanasa/nassessment/nassessment/node_modules/express/lib/router/index.js:321:12)
+    at next (/home/saimanasa/nassessment/nassessment/node_modules/express/lib/router/index.js:261:10)
+    at router.get.core.getUsers.res.json.Status (/home/saimanasa/nassessment/nassessment/routes/users.js:15:2)
+[2015-05-09 13:00:15.509] [ERROR] app - [ReferenceError: encrypt is not defined]
+ReferenceError: encrypt is not defined
+    at Core.forgotPassword (/home/saimanasa/nassessment/nassessment/core/core.js:98:14)
+    at router.post.flag (/home/saimanasa/nassessment/nassessment/routes/users.js:97:7)
+    at Layer.handle [as handle_request] (/home/saimanasa/nassessment/nassessment/node_modules/express/lib/router/layer.js:82:5)
+    at next (/home/saimanasa/nassessment/nassessment/node_modules/express/lib/router/route.js:110:13)
+    at Route.dispatch (/home/saimanasa/nassessment/nassessment/node_modules/express/lib/router/route.js:91:3)
+    at Layer.handle [as handle_request] (/home/saimanasa/nassessment/nassessment/node_modules/express/lib/router/layer.js:82:5)
+    at /home/saimanasa/nassessment/nassessment/node_modules/express/lib/router/index.js:267:22
+    at Function.proto.process_params (/home/saimanasa/nassessment/nassessment/node_modules/express/lib/router/index.js:321:12)
+    at next (/home/saimanasa/nassessment/nassessment/node_modules/express/lib/router/index.js:261:10)
+    at router.get.core.getUsers.res.json.Status (/home/saimanasa/nassessment/nassessment/routes/users.js:15:2)
+[2015-05-09 13:00:15.742] [ERROR] app - [ReferenceError: encrypt is not defined]
+ReferenceError: encrypt is not defined
+    at Core.forgotPassword (/home/saimanasa/nassessment/nassessment/core/core.js:98:14)
+    at router.post.flag (/home/saimanasa/nassessment/nassessment/routes/users.js:97:7)
+    at Layer.handle [as handle_request] (/home/saimanasa/nassessment/nassessment/node_modules/express/lib/router/layer.js:82:5)
+    at next (/home/saimanasa/nassessment/nassessment/node_modules/express/lib/router/route.js:110:13)
+    at Route.dispatch (/home/saimanasa/nassessment/nassessment/node_modules/express/lib/router/route.js:91:3)
+    at Layer.handle [as handle_request] (/home/saimanasa/nassessment/nassessment/node_modules/express/lib/router/layer.js:82:5)
+    at /home/saimanasa/nassessment/nassessment/node_modules/express/lib/router/index.js:267:22
+    at Function.proto.process_params (/home/saimanasa/nassessment/nassessment/node_modules/express/lib/router/index.js:321:12)
+    at next (/home/saimanasa/nassessment/nassessment/node_modules/express/lib/router/index.js:261:10)
+    at router.get.core.getUsers.res.json.Status (/home/saimanasa/nassessment/nassessment/routes/users.js:15:2)
+[2015-05-09 13:00:15.964] [ERROR] app - [ReferenceError: encrypt is not defined]
+ReferenceError: encrypt is not defined
+    at Core.forgotPassword (/home/saimanasa/nassessment/nassessment/core/core.js:98:14)
+    at router.post.flag (/home/saimanasa/nassessment/nassessment/routes/users.js:97:7)
+    at Layer.handle [as handle_request] (/home/saimanasa/nassessment/nassessment/node_modules/express/lib/router/layer.js:82:5)
+    at next (/home/saimanasa/nassessment/nassessment/node_modules/express/lib/router/route.js:110:13)
+    at Route.dispatch (/home/saimanasa/nassessment/nassessment/node_modules/express/lib/router/route.js:91:3)
+    at Layer.handle [as handle_request] (/home/saimanasa/nassessment/nassessment/node_modules/express/lib/router/layer.js:82:5)
+    at /home/saimanasa/nassessment/nassessment/node_modules/express/lib/router/index.js:267:22
+    at Function.proto.process_params (/home/saimanasa/nassessment/nassessment/node_modules/express/lib/router/index.js:321:12)
+    at next (/home/saimanasa/nassessment/nassessment/node_modules/express/lib/router/index.js:261:10)
+    at router.get.core.getUsers.res.json.Status (/home/saimanasa/nassessment/nassessment/routes/users.js:15:2)
+[2015-05-09 13:02:09.647] [ERROR] app - [ReferenceError: encrypt is not defined]
+ReferenceError: encrypt is not defined
+    at Core.forgotPassword (/home/saimanasa/nassessment/nassessment/core/core.js:98:14)
+    at router.post.flag (/home/saimanasa/nassessment/nassessment/routes/users.js:97:7)
+    at Layer.handle [as handle_request] (/home/saimanasa/nassessment/nassessment/node_modules/express/lib/router/layer.js:82:5)
+    at next (/home/saimanasa/nassessment/nassessment/node_modules/express/lib/router/route.js:110:13)
+    at Route.dispatch (/home/saimanasa/nassessment/nassessment/node_modules/express/lib/router/route.js:91:3)
+    at Layer.handle [as handle_request] (/home/saimanasa/nassessment/nassessment/node_modules/express/lib/router/layer.js:82:5)
+    at proto.handle.c (/home/saimanasa/nassessment/nassessment/node_modules/express/lib/router/index.js:267:22)
+    at Function.proto.process_params (/home/saimanasa/nassessment/nassessment/node_modules/express/lib/router/index.js:321:12)
+    at next (/home/saimanasa/nassessment/nassessment/node_modules/express/lib/router/index.js:261:10)
+    at router.get.core.getUsers.res.json.Status (/home/saimanasa/nassessment/nassessment/routes/users.js:15:2)
+[2015-05-09 13:03:51.022] [ERROR] app - [ReferenceError: encrypt is not defined]
+ReferenceError: encrypt is not defined
+    at Core.forgotPassword (/home/saimanasa/nassessment/nassessment/core/core.js:98:14)
+    at router.post.flag (/home/saimanasa/nassessment/nassessment/routes/users.js:97:7)
+    at Layer.handle [as handle_request] (/home/saimanasa/nassessment/nassessment/node_modules/express/lib/router/layer.js:82:5)
+    at next (/home/saimanasa/nassessment/nassessment/node_modules/express/lib/router/route.js:110:13)
+    at Route.dispatch (/home/saimanasa/nassessment/nassessment/node_modules/express/lib/router/route.js:91:3)
+    at Layer.handle [as handle_request] (/home/saimanasa/nassessment/nassessment/node_modules/express/lib/router/layer.js:82:5)
+    at proto.handle.c (/home/saimanasa/nassessment/nassessment/node_modules/express/lib/router/index.js:267:22)
+    at Function.proto.process_params (/home/saimanasa/nassessment/nassessment/node_modules/express/lib/router/index.js:321:12)
+    at next (/home/saimanasa/nassessment/nassessment/node_modules/express/lib/router/index.js:261:10)
+    at router.get.core.getUsers.res.json.Status (/home/saimanasa/nassessment/nassessment/routes/users.js:15:2)
+[2015-05-09 13:06:10.518] [ERROR] app - [ReferenceError: encrypt is not defined]
+ReferenceError: encrypt is not defined
+    at Core.forgotPassword (/home/saimanasa/nassessment/nassessment/core/core.js:98:14)
+    at router.post.flag (/home/saimanasa/nassessment/nassessment/routes/users.js:97:7)
+    at Layer.handle [as handle_request] (/home/saimanasa/nassessment/nassessment/node_modules/express/lib/router/layer.js:82:5)
+    at next (/home/saimanasa/nassessment/nassessment/node_modules/express/lib/router/route.js:110:13)
+    at Route.dispatch (/home/saimanasa/nassessment/nassessment/node_modules/express/lib/router/route.js:91:3)
+    at Layer.handle [as handle_request] (/home/saimanasa/nassessment/nassessment/node_modules/express/lib/router/layer.js:82:5)
+    at proto.handle.c (/home/saimanasa/nassessment/nassessment/node_modules/express/lib/router/index.js:267:22)
+    at Function.proto.process_params (/home/saimanasa/nassessment/nassessment/node_modules/express/lib/router/index.js:321:12)
+    at next (/home/saimanasa/nassessment/nassessment/node_modules/express/lib/router/index.js:261:10)
+    at router.get.core.getUsers.res.json.Status (/home/saimanasa/nassessment/nassessment/routes/users.js:15:2)
+[2015-05-09 13:15:02.858] [ERROR] app - [ReferenceError: encrypt is not defined]
+ReferenceError: encrypt is not defined
+    at Core.forgotPassword (/home/saimanasa/nassessment/nassessment/core/core.js:98:14)
+    at router.post.flag (/home/saimanasa/nassessment/nassessment/routes/users.js:97:7)
+    at Layer.handle [as handle_request] (/home/saimanasa/nassessment/nassessment/node_modules/express/lib/router/layer.js:82:5)
+    at next (/home/saimanasa/nassessment/nassessment/node_modules/express/lib/router/route.js:110:13)
+    at Route.dispatch (/home/saimanasa/nassessment/nassessment/node_modules/express/lib/router/route.js:91:3)
+    at Layer.handle [as handle_request] (/home/saimanasa/nassessment/nassessment/node_modules/express/lib/router/layer.js:82:5)
+    at proto.handle.c (/home/saimanasa/nassessment/nassessment/node_modules/express/lib/router/index.js:267:22)
+    at Function.proto.process_params (/home/saimanasa/nassessment/nassessment/node_modules/express/lib/router/index.js:321:12)
+    at next (/home/saimanasa/nassessment/nassessment/node_modules/express/lib/router/index.js:261:10)
+    at router.get.core.getUsers.res.json.Status (/home/saimanasa/nassessment/nassessment/routes/users.js:15:2)
+[2015-05-09 13:21:22.727] [ERROR] app - [ReferenceError: encrypt is not defined]
+ReferenceError: encrypt is not defined
+    at Core.forgotPassword (/home/saimanasa/nassessment/nassessment/core/core.js:98:14)
+    at router.post.flag (/home/saimanasa/nassessment/nassessment/routes/users.js:97:7)
+    at Layer.handle [as handle_request] (/home/saimanasa/nassessment/nassessment/node_modules/express/lib/router/layer.js:82:5)
+    at next (/home/saimanasa/nassessment/nassessment/node_modules/express/lib/router/route.js:110:13)
+    at Route.dispatch (/home/saimanasa/nassessment/nassessment/node_modules/express/lib/router/route.js:91:3)
+    at Layer.handle [as handle_request] (/home/saimanasa/nassessment/nassessment/node_modules/express/lib/router/layer.js:82:5)
+    at proto.handle.c (/home/saimanasa/nassessment/nassessment/node_modules/express/lib/router/index.js:267:22)
+    at Function.proto.process_params (/home/saimanasa/nassessment/nassessment/node_modules/express/lib/router/index.js:321:12)
+    at next (/home/saimanasa/nassessment/nassessment/node_modules/express/lib/router/index.js:261:10)
+    at router.get.core.getUsers.res.json.Status (/home/saimanasa/nassessment/nassessment/routes/users.js:15:2)
+[2015-05-09 13:27:44.670] [ERROR] app - [ReferenceError: encrypt is not defined]
+ReferenceError: encrypt is not defined
+    at Core.forgotPassword (/home/saimanasa/nassessment/nassessment/core/core.js:98:14)
+    at router.post.flag (/home/saimanasa/nassessment/nassessment/routes/users.js:97:7)
+    at Layer.handle [as handle_request] (/home/saimanasa/nassessment/nassessment/node_modules/express/lib/router/layer.js:82:5)
+    at next (/home/saimanasa/nassessment/nassessment/node_modules/express/lib/router/route.js:110:13)
+    at Route.dispatch (/home/saimanasa/nassessment/nassessment/node_modules/express/lib/router/route.js:91:3)
+    at Layer.handle [as handle_request] (/home/saimanasa/nassessment/nassessment/node_modules/express/lib/router/layer.js:82:5)
+    at proto.handle.c (/home/saimanasa/nassessment/nassessment/node_modules/express/lib/router/index.js:267:22)
+    at Function.proto.process_params (/home/saimanasa/nassessment/nassessment/node_modules/express/lib/router/index.js:321:12)
+    at next (/home/saimanasa/nassessment/nassessment/node_modules/express/lib/router/index.js:261:10)
+    at router.get.core.getUsers.res.json.Status (/home/saimanasa/nassessment/nassessment/routes/users.js:15:2)
+[2015-05-09 13:31:18.786] [ERROR] app - [ReferenceError: encrypt is not defined]
+ReferenceError: encrypt is not defined
+    at Core.forgotPassword (/home/saimanasa/nassessment/nassessment/core/core.js:98:14)
+    at router.post.flag (/home/saimanasa/nassessment/nassessment/routes/users.js:97:7)
+    at Layer.handle [as handle_request] (/home/saimanasa/nassessment/nassessment/node_modules/express/lib/router/layer.js:82:5)
+    at next (/home/saimanasa/nassessment/nassessment/node_modules/express/lib/router/route.js:110:13)
+    at Route.dispatch (/home/saimanasa/nassessment/nassessment/node_modules/express/lib/router/route.js:91:3)
+    at Layer.handle [as handle_request] (/home/saimanasa/nassessment/nassessment/node_modules/express/lib/router/layer.js:82:5)
+    at /home/saimanasa/nassessment/nassessment/node_modules/express/lib/router/index.js:267:22
+    at Function.proto.process_params (/home/saimanasa/nassessment/nassessment/node_modules/express/lib/router/index.js:321:12)
+    at next (/home/saimanasa/nassessment/nassessment/node_modules/express/lib/router/index.js:261:10)
+    at router.get.core.getUsers.res.json.Status (/home/saimanasa/nassessment/nassessment/routes/users.js:15:2)
+[2015-05-09 13:49:05.494] [ERROR] app - [ReferenceError: encrypt is not defined]
+ReferenceError: encrypt is not defined
+    at Core.forgotPassword (/home/saimanasa/nassessment/nassessment/core/core.js:98:14)
+    at router.post.flag (/home/saimanasa/nassessment/nassessment/routes/users.js:97:7)
+    at Layer.handle [as handle_request] (/home/saimanasa/nassessment/nassessment/node_modules/express/lib/router/layer.js:82:5)
+    at next (/home/saimanasa/nassessment/nassessment/node_modules/express/lib/router/route.js:110:13)
+    at Route.dispatch (/home/saimanasa/nassessment/nassessment/node_modules/express/lib/router/route.js:91:3)
+    at Layer.handle [as handle_request] (/home/saimanasa/nassessment/nassessment/node_modules/express/lib/router/layer.js:82:5)
+    at /home/saimanasa/nassessment/nassessment/node_modules/express/lib/router/index.js:267:22
+    at Function.proto.process_params (/home/saimanasa/nassessment/nassessment/node_modules/express/lib/router/index.js:321:12)
+    at next (/home/saimanasa/nassessment/nassessment/node_modules/express/lib/router/index.js:261:10)
+    at router.get.core.getUsers.res.json.Status (/home/saimanasa/nassessment/nassessment/routes/users.js:15:2)
+[2015-05-09 13:54:46.203] [ERROR] app - [ReferenceError: encrypt is not defined]
+ReferenceError: encrypt is not defined
+    at Core.forgotPassword (/home/saimanasa/nassessment/nassessment/core/core.js:98:14)
+    at router.post.flag (/home/saimanasa/nassessment/nassessment/routes/users.js:97:7)
+    at Layer.handle [as handle_request] (/home/saimanasa/nassessment/nassessment/node_modules/express/lib/router/layer.js:82:5)
+    at next (/home/saimanasa/nassessment/nassessment/node_modules/express/lib/router/route.js:110:13)
+    at Route.dispatch (/home/saimanasa/nassessment/nassessment/node_modules/express/lib/router/route.js:91:3)
+    at Layer.handle [as handle_request] (/home/saimanasa/nassessment/nassessment/node_modules/express/lib/router/layer.js:82:5)
+    at proto.handle.c (/home/saimanasa/nassessment/nassessment/node_modules/express/lib/router/index.js:267:22)
+    at Function.proto.process_params (/home/saimanasa/nassessment/nassessment/node_modules/express/lib/router/index.js:321:12)
+    at next (/home/saimanasa/nassessment/nassessment/node_modules/express/lib/router/index.js:261:10)
+    at router.get.core.getUsers.res.json.Status (/home/saimanasa/nassessment/nassessment/routes/users.js:15:2)
+[2015-05-09 14:28:45.069] [ERROR] app - [ReferenceError: encrypt is not defined]
+ReferenceError: encrypt is not defined
+    at Core.forgotPassword (/home/saimanasa/nassessment/nassessment/core/core.js:98:14)
+    at router.post.flag (/home/saimanasa/nassessment/nassessment/routes/users.js:97:7)
+    at Layer.handle [as handle_request] (/home/saimanasa/nassessment/nassessment/node_modules/express/lib/router/layer.js:82:5)
+    at next (/home/saimanasa/nassessment/nassessment/node_modules/express/lib/router/route.js:110:13)
+    at Route.dispatch (/home/saimanasa/nassessment/nassessment/node_modules/express/lib/router/route.js:91:3)
+    at Layer.handle [as handle_request] (/home/saimanasa/nassessment/nassessment/node_modules/express/lib/router/layer.js:82:5)
+    at /home/saimanasa/nassessment/nassessment/node_modules/express/lib/router/index.js:267:22
+    at Function.proto.process_params (/home/saimanasa/nassessment/nassessment/node_modules/express/lib/router/index.js:321:12)
+    at next (/home/saimanasa/nassessment/nassessment/node_modules/express/lib/router/index.js:261:10)
+    at router.get.core.getUsers.res.json.Status (/home/saimanasa/nassessment/nassessment/routes/users.js:15:2)
+[2015-05-09 14:28:45.908] [ERROR] app - [ReferenceError: encrypt is not defined]
+ReferenceError: encrypt is not defined
+    at Core.forgotPassword (/home/saimanasa/nassessment/nassessment/core/core.js:98:14)
+    at router.post.flag (/home/saimanasa/nassessment/nassessment/routes/users.js:97:7)
+    at Layer.handle [as handle_request] (/home/saimanasa/nassessment/nassessment/node_modules/express/lib/router/layer.js:82:5)
+    at next (/home/saimanasa/nassessment/nassessment/node_modules/express/lib/router/route.js:110:13)
+    at Route.dispatch (/home/saimanasa/nassessment/nassessment/node_modules/express/lib/router/route.js:91:3)
+    at Layer.handle [as handle_request] (/home/saimanasa/nassessment/nassessment/node_modules/express/lib/router/layer.js:82:5)
+    at /home/saimanasa/nassessment/nassessment/node_modules/express/lib/router/index.js:267:22
+    at Function.proto.process_params (/home/saimanasa/nassessment/nassessment/node_modules/express/lib/router/index.js:321:12)
+    at next (/home/saimanasa/nassessment/nassessment/node_modules/express/lib/router/index.js:261:10)
+    at router.get.core.getUsers.res.json.Status (/home/saimanasa/nassessment/nassessment/routes/users.js:15:2)
+[2015-05-09 14:29:55.594] [ERROR] app - [ReferenceError: encrypt is not defined]
+ReferenceError: encrypt is not defined
+    at Core.forgotPassword (/home/saimanasa/nassessment/nassessment/core/core.js:98:14)
+    at router.post.flag (/home/saimanasa/nassessment/nassessment/routes/users.js:97:7)
+    at Layer.handle [as handle_request] (/home/saimanasa/nassessment/nassessment/node_modules/express/lib/router/layer.js:82:5)
+    at next (/home/saimanasa/nassessment/nassessment/node_modules/express/lib/router/route.js:110:13)
+    at Route.dispatch (/home/saimanasa/nassessment/nassessment/node_modules/express/lib/router/route.js:91:3)
+    at Layer.handle [as handle_request] (/home/saimanasa/nassessment/nassessment/node_modules/express/lib/router/layer.js:82:5)
+    at /home/saimanasa/nassessment/nassessment/node_modules/express/lib/router/index.js:267:22
+    at Function.proto.process_params (/home/saimanasa/nassessment/nassessment/node_modules/express/lib/router/index.js:321:12)
+    at next (/home/saimanasa/nassessment/nassessment/node_modules/express/lib/router/index.js:261:10)
+    at router.get.core.getUsers.res.json.Status (/home/saimanasa/nassessment/nassessment/routes/users.js:15:2)
+[2015-05-09 14:47:56.542] [ERROR] app - [ReferenceError: encrypt is not defined]
+ReferenceError: encrypt is not defined
+    at Core.forgotPassword (/home/saimanasa/nassessment/nassessment/core/core.js:98:14)
+    at router.post.flag (/home/saimanasa/nassessment/nassessment/routes/users.js:97:7)
+    at Layer.handle [as handle_request] (/home/saimanasa/nassessment/nassessment/node_modules/express/lib/router/layer.js:82:5)
+    at next (/home/saimanasa/nassessment/nassessment/node_modules/express/lib/router/route.js:110:13)
+    at Route.dispatch (/home/saimanasa/nassessment/nassessment/node_modules/express/lib/router/route.js:91:3)
+    at Layer.handle [as handle_request] (/home/saimanasa/nassessment/nassessment/node_modules/express/lib/router/layer.js:82:5)
+    at /home/saimanasa/nassessment/nassessment/node_modules/express/lib/router/index.js:267:22
+    at Function.proto.process_params (/home/saimanasa/nassessment/nassessment/node_modules/express/lib/router/index.js:321:12)
+    at next (/home/saimanasa/nassessment/nassessment/node_modules/express/lib/router/index.js:261:10)
+    at router.get.core.getUsers.res.json.Status (/home/saimanasa/nassessment/nassessment/routes/users.js:15:2)
+[2015-05-09 14:47:57.327] [ERROR] app - [ReferenceError: encrypt is not defined]
+ReferenceError: encrypt is not defined
+    at Core.forgotPassword (/home/saimanasa/nassessment/nassessment/core/core.js:98:14)
+    at router.post.flag (/home/saimanasa/nassessment/nassessment/routes/users.js:97:7)
+    at Layer.handle [as handle_request] (/home/saimanasa/nassessment/nassessment/node_modules/express/lib/router/layer.js:82:5)
+    at next (/home/saimanasa/nassessment/nassessment/node_modules/express/lib/router/route.js:110:13)
+    at Route.dispatch (/home/saimanasa/nassessment/nassessment/node_modules/express/lib/router/route.js:91:3)
+    at Layer.handle [as handle_request] (/home/saimanasa/nassessment/nassessment/node_modules/express/lib/router/layer.js:82:5)
+    at /home/saimanasa/nassessment/nassessment/node_modules/express/lib/router/index.js:267:22
+    at Function.proto.process_params (/home/saimanasa/nassessment/nassessment/node_modules/express/lib/router/index.js:321:12)
+    at next (/home/saimanasa/nassessment/nassessment/node_modules/express/lib/router/index.js:261:10)
+    at router.get.core.getUsers.res.json.Status (/home/saimanasa/nassessment/nassessment/routes/users.js:15:2)
+[2015-05-11 12:03:00.836] [ERROR] app - { Message: 'Could not establish connection to the database.' }
+[2015-05-11 12:03:11.405] [ERROR] app - { Message: 'Could not establish connection to the database.' }
+[2015-05-11 12:03:13.210] [ERROR] app - { Message: 'Could not establish connection to the database.' }
+[2015-05-11 12:05:10.596] [ERROR] app - { Message: 'Could not establish connection to the database.' }
+[2015-05-11 12:05:22.639] [ERROR] app - { Message: 'Could not establish connection to the database.' }
+[2015-05-11 15:41:21.218] [ERROR] app - { Message: 'Could not establish connection to the database.' }
+[2015-05-11 15:41:41.259] [ERROR] app - { Message: 'Could not establish connection to the database.' }
+[2015-05-11 15:41:46.525] [ERROR] app - { Message: 'Could not establish connection to the database.' }
+[2015-05-11 15:41:52.361] [ERROR] app - { Message: 'Could not establish connection to the database.' }
+[2015-05-11 18:10:49.006] [ERROR] app - { Message: 'Could not establish connection to the database.' }
+[2015-05-11 18:10:49.043] [ERROR] app - { Message: 'Could not establish connection to the database.' }
+[2015-05-11 18:10:49.174] [ERROR] app - { Message: 'Could not establish connection to the database.' }
+[2015-05-11 18:10:49.837] [ERROR] app - { Message: 'Could not establish connection to the database.' }
+[2015-05-11 18:11:16.054] [ERROR] app - { Message: 'Could not establish connection to the database.' }
+[2015-05-11 18:14:33.807] [ERROR] app - { Message: 'Could not establish connection to the database.' }
+[2015-05-12 11:34:03.570] [ERROR] app - { Message: 'Could not establish connection to the database.' }
+[2015-05-12 11:34:06.086] [ERROR] app - { Message: 'Could not establish connection to the database.' }
+[2015-05-12 11:34:07.608] [ERROR] app - { Message: 'Could not establish connection to the database.' }
+[2015-05-12 11:34:08.415] [ERROR] app - { Message: 'Could not establish connection to the database.' }
+[2015-05-12 11:34:08.623] [ERROR] app - { Message: 'Could not establish connection to the database.' }
+[2015-05-12 11:34:09.783] [ERROR] app - { Message: 'Could not establish connection to the database.' }
+[2015-05-26 16:39:45.263] [ERROR] app - { Message: 'Could not establish connection to the database.' }
+[2015-05-26 16:39:45.562] [ERROR] app - { Message: 'Could not establish connection to the database.' }
+[2015-05-26 16:39:49.472] [ERROR] app - { Message: 'Could not establish connection to the database.' }
+[2015-06-03 10:37:45.371] [ERROR] app - { Message: 'Could not establish connection to the database.' }
+[2015-06-03 10:37:45.514] [ERROR] app - { Message: 'Could not establish connection to the database.' }
+[2015-06-03 10:37:45.875] [ERROR] app - { Message: 'Could not establish connection to the database.' }
+[2015-06-03 11:02:49.456] [ERROR] app - { Message: 'Could not establish connection to the database.' }
+[2015-06-03 11:13:25.896] [ERROR] app - { Message: 'Could not establish connection to the database.' }
+[2015-06-03 11:13:37.146] [ERROR] app - { Message: 'Could not establish connection to the database.' }
+[2015-06-03 11:13:38.425] [ERROR] app - { Message: 'Could not establish connection to the database.' }
+[2015-06-03 11:13:38.728] [ERROR] app - { Message: 'Could not establish connection to the database.' }
+[2015-06-03 11:13:39.753] [ERROR] app - { Message: 'Could not establish connection to the database.' }
+[2015-06-03 11:13:44.748] [ERROR] app - { Message: 'Could not establish connection to the database.' }
+[2015-06-03 11:13:58.358] [ERROR] app - { Message: 'Could not establish connection to the database.' }
+[2015-06-08 18:18:23.931] [ERROR] app - { Message: 'Could not establish connection to the database.' }
+[2015-06-09 12:45:05.514] [ERROR] app - { Message: 'Could not establish connection to the database.' }
+[2015-06-09 12:45:08.183] [ERROR] app - { Message: 'Could not establish connection to the database.' }
+[2015-06-09 12:45:10.631] [ERROR] app - { Message: 'Could not establish connection to the database.' }
+[2015-06-09 12:47:03.324] [ERROR] app - { Message: 'Could not establish connection to the database.' }
+[2015-06-09 12:47:14.859] [ERROR] app - { Message: 'Could not establish connection to the database.' }
+[2015-06-10 17:03:31.541] [ERROR] app - { Message: 'Could not establish connection to the database.' }
+[2015-06-10 17:03:31.685] [ERROR] app - { Message: 'Could not establish connection to the database.' }
+[2015-06-10 17:03:31.907] [ERROR] app - { Message: 'Could not establish connection to the database.' }
+[2015-07-03 11:27:47.652] [ERROR] app - { Message: 'Could not establish connection to the database.' }
+[2015-07-03 11:27:48.415] [ERROR] app - { Message: 'Could not establish connection to the database.' }
+[2015-07-03 12:23:05.061] [ERROR] app - { Message: 'Could not establish connection to the database.' }
+[2015-07-03 12:24:12.506] [ERROR] app - { Message: 'Could not establish connection to the database.' }
+[2015-07-03 12:24:12.509] [ERROR] app - { Message: 'Could not establish connection to the database.' }
+[2015-07-03 12:24:15.825] [ERROR] app - { Message: 'Could not establish connection to the database.' }
+[2015-07-03 12:25:58.706] [ERROR] app - { Message: 'Could not establish connection to the database.' }
+[2015-07-03 12:26:15.825] [ERROR] app - { Message: 'Could not establish connection to the database.' }
+[2015-07-03 12:26:16.033] [ERROR] app - { Message: 'Could not establish connection to the database.' }
+[2015-07-03 18:14:22.872] [ERROR] app - { Message: 'Could not establish connection to the database.' }
+[2015-07-03 18:14:23.713] [ERROR] app - { Message: 'Could not establish connection to the database.' }
+[2015-07-03 18:16:05.397] [ERROR] app - { Message: 'Could not establish connection to the database.' }
+[2015-07-03 18:16:15.936] [ERROR] app - { Message: 'Could not establish connection to the database.' }
+[2015-07-03 18:46:43.439] [ERROR] app - { Message: 'Could not establish connection to the database.' }
+[2015-07-03 18:46:43.485] [ERROR] app - { Message: 'Could not establish connection to the database.' }
+[2015-07-07 11:02:36.382] [ERROR] app - { Message: 'Could not establish connection to the database.' }
+[2015-07-07 11:02:36.755] [ERROR] app - { Message: 'Could not establish connection to the database.' }

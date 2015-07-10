@@ -1,0 +1,19 @@
+{
+  "name": "nAssessment",
+  "version": "0.0.1",
+  "private": true,
+  "scripts": {
+    "start": "node app.js"
+  },
+  "dependencies": {
+    "express": "*",
+    "express-session":"*",
+    "body-parser":"*",
+    "ejs": "*",
+    "serve-static":"*",
+    "mongodb":"*",
+    "properties":"*",
+    "crypto":"*",
+    "log4js":"*"
+  }
+}

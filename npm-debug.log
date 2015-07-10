@@ -1,0 +1,163 @@
+info it worked if it ends with ok
+verbose cli [ 'node', '/usr/bin/npm', 'install' ]
+info using npm@1.1.4
+info using node@v0.6.12
+verbose config file /home/saikumar/.npmrc
+verbose config file /usr/etc/npmrc
+verbose config file /usr/share/npm/npmrc
+verbose caching /home/saikumar/nassessment/nassessment/package.json
+verbose loadDefaults nAssessment@0.0.1
+verbose readDependencies: using package.json deps
+verbose where, deps [ '/home/saikumar/nassessment/nassessment',
+verbose where, deps   [ 'express',
+verbose where, deps     'express-session',
+verbose where, deps     'body-parser',
+verbose where, deps     'ejs',
+verbose where, deps     'serve-static',
+verbose where, deps     'mongodb',
+verbose where, deps     'properties',
+verbose where, deps     'crypto',
+verbose where, deps     'log4js' ] ]
+verbose from cache /home/saikumar/nassessment/nassessment/package.json
+info preinstall nAssessment@0.0.1
+verbose from cache /home/saikumar/nassessment/nassessment/package.json
+verbose readDependencies: using package.json deps
+verbose cache add [ 'express@*', null ]
+silly cache add: name, spec, args [ undefined, 'express@*', [ 'express@*', null ] ]
+verbose parsed url { pathname: 'express@*', path: 'express@*', href: 'express@*' }
+silly cache add: name, spec, args [ 'express', '*', [ 'express', '*' ] ]
+verbose parsed url { pathname: '*', path: '*', href: '*' }
+verbose addNamed [ 'express', '*' ]
+verbose addNamed [ null, '' ]
+silly name, range, hasData [ 'express', '', false ]
+verbose raw, before any munging express
+verbose url resolving [ 'https://registry.npmjs.org/', './express' ]
+verbose url resolved https://registry.npmjs.org/express
+http GET https://registry.npmjs.org/express
+verbose cache add [ 'express-session@*', null ]
+silly cache add: name, spec, args [ undefined, 'express-session@*', [ 'express-session@*', null ] ]
+verbose parsed url { pathname: 'express-session@*',
+verbose parsed url   path: 'express-session@*',
+verbose parsed url   href: 'express-session@*' }
+silly cache add: name, spec, args [ 'express-session', '*', [ 'express-session', '*' ] ]
+verbose parsed url { pathname: '*', path: '*', href: '*' }
+verbose addNamed [ 'express-session', '*' ]
+verbose addNamed [ null, '' ]
+silly name, range, hasData [ 'express-session', '', false ]
+verbose cache add [ 'body-parser@*', null ]
+silly cache add: name, spec, args [ undefined, 'body-parser@*', [ 'body-parser@*', null ] ]
+verbose parsed url { pathname: 'body-parser@*',
+verbose parsed url   path: 'body-parser@*',
+verbose parsed url   href: 'body-parser@*' }
+silly cache add: name, spec, args [ 'body-parser', '*', [ 'body-parser', '*' ] ]
+verbose parsed url { pathname: '*', path: '*', href: '*' }
+verbose addNamed [ 'body-parser', '*' ]
+verbose addNamed [ null, '' ]
+silly name, range, hasData [ 'body-parser', '', false ]
+verbose cache add [ 'ejs@*', null ]
+silly cache add: name, spec, args [ undefined, 'ejs@*', [ 'ejs@*', null ] ]
+verbose parsed url { pathname: 'ejs@*', path: 'ejs@*', href: 'ejs@*' }
+silly cache add: name, spec, args [ 'ejs', '*', [ 'ejs', '*' ] ]
+verbose parsed url { pathname: '*', path: '*', href: '*' }
+verbose addNamed [ 'ejs', '*' ]
+verbose addNamed [ null, '' ]
+silly name, range, hasData [ 'ejs', '', false ]
+verbose cache add [ 'serve-static@*', null ]
+silly cache add: name, spec, args [ undefined, 'serve-static@*', [ 'serve-static@*', null ] ]
+verbose parsed url { pathname: 'serve-static@*',
+verbose parsed url   path: 'serve-static@*',
+verbose parsed url   href: 'serve-static@*' }
+silly cache add: name, spec, args [ 'serve-static', '*', [ 'serve-static', '*' ] ]
+verbose parsed url { pathname: '*', path: '*', href: '*' }
+verbose addNamed [ 'serve-static', '*' ]
+verbose addNamed [ null, '' ]
+silly name, range, hasData [ 'serve-static', '', false ]
+verbose cache add [ 'mongodb@*', null ]
+silly cache add: name, spec, args [ undefined, 'mongodb@*', [ 'mongodb@*', null ] ]
+verbose parsed url { pathname: 'mongodb@*', path: 'mongodb@*', href: 'mongodb@*' }
+silly cache add: name, spec, args [ 'mongodb', '*', [ 'mongodb', '*' ] ]
+verbose parsed url { pathname: '*', path: '*', href: '*' }
+verbose addNamed [ 'mongodb', '*' ]
+verbose addNamed [ null, '' ]
+silly name, range, hasData [ 'mongodb', '', false ]
+verbose cache add [ 'properties@*', null ]
+silly cache add: name, spec, args [ undefined, 'properties@*', [ 'properties@*', null ] ]
+verbose parsed url { pathname: 'properties@*',
+verbose parsed url   path: 'properties@*',
+verbose parsed url   href: 'properties@*' }
+silly cache add: name, spec, args [ 'properties', '*', [ 'properties', '*' ] ]
+verbose parsed url { pathname: '*', path: '*', href: '*' }
+verbose addNamed [ 'properties', '*' ]
+verbose addNamed [ null, '' ]
+silly name, range, hasData [ 'properties', '', false ]
+verbose cache add [ 'crypto@*', null ]
+silly cache add: name, spec, args [ undefined, 'crypto@*', [ 'crypto@*', null ] ]
+verbose parsed url { pathname: 'crypto@*', path: 'crypto@*', href: 'crypto@*' }
+silly cache add: name, spec, args [ 'crypto', '*', [ 'crypto', '*' ] ]
+verbose parsed url { pathname: '*', path: '*', href: '*' }
+verbose addNamed [ 'crypto', '*' ]
+verbose addNamed [ null, '' ]
+silly name, range, hasData [ 'crypto', '', false ]
+verbose raw, before any munging express-session
+verbose url resolving [ 'https://registry.npmjs.org/', './express-session' ]
+verbose url resolved https://registry.npmjs.org/express-session
+http GET https://registry.npmjs.org/express-session
+verbose raw, before any munging body-parser
+verbose url resolving [ 'https://registry.npmjs.org/', './body-parser' ]
+verbose url resolved https://registry.npmjs.org/body-parser
+http GET https://registry.npmjs.org/body-parser
+verbose raw, before any munging ejs
+verbose url resolving [ 'https://registry.npmjs.org/', './ejs' ]
+verbose url resolved https://registry.npmjs.org/ejs
+http GET https://registry.npmjs.org/ejs
+verbose raw, before any munging serve-static
+verbose url resolving [ 'https://registry.npmjs.org/', './serve-static' ]
+verbose url resolved https://registry.npmjs.org/serve-static
+http GET https://registry.npmjs.org/serve-static
+verbose raw, before any munging mongodb
+verbose url resolving [ 'https://registry.npmjs.org/', './mongodb' ]
+verbose url resolved https://registry.npmjs.org/mongodb
+http GET https://registry.npmjs.org/mongodb
+verbose raw, before any munging properties
+verbose url resolving [ 'https://registry.npmjs.org/', './properties' ]
+verbose url resolved https://registry.npmjs.org/properties
+http GET https://registry.npmjs.org/properties
+verbose raw, before any munging crypto
+verbose url resolving [ 'https://registry.npmjs.org/', './crypto' ]
+verbose url resolved https://registry.npmjs.org/crypto
+http GET https://registry.npmjs.org/crypto
+verbose cache add [ 'log4js@*', null ]
+silly cache add: name, spec, args [ undefined, 'log4js@*', [ 'log4js@*', null ] ]
+verbose parsed url { pathname: 'log4js@*', path: 'log4js@*', href: 'log4js@*' }
+silly cache add: name, spec, args [ 'log4js', '*', [ 'log4js', '*' ] ]
+verbose parsed url { pathname: '*', path: '*', href: '*' }
+verbose addNamed [ 'log4js', '*' ]
+verbose addNamed [ null, '' ]
+silly name, range, hasData [ 'log4js', '', false ]
+verbose raw, before any munging log4js
+verbose url resolving [ 'https://registry.npmjs.org/', './log4js' ]
+verbose url resolved https://registry.npmjs.org/log4js
+http GET https://registry.npmjs.org/log4js
+ERR! Error: failed to fetch from registry: body-parser
+ERR!     at /usr/share/npm/lib/utils/npm-registry-client/get.js:139:12
+ERR!     at cb (/usr/share/npm/lib/utils/npm-registry-client/request.js:31:9)
+ERR!     at Request._callback (/usr/share/npm/lib/utils/npm-registry-client/request.js:136:18)
+ERR!     at Request.callback (/usr/lib/nodejs/request/main.js:119:22)
+ERR!     at Request.<anonymous> (/usr/lib/nodejs/request/main.js:212:58)
+ERR!     at Request.emit (events.js:88:20)
+ERR!     at ClientRequest.<anonymous> (/usr/lib/nodejs/request/main.js:412:12)
+ERR!     at ClientRequest.emit (events.js:67:17)
+ERR!     at HTTPParser.onIncoming (http.js:1261:11)
+ERR!     at HTTPParser.onHeadersComplete (http.js:102:31)
+ERR! You may report this log at:
+ERR!     <http://bugs.debian.org/npm>
+ERR! or use
+ERR!     reportbug --attach /home/saikumar/nassessment/nassessment/npm-debug.log npm
+ERR! 
+ERR! System Linux 3.5.0-36-generic
+ERR! command "node" "/usr/bin/npm" "install"
+ERR! cwd /home/saikumar/nassessment/nassessment
+ERR! node -v v0.6.12
+ERR! npm -v 1.1.4
+ERR! message failed to fetch from registry: body-parser
+verbose exit [ 1, true ]

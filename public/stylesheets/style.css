@@ -1,0 +1,76 @@
+body {
+  padding: 50px;
+  font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
+  
+}
+
+a {
+  color: #00B7FF;
+}
+.nopadding{
+	padding: 0 !important;
+   margin: 0 !important;
+}
+@media all and (min-width:1200px){
+	#title{
+		margin-left: 257px;
+	}
+	#logindiv{
+		margin-left: 552px;
+	}
+	#loginbutton{
+		margin-left: 567px;
+	}
+	#wholediv{
+		margin-left: 67px;
+	}
+				}
+@media all and (max-width:1200px) and (min-width:992px) {
+	#title{
+		margin-left: 91px;
+	}
+	#logindiv{
+		margin-left: 457px;
+	}
+	#loginbutton{
+		margin-left: 584px;
+	}
+	#wholediv{
+		margin-left: 281px;
+	}
+	
+}
+@media all and (max-width:992px) and (min-width:768px) {
+	
+	#title{
+		margin-left: 25px;
+	}
+	#logindiv{
+		margin-left: 365px;
+	}
+	#loginbutton{
+		margin-left: 151px;
+	}
+	#wholediv{
+		margin-left: 184px;
+	}
+
+}
+@media all and (max-width:768px)and (min-width:300px) {
+	
+	#title{
+		margin-left: 25px;
+	}
+	#logindiv{
+		margin-left: 365px;
+	}
+	#loginbutton{
+		margin-left: 123px;
+	}
+	#wholediv{
+		margin-left: 5px;
+	}
+	
+	
+	
+}

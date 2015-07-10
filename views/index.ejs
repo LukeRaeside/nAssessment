@@ -1,0 +1,330 @@
+<!DOCTYPE html>
+<html>
+  <head>
+  	<title><%= title %></title>
+    <link href="bootstrap.css" rel="stylesheet">
+    <link rel='stylesheet' href='/style.css' />
+	<script type="text/javascript" src="/libs/jquery-1.11.1.min.js"></script>
+	<script src="/util.js"></script>
+	<script src="/libs/bootstrap.min.js" type="text/javascript"></script>
+	<link href="bootstrap.css" rel="stylesheet">
+      <link href="bootstrap.min.css" rel="stylesheet">
+      <link href="bootstrap-theme.min.css" rel="stylesheet">
+  <script src="/auth/startup.js"></script>
+  
+  </head>
+  <body>
+  <div class="container-fluid" id="wholediv" >
+  <div class="row-fluid">
+    <h1 id="title" class="col-lg-12 col-md-12 col-sm-12 col-xs-12 nopadding text-center" >nAssessment<br><br></h1>
+    <div id="logindiv" class="col-lg-12 col-md-12 col-sm-12 col-xs-12 nopadding" >
+    <table>
+    <tr>
+   <td> <span style="margin-left: 503px;">Username:</span></td><td><input type="textbox" id="username" class="form-control" placeholder="username" style="width:auto; !important;margin-left: 40px;"></input><br></td>
+   </tr>
+   <tr>
+    <td><span style="margin-left: 503px;">Password:</span></td><td><input type="password" id="password" class="form-control" placeholder="password" style="width:auto; !important;margin-left: 40px;"></input><br></td>
+   </tr>
+   </table>
+   <table>
+    <tr>
+    <td><button id="login" class="btn btn-info" style="margin-left: 558px;">Login</button>&nbsp;&nbsp;</td>
+    <td><button id="clear" class="btn btn-danger" >clear</button></td>
+    </tr>
+    </table><br>
+    <table>
+     <tr><td><span style='margin-left: 445px;'>Enter the Activation key :</span> </td><td><input type="text" id="activatekey" class="form-control" placeholder="Activation Key"></td><td><button  style='margin-left: 20px;' class="btn btn-info btn-sm" onclick='activate()'>activate</button</td></tr>
+    </table>
+    </div><br>
+   	<div ><button id="registerbutton" class="btn btn-link" style="margin-left: 503px;">Register User</button></div>
+   	
+   	</div>
+   	</div>
+   	<div ><button id="forgotpasswordbutton" class="btn btn-link" style="margin-left: 577px;">Forgot password</button></div>
+   	<div id='acfp' style="margin-left: 561px;"></div>
+   	<div id="registerDiv" class="container-fluid" style="padding-top: 60px;">
+  		<table>
+    		<tr>
+   				<td> <span style="margin-left: 498px;">Username:</span></td>
+   				<td><input type="textbox" id="un" placeholder="PLease Enter the User name" <span class="form-control"  style="width:auto; !important;margin-left: 40px;"></input></td>
+   				<td> <span id="uname_con" ></span></td>
+   			</tr>
+   			<tr>
+    			<td><span style="margin-left: 498px">Password:</span></td>
+    			<td><input type="password" id="pwd" placeholder="PLease Enter the Password" <span class="form-control"  style="width:auto; !important;margin-left: 40px;"></input></td>
+   				<td><span id="pwd_con" ></span></td>
+   			</tr>
+   			<tr>
+    			<td><span style="margin-left: 492px;">First Name:</span></td>
+    			<td><input type="textbox" id="fname" placeholder="PLease Enter the First name" <span class="form-control"  style="width:auto; !important;margin-left: 40px;"></input></td>
+   				<td><span id="fname_con"></span></td>
+   			</tr>
+   			<tr>
+    			<td><span style="margin-left: 492px;">Last Name:</span></td>
+    			<td><input type="textbox" id="lname" placeholder="PLease Enter the Last name" <span class="form-control"  style="width:auto; !important;margin-left: 40px;"></input></td>
+   				<td><span id="lname_con" ></span></td>
+   			</tr>
+   			<tr>
+    			<td><span style="margin-left: 498px;">Email:</span></td>
+    			<td><input type="textbox" id="email" placeholder="PLease Enter the Email Id"  class="form-control"  style="width:auto; !important;margin-left: 40px;"></input></td>
+   				<td><span id="email_con" ></span></td>
+   			</tr>
+   			<tr>
+    			<td><span style="margin-left: 498px;">Gender:</span></td>
+    			<td><div class="radio" style="width:auto; !important;margin-left: 62px;"><input type="radio" name="gender" value="male">Male</div></td>
+   				<td><div class="radio" style="width:auto; !important;margin-left: -91px;"><input type="radio" name="gender" value="female">Female</div></span></td>
+   				<td><span id="gender_con"></span></td>
+   			</tr>
+   			<tr>
+    			<td><span style="margin-left: 498px;">Role:</span></td>
+    			<td><select  <span class="form-control"  id="role" style="width:auto; !important;margin-left: 40px;">
+    			<option value="">Select The Role</option>
+    			<option value="student">Student</option>
+    			<option value="faculty">Faculty</option>
+    			<option value="both">Faculty & Student</option>
+    			</select></td>
+    			<td><span id="role_con" ></span></td>
+   			</tr>
+   			
+   		</table>
+   		<button id="loginbutton" class="action useradd btn btn-info" >Register User</button></div>
+   	</div>
+   	<div id="forgotpasswordDiv" class="container-fluid" style="padding-top: 60px; margin-left: 500px;">
+   		<table>
+   		<tr>
+   		<td>Enter the username:</td><td><input type='text' id='fusername' class="form-control"></td><td id="fusername_con"></td>
+   		</tr>
+		<tr><td>New Password:</td><td><input type='password' id='fpassword' class="form-control"></td><td id="fpassword_con"></td></tr>
+		<tr><td><button onclick=forgotpasswordsubmit() class='btn btn-info'>submit</button></td></tr>
+		</table>
+   	</div>
+    <script>
+    function forgotpasswordsubmit(){
+    if($("#fusername").val() == null || $("#fusername").val() == ""){
+    $("#fusername_con").empty();
+    	$("#fusername_con").append("PLease enter the UserName");
+    	return false;
+    	}
+    	
+    else{
+    	 $("#fusername_con").empty();
+    }
+    if( $("#fpassword").val() == null ||  $("#fpassword").val() == ""){
+     $("#fpassword_con").empty();
+    	$("#fpassword_con").append("PLease enter the Password");
+    	return false;
+    	}
+    	else{
+    	
+    	 $("#fpassword_con").empty();
+    	}
+    
+    var fgtpassw = {
+    
+    Name : $("#fusername").val(),
+    Password : $("#fpassword").val()
+    
+    }
+    Util.ajaxPost("users/forgotpassword", {criteria: { fgtpassw: fgtpassw } }, function(result) {
+    				$("#acfp").empty();
+    				$("#acfp").append("Your Password reset is done")
+    				$("#fusername").val('');
+    				$("#fpassword").val('');
+    				$("#forgotpasswordDiv").hide();
+    				
+    			});
+    
+    }
+    	function activate(){
+    		
+    		
+    	var activatekey=$("#activatekey").val();
+    	
+    	var ackey = {
+    	Key:activatekey
+    	}
+    	if(activatekey == null || activatekey == ""){
+    	$("#activatekey_con").append("PLease enter the activation key");
+    	return false;
+    	}
+    	Util.ajaxPost("users/activate", {criteria: {ackey: ackey } }, function(result) {
+    				
+    				$("#acfp").empty();
+    				$("#acfp").append("Your Account is Activated");
+    			});
+    	
+    	}
+    	
+    	$(document).ready(function() {
+    		$("#registerDiv").hide();
+    		$("#forgotpasswordDiv").hide();
+    		$("#login").click(function(e) {
+		e.stopPropagation();
+		loginUser();
+	});
+
+    		$("#logout").click(function(e) {
+    			e.stopPropagation();
+    			Util.ajaxPost("users/logout", {}, function(result) {
+    				debugger;
+    				window.location.reload();
+    			});
+    		});
+
+			
+			$("#clear").click(function(){
+			
+				$("#username").val("");
+				$("#password").val("");
+			
+			});
+			$(document).keypress(function(e){
+				e.stopPropagation();
+				debugger;
+				if(e.which == 13) {
+					loginUser();
+				}
+			});
+			$(".useradd").on('click', function(e) {
+			
+			e.stopPropagation();
+			
+			
+			if($("#role").val() == "student"){
+				var user = {
+					FirstName:$("#fname").val(),
+					LastName:$("#lname").val(),
+					Name:$("#un").val(),
+					Password:$("#pwd").val(),
+					Email:$("#email").val(),
+					Gender:$("input[name=gender]:checked").val(),
+					IsStudent:true
+						};
+				
+			}else if($("#role").val() == "faculty"){
+				var user = {
+					FirstName:$("#fname").val(),
+					LastName:$("#lname").val(),
+					Name:$("#un").val(),
+					Password:$("#pwd").val(),
+					Email:$("#email").val(),
+					Gender:$("input[name=gender]:checked").val(),
+					IsFaculty:true
+						};
+			}
+			else if ($("#role").val() == "both"){
+				var user = {
+					FirstName:$("#fname").val(),
+					LastName:$("#lname").val(),
+					Name:$("#un").val(),
+					Password:$("#pwd").val(),
+					Email:$("#email").val(),
+					Gender:$("input[name=gender]:checked").val(),
+					IsStudent:true,
+					IsFaculty:true
+						};
+			
+			}
+			else{}
+			var email= $("#email").val()
+			var atpos=email.indexOf("@");
+			var dotpos=email.lastIndexOf(".");
+			if($("#un").val() == "" || $("#un").val() == null){
+				$("#uname_con").empty();
+				$("#uname_con").append("Enter the username");
+				return false;
+			}
+			else{
+				$("#uname_con").empty();
+			}
+			if($("#pwd").val() == "" || $("#pwd").val() == null){
+				$("#pwd_con").empty();
+				$("#pwd_con").append("Enter the password");
+				return false;
+			}
+			else{
+				$("#pwd_con").empty();
+			}
+			if($("#fname").val() == "" || $("#fname").val() == null){
+				$("#fname_con").empty();
+				$("#fname_con").append("Enter the First Name")
+				return false;
+			}
+			else{
+				$("#fname_con").empty();
+			}
+			if($("#lname").val() == "" || $("#lname").val() == null){
+				$("#lname_con").empty();
+				$("#lname_con").append("Enter the Last Name")
+				return false;
+			}
+			else{
+				$("#lname_con").empty();
+			
+			}
+			if($("#email").val() == "" || $("#email").val() == null){
+				$("#email_con").empty();
+				$("#email_con").append("Enter the Email Address")
+				return false;
+			}
+			else{
+				$("#email_con").empty();
+			}
+			if (atpos<1 || dotpos<atpos+2 || dotpos+2>=email.length)
+				{
+					$("#email_con").empty();
+						$("#email_con").append("Enter the Email Address")
+						return false;
+
+				}
+			else{
+				
+				}
+			if($("input[name=gender]:checked").val() == "" || $("input[name=gender]:checked").val() == null){
+					$("#gender_con").empty();
+					$("#gender_con").append("Select The Gender");
+					return false;
+				}
+				else{
+				$("#gender_con").empty();
+				}
+				
+				
+			if($("#role").val() == "" || $("#role").val() == null){
+				$("#role_con").empty();
+				$("#role_con").append("Select The Role");
+				return false;
+			}
+			else{
+				$("#role_con").empty();
+			}
+			
+			Util.ajaxPost("users/add", { criteria: { user: user } }, function(result) {
+				console.log(result);
+				if (result.Status) {
+				$("#acfp").empty();
+					$("#acfp").append("You are successfully registered check your mail to activate your account");
+				} else {
+					$("#acfp").append("you are not registered");
+				}
+				$("#fname").val("");
+				$("#lname").val("");
+				$("#un").val("");
+				$("#pwd").val("");
+				$("#email").val("");
+				$("#role").val("");
+				
+				$("#registerDiv").hide();
+			});
+		});
+		$("#registerbutton").click(function(){
+			$("#registerDiv").show();
+		})
+		$("#forgotpasswordbutton").click(function(){
+		
+		$("#forgotpasswordDiv").show();
+		});
+    	});
+    </script>
+  </body>
+</html>

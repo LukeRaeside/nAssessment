@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html>
+  <head>
+  	<title><%= title %></title>
+    <link href="bootstrap.css" rel="stylesheet">
+    <link rel='stylesheet' href='/style.css' />
+	<script src="https://code.jquery.com/jquery-1.8.3.min.js"></script>
+	<script src="/util.js"></script>
+  </head>
+  <body>
+    <h1 id="title">nAssessment</h1>
+    <div id="logindiv">
+    	<table>
+    		<tr>
+   				<td> <span style="margin-left: 503px;">Username:</span></td>
+   				<td><input type="textbox" id="username" placeholder="username" style="width:auto; !important;margin-left: 40px;" value="jaideep"></input></td>
+   			</tr>
+   			<tr>
+    			<td><span style="margin-left: 503px;">Password:</span></td>
+    			<td><input type="password" id="password" placeholder="password" style="width:auto; !important;margin-left: 40px;" value="a"></input></td>
+   			</tr>
+   		</table>
+   		<table>
+    		<tr>
+    			<td><button id="login" class="btn btn-info" style="margin-left: 558px;">Login</button>&nbsp;&nbsp;</td>
+    		</tr>
+    	</table>
+    </div><br>
+   	<div>
+    	<table>
+    		<tr>
+   				<td> <span style="margin-left: 503px;">Username:</span></td>
+   				<td><input type="textbox" id="un" placeholder="username" style="width:auto; !important;margin-left: 40px;"></input></td>
+   			</tr>
+   			<tr>
+    			<td><span style="margin-left: 503px;">Password:</span></td>
+    			<td><input type="password" id="pwd" placeholder="password" style="width:auto; !important;margin-left: 40px;"></input></td>
+   			</tr>
+   			<tr>
+    			<td><span style="margin-left: 503px;">First Name:</span></td>
+    			<td><input type="textbox" id="fname" placeholder="password" style="width:auto; !important;margin-left: 40px;"></input></td>
+   			</tr>
+   			<tr>
+    			<td><span style="margin-left: 503px;">Last Name:</span></td>
+    			<td><input type="textbox" id="lname" placeholder="password" style="width:auto; !important;margin-left: 40px;"></input></td>
+   			</tr>
+   			<tr>
+    			<td><span style="margin-left: 503px;">Email:</span></td>
+    			<td><input type="textbox" id="email" placeholder="password" style="width:auto; !important;margin-left: 40px;"></input></td>
+   			</tr>
+   		</table>
+   		<button id="loginbutton" class="action useradd" >Register User</button></div>
+   	</div>
+    <script>
+    	function loginUser() {
+			var crit = {
+				"criteria": {"userName":$("#username").val(), "password":$("#password").val()}
+			};
+			Util.ajaxPost("users/login", crit,
+				function(result) {
+					if (result.Status === true) { window.location.reload(); }
+					else {
+						alert("Not Authenticated");
+					}
+				}
+			);	
+    	}
+		$("#login").click(function(e) {
+			e.stopPropagation();
+			loginUser();
+		});
+
+		$(".useradd").on('click', function(e) {
+			e.stopPropagation();
+			var user = {
+				FirstName:$("#fname").val(),
+				LastName:$("#lname").val(),
+				Name:$("#un").val(),
+				Password:$("#pwd").val(),
+				Email:$("#email").val()
+			};
+			Util.ajaxPost("users/add", { criteria: { user: user } }, function(result) {
+				console.log(result);
+				if (result.Status) {
+					alert("Done");
+				} else {
+					alert("Failed");
+				}
+			});
+		});
+    </script>
+  </body>
+</html>
